@@ -4,15 +4,15 @@ h5. Nivå 1
 
 h2. Komme i gang med Scratch
 
-h3. Veiledning for frivillige
+h3. Veiledning for instruktør
 
-Formålet med denne første sesjonen er at barna skal bli kjent med Scratch-miljøet og grensesnittet, slik at de kan håndtere prosjektene på kodeklubben med lite eller ingen hjelp. De trenger å forstå hva alle hovedelementene i Scratch-grensesnittet gjør og hva de heter. De må også kunne vite hvordan de utfører noen fundamentale oppgaver, som hvordan man lager en ny figur og å sette sammen blokker til skript.
+Formålet med denne første sesjonen er at barna skal bli kjent med Scratch-miljøet og grensesnittet, slik at de kan håndtere prosjektene på kodeklubben med lite eller ingen hjelp. De trenger å forstå hva alle hovedelementene i Scratch-grensesnittet gjør og hva de heter. De må også kunne vite hvordan de utfører enkelte fundamentale oppgaver, som hvordan man lager en ny figur og å sette sammen blokker til skript.
 
-Det kan være en god idé å finne ut hvor mange av barna som har brukt Scratch før . Hvis flesteparten har det, vil du kunne gå gjennom denne øvelsen ganske fort. Det tar omtrent 15-20 minutter å gå gjennom denne øvelsen før man kan begynne på det første spillprosjektet: ‘Felix og Herbert’.
+Det kan være en god idé å finne ut hvor mange av barna som har brukt Scratch tidligere. Dersom flesteparten har det, vil du kunne gå gjennom denne øvelsen ganske fort. Det tar omtrent 15-20 minutter å gå gjennom denne øvelsen før man kan begynne på det første spillprosjektet: ‘Felix og Herbert’.
 
-h3. Arbeidsflyt
+h3. Fremgangsmåte
 
-Denne første sesjonen er i hovedsak drevet av instruktøren. Senere vil barna selvstendig følge oppgaveark og du er der for å hjelpe hvis noen setter seg fast og for å forklare kodekonsepter. Det beste er om du bruker en projektor e.l. slik at alle barna kan se ditt PC-bilde. Barna bør sitte ved sine egne PCer. Når du går gjennom sesjonen, bør arbeidsflyten være:
+Denne første sesjonen er i hovedsak drevet av instruktøren. Senere vil barna selvstendig følge oppgaveark og du er der for å hjelpe hvis noen setter seg fast og for å forklare kodekonsepter. Det beste er om du bruker en projektor e.l. slik at alle barna kan se ditt PC-bilde. Barna bør sitte ved sine egne PCer. Når du går gjennom sesjonen, bør fremgangsmåten være:
 
 # Du utfører et steg slik at alle barna kan se det.
 # Du forklarer kort hva du gjorde.
@@ -27,11 +27,11 @@ Denne prosessen kan ta litt tid, men det er essensielt at du bruker den nødvend
 
 h3. Fremtreden
 
-Denne sesjonen er der barna møter kodeklubben for første gang. Derfor er det veldig viktig at du skaper et inkluderende og støttende miljø hvor barna føler seg velkomne. Ikke forhast deg og prøv ikke å bli oppgitt over mangel på fremdrift eller forståelse. Les dokumentet Creating a positive learning environment for mer veiledning.
+I løpet av denne sesjonen møter barna Kodeklubben for første gang. Derfor er det veldig viktig at du skaper et inkluderende og støttende miljø hvor barna føler seg velkomne. Ikke forhast deg og prøv ikke å bli oppgitt over mangel på fremdrift eller forståelse. Les dokumentet "Hvordan skape et positivt læremiljø":http://kodeklubben.no for ytterligere veiledning.
 
 h3. Steg
 
-Gå gjennom ett og ett av disse stegen . Forsikre deg om at alle barna har utført ett steg før du fortsetter med det neste.
+Gå gjennom ett og ett av disse stegene. Forsikre deg om at alle barna har utført ett steg før du fortsetter med det neste.
 * Åpne Scratch
 * Gi Figur1 navnet ‘Felix’
 
@@ -59,7 +59,7 @@ h3. Skript
 
 h3. Drakter
 
-* Kommenter at vi har lyst til å få det til å se ut som om Felix går.
+* Kommenter at vi ønsker at Felix beveger beina når han går.
 * Åpne !fane-drakter.png(drakter)!-fanen.
 * Vis at Felix har to drakter.
 * Åpne !fane-skript.png(skript)!-fanen
