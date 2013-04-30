@@ -19,7 +19,7 @@ all: $(HTMLS) $(PDFS)
 %.html: %.textile Makefile
 	@echo Generating $@
 	@cat common/header.html > $@
-	@cat $< | redcloth >> $@
+	@cat common/header.textile $< common/footer.textile | redcloth >> $@
 	@cat common/footer.html >> $@
 
 %.pdf: %.html Makefile
@@ -28,3 +28,4 @@ all: $(HTMLS) $(PDFS)
 
 clean:
 	-rm -rf $(HTMLS) $(PDFS)
+
