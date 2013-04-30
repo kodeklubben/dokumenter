@@ -6,7 +6,7 @@ h2. Komme i gang med Scratch
 
 h3. Veiledning for instruktør
 
-Formålet med denne første sesjonen er at barna skal bli kjent med Scratch-miljøet og grensesnittet, slik at de kan håndtere prosjektene på kodeklubben med lite eller ingen hjelp. De trenger å forstå hva alle hovedelementene i Scratch-grensesnittet gjør og hva de heter. De må også kunne vite hvordan de utfører enkelte fundamentale oppgaver, som hvordan man lager en ny figur og å sette sammen blokker til skript.
+Formålet med denne første sesjonen er at barna skal bli kjent med Scratch-miljøet og grensesnittet, slik at de kan håndtere prosjektene på Kodeklubben med lite eller ingen hjelp. De trenger å forstå hva alle hovedelementene i Scratch-grensesnittet gjør og hva de heter. De må også kunne vite hvordan de utfører enkelte fundamentale oppgaver, som hvordan man lager en ny figur og å sette sammen blokker til skript.
 
 Det kan være en god idé å finne ut hvor mange av barna som har brukt Scratch tidligere. Dersom flesteparten har det, vil du kunne gå gjennom denne øvelsen ganske fort. Det tar omtrent 15-20 minutter å gå gjennom denne øvelsen før man kan begynne på det første spillprosjektet: ‘Felix og Herbert’.
 
