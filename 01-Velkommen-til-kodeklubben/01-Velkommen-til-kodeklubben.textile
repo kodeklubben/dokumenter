@@ -6,7 +6,7 @@ Kodeklubben handler om morsom læring og kreativ eksperimentering. Det er viktig
 
 Dette er det absolutt viktigste målet for Kodeklubben. Å forstå stegvis problemløsing, eller å bli flinkest mulig til å kode, er underordnet selve opplevelsen av å mestre maskinen. Prosjektene vil la barna lære seg dette selv.
 
-Vi har utformet en samling nybegynnerprosjekter som barna kan velge blandt for å komme igang. De vil nok ikke følge instruksjonene slavisk, men spørre spørsmål, eksperimentere og velge hva de selv vil fokusere på. Dette er kreativitet i praksis og bør roses! Du er der for å hjelpe dem inn på sporet igjen hvis eksperimentene havner for langt ut på bærtur. TODO endre bærtur!!
+Vi har utformet en samling nybegynnerprosjekter som barna kan velge blandt for å komme igang. De vil nok ikke følge instruksjonene slavisk, men spørre spørsmål, eksperimentere og velge hva de selv vil fokusere på. Dette er kreativitet i praksis og bør roses! Du er der for å hjelpe dem inn på sporet igjen hvis eksperimentene sporer av fullstendig.
 
 Forhåpentligvis vil dette engasjere barna slik at læringen blir en lek. Forsikre dem om at de ikke kan ødelegge noe ved å prøve ut ting i Scratch. Der hvor barna trenger støtte for å oppnå det de prøver på, tre til. Men hvis de har det gøy og er produktive, prøv å ikke bland deg inn. Tenk på at de fleste av prosjektene er spill, og barna vil ønske å bruke tid bare på å spille dem, så la dem få lov til det.
 
