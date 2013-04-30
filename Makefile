@@ -1,4 +1,5 @@
 TEXTILES += 01-Velkommen-til-kodeklubben/01-Velkommen-til-kodeklubben.textile
+TEXTILES += 01-Felix-og-Herbert-gjennomgang/01-Felix-og-Herbert-gjennomgang.textile
 
 HTMLS=$(TEXTILES:.textile=.html)
 PDFS=$(TEXTILES:.textile=.pdf)
