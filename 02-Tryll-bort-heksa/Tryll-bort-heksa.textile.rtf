@@ -1,0 +1,147 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 h5. Niv\'e5 1\
+\
+h1. Tryll bort heksa\
+\
+\
+h3. Introduksjon\
+\
+Dette prosjektet er inspirert av tivolispillet _whack-a-mole_, hvor man sl\'e5r muldvarper ned i hullene sine. I v\'e5rt spill er det heksene som blir borte n\'e5r vi klikker p\'e5 dem. M\'e5let er \'e5 trylle bort flest mulig i l\'f8pet av 30 sekunder.\
+\
+!/images/checkbox.png!\
+\
+h3. Sjekkliste 	  \'96    F\'f8lg instruksjonene p\'e5 lista. Huk av etter hvert.	\
+\
+h3. Test 	  	  \'96    Klikk p\'e5 det gr\'f8nne flagget for \'e5 teste koden.	\
+\
+h3. Lagre 	  \'96    Husk \'e5 lagre koden n\'e5r du har lagt til noe nytt.  \page \
+\
+\
+\
+h2. Steg 1: Lag en flyvende heks\
+\
+\
+h3. Sjekkliste\
+\
+| 1. | Start et nytt Scratch-prosjekt. |    |\
+| 2. | Slett kattefiguren ved \'e5 h\'f8yreklikke p\'e5 den og velge Slett. \
+Riktig bakgrunn f\'e5r du ved \'e5 velge Scene, trykke p\'e5 Bakgrunner og deretter Importere bakgrunnen woods, som ligger i Nature-mappen. || \
+| 3.| For \'e5 legge til en heks klikker du p\'e5 Hent en ny figur fra fil-knappen:\
+Riktig drakt f\'e5r du ved \'e5 klikke p\'e5 Drakter, og deretter Importere. Velg witch1-kostymet, som ligger i Fantasy-mappen.||\
+| 4.| Du skal n\'e5 lage en variabel som styrer hvor fort heksa beveger seg. Denne kan vi senere bruke til \'e5 endre hastigheten n\'e5r spillet er i gang. \
+Klikk p\'e5 Variabler-knappen og deretter Lag en ny variabel og kall den\
+ hastighet . Huk av der det st\'e5r Bare for denne figuren.\
+P\'e5 scenen skal variabelen hete Figur1: hastighet. Hvis den bare heter hastighet s\'e5 slett den og legg den til en gang til.  \
+Fjern avhukingen ved siden av variabelen, slik at den ikke blir med p\'e5 scenen. | |\
+| 5.|Vi vil at heksa skal bevege seg n\'e5r spillet starter. Det gj\'f8r vi ved \'e5 lage f\'f8lgende skript:| |\
+\
+h3. Test prosjektet\
+\
+| 6.| Klikk p\'e5 det gr\'f8nne flagget oppe til h\'f8yre. Se hva heksa gj\'f8r. Blir hun fanget ved kanten av scenen? For \'e5 unng\'e5 det m\'e5 vi f\'e5 henne til \'e5 g\'e5 tilbake n\'e5r hun treffer den. Dette gj\'f8res ved \'e5 legge til blokken  sprett tilbake ved kanten  under g\'e5  hastighet  steg . Skriptet ser da slik ut: | | \
+| 7.| For \'e5 hindre at hun snur seg opp-ned, klikk p\'e5 kun mot venstre eller h\'f8yre-knappen i Figur-boksen. Den ser slik ut:| |\
+\
+h3. Lagre prosjektet  \
+\
+h3. Ting du kan pr\'f8ve\
+\
+| 1.| Endre hastighetsvariabelen, slik at heksa g\'e5r fortere eller saktere.| | \
+| 2.| Hvordan kan vi f\'e5 heksa til \'e5 g\'e5 fortere jo lenger hun flyr? Dette er noks\'e5 vanskelig, s\'e5 ikke v\'e6re bekymret hvis du ikke skj\'f8nner hvordan. Du vil f\'e5 flere hint underveis.| | \
+\
+h2, Steg 2: F\'e5 heksa til \'e5 dukke opp og forsvinne\
+\
+h3. Sjekkliste\
+\
+| 1.| For \'e5 gj\'f8re spillet mer g\'f8y vil vi f\'e5 heksa til \'e5 dukke opp og forsvinne, helt tilfeldig. Vi gj\'f8r dette med et nytt skript, som skal kj\'f8re samtidig med skriptet som beveger p\'e5 heksa. Det nye skriptet gjemmer bort heksa en tilfeldig periode, og viser henne deretter frem igjen i en tilfeldig periode. Dette skal skje om og om igjen, fram til spillet er slutt. Slik lager du dette skriptet:| | \
+h3. Test prosjektet\
+\
+| 1.| Klikk p\'e5 det gr\'f8nne flagget. Flytter heksa fra side til side? Forsvinner hun og dukker opp igjen helt tilfeldig? Da er alt riktig.| | \
+\
+h3. Lagre prosjektet\
+\
+\
+h3. Ting du kan pr\'f8ve\
+\
+| 1.| Pr\'f8v \'e5 endre tallene i koden der det st\'e5r:  tilfeldig tall fra     til     sekunder . Hva skjer hvis du velger veldig store eller sm\'e5 tall? Dette gir deg kanskje et nytt hint for hvordan vi skal f\'e5 heksa til \'e5 g\'e5 fortere jo lenger man spiller.| | \
+\
+h2. Steg 3: Tryll bort heksa med et klikk!\
+\
+For \'e5 gj\'f8re dette til et ordentlig spill m\'e5 vi gi spilleren noe \'e5 gj\'f8re - for eksempel klikke p\'e5 heksa for \'e5 f\'e5 henne til \'e5 forsvinne. N\'e5r hun forsvinner vil vi ogs\'e5 at det skal komme en stilig tryllelyd.\
+\
+h3. Sjekkliste\
+\
+| 1.| Fra Lyd-boksen henter du lyden Electronic/Fairydust.| | \
+| 2. | Lag s\'e5 f\'f8lgende skript:| |\
+\
+h3.  Test prosjektet\
+\
+| 1.| Klikk p\'e5 det gr\'f8nne flagget. Forsvinner heksa med en tryllelyd n\'e5r du klikker p\'e5 henne? | |  \
+\
+h3. Lagre prosjektet\
+\
+h3. Ting du kan pr\'f8ve\
+\
+| 1.| Sp\'f8r hjelperen din om du kan ta opp en egen lyd. Denne kan brukes istedenfor tryllelyden,| | \
+\
+h2. Steg 4: Legg til tid og poeng\
+\
+Vi har en heks \'e5 trylle bort, s\'e5 n\'e5 vil vi ha poeng for \'e5 gj\'f8re det! Vi vil ogs\'e5 ha en tidsfrist, slik at det er om \'e5 gj\'f8re \'e5 f\'e5 flest mulig poeng p\'e5 denne tiden. Vi l\'f8ser begge deler ved \'e5 bruke variabler.\
+\
+h3. Sjekkliste\
+\
+| 1.| Lag en ny Variabel som heter poeng. Denne skal gjelde for alle figurer. Legg til en ny blokk som gj\'f8r at poengvariabelen \'f8kes med 1 poeng, for hver gang spilleren klikker p\'e5 heksa.| | \
+| 2.| Bytt til Scene og lag en ny variabel som heter tid (velg vis p\'e5 scenen og bare for denne figuren). \
+Lag et nytt skript som kj\'f8rer n\'e5r det gr\'f8nne flagget klikkes. \
+Legg inn f\'f8lgende blokker:\
+sett tid til   30 (sekunder)\
+sett tid til   0\
+Bruk s\'e5 en gjenta til -blokk  for \'e5 vente  1  sekunder  og deretter redusere tiden med 1 sekund (endre tid med  -1). Denne skal kj\'f8re fram til tiden er ute (tid = 0). \
+Til slutt stopper du hele spillet med en  stopp alle-blokk.| | \
+\
+h3. Test prosjektet\
+\
+h3. Lagre prosjektet\
+\
+h3. Ting du kan pr\'f8ve\
+\
+| 1.| Hvordan f\'e5r du heksa til \'e5 g\'e5 fortere n\'e5r spillet er i gang?| |\
+\
+Bra jobba! N\'e5 er du egentlig ferdig med spillet, men pr\'f8v deg gjerne p\'e5 neste steg ogs\'e5.\
+\
+\page \
+h2. Steg 5: En ekstra utfordring - flere hekser! \
+\
+h3.Sjekkliste\
+\
+| 1.| Hvis \'e9n heks er bra, m\'e5 vel flere v\'e6re bedre! La oss ha 3 hekser flyvende rundt!\
+Lag flere hekser ved \'e5 h\'f8yreklikke p\'e5 den du allerede har, og s\'e5 kopiere denne:| | \
+| 2.| La heksene f\'e5 ulik st\'f8rrelse. Dette gj\'f8r du ved f\'f8rst \'e5 klikke p\'e5 Drakter og deretter Rediger. Velg s\'e5 en av knappene under. Den til venstre forst\'f8rrer figuren og den til h\'f8yre forminsker:| | \
+| 3. | Du kan ogs\'e5 endre heksenes flyvefart. Dette gj\'f8res i hastighet-variabelen i det \'f8verste skriptet for hver enkelt figur.| | \
+| 4.| Til slutt kan du spre heksene litt bedre ut p\'e5 scenen. Dette gj\'f8r du ved \'e5 klikke og dra figurene rundt i selve skjermbildet.| | \
+\
+h3. Test prosjektet\
+\
+| 1.| Klikk p\'e5 det gr\'f8nne flagget. Har du n\'e5 tre hekser som:\
+flyr fra side til side?\
+plutselig forsvinner og dukker opp igjen?\
+forsvinner n\'e5r du klikker p\'e5 dem?\
+Gratulerer! Da har du gjort alt riktig!| | \
+\
+h3. Lagre prosjektet\
+\
+h3. Ting du kan pr\'f8ve\
+\
+| 1.| Hvor mange hekser synes du spillet fungerer best med? | | \
+| 2.| Klarer du \'e5 f\'e5 heksene til \'e5 se forskjellige ut? Klikk p\'e5 Drakter og pr\'f8v deg frem. Du kan ogs\'e5 velge noen av blokkene under Utseende.| | \
+| 3.| Kan du f\'e5 heksene til \'e5 bli verdt forskjellige poenger? Hva med \'e5 f\'e5 den minste og raskeste til \'e5 gi 10 poeng?| | \
+\
+Bra jobba! N\'e5 er du ferdig, og det er p\'e5 tide med litt seri\'f8s spilling.\
+Husk ogs\'e5 at du kan dele spillet med vennene dine. Det gj\'f8r du ved \'e5 klikke p\'e5 Legg ut i toppmenyen.\
+\
+\
+\
+}
