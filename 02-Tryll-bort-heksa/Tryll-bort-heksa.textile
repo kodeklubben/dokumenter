@@ -1,0 +1,154 @@
+
+h5. Nivå 1
+
+h1. Tryll bort heksa
+
+h3. Introduksjon
+
+Dette prosjektet er inspirert av tivolispillet _whack-a-mole_, hvor man slår muldvarper ned i hullene sine. I vårt spill er det heksene som blir borte når vi klikker på dem. Målet er å trylle bort flest mulig i løpet av 30 sekunder.
+
+!(skjermbilde). skjermbilde-tre-hekser.png!
+
+table(oversikt).
+|!(symbol). ../images/sjekkliste_symbol.png!| %(sjekkliste)Sjekkliste% | – | Følg instruksjonene på lista. Huk av etter hvert.|	
+|!(symbol). ../images/test_symbol.png!|%(test)Test% | – | Klikk på det grønne flagget for å teste koden.|
+|!(symbol). ../images/lagre_symbol.png!|%(lagre)Lagre% | – | Husk å lagre koden når du har lagt til noe nytt.|
+
+h2. Steg 1: Lag en flyvende heks
+
+!(symbol). ../images/sjekkliste_symbol.png! %(sjekkliste)Sjekkliste%
+
+| 1. | %(instruksjon)Start et nytt Scratch-prosjekt%. |^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 2. | %(instruksjon)Slett kattefiguren% ved å %(systemvalg)høyreklikke% på den og velge %(systemvalg)Slett%.<br>
+Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)woods%, som ligger i mappen som heter %(systemvalg)Nature%. |^. !(sjekkrute). ../images/sjekkrute.png!| 
+|^. 3.| For å %(instruksjon)legge til en heks% klikker du på Hent en ny figur fra fil-knappen:!(systemdetalj). hent-en-ny-figur-fra-fil.png!
+Riktig drakt får du ved å klikke på Drakter, og deretter Importere. Velg witch1-kostymet, som ligger i Fantasy-mappen.|^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 4.| Du skal nå lage en variabel som %(instruksjon)styrer hvor fort heksa beveger seg%. Denne kan vi senere bruke til å endre hastigheten når spillet er i gang.
+Klikk på Variabler-knappen og deretter %(systemvalg)Lag en ny variabel% og kall den %(variabel)hastighet%. Huk av der det står %(systemvalg)Bare for denne figuren%.
+På scenen skal variabelen hete %(systemvalg)Figur1: hastighet%. Hvis den bare heter _hastighet_ så slett den og legg den til en gang til.  
+%(systemvalg)Fjern avhukingen% ved siden av variabelen, slik at den ikke blir med på scenen.
+!(systemvalg). hastighet.png!
+ |^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 5.|Vi vil at %(instruksjon)heksa skal bevege seg% når spillet starter. Det gjør vi ved å lage følgende skript:
+!(skript). skript-1a.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/test_symbol.png! %(test)Test prosjektet%
+
+|^. 6.| Klikk på det grønne flagget, oppe til høyre. Se hva heksa gjør. Blir hun fanget ved kanten av scenen? For å unngå det må vi få henne til å gå tilbake når hun treffer den. Dette gjøres ved å legge til blokken %(bevegelse)sprett tilbake ved kanten%  under %(bevegelse)gå% %(variablel)hastighet% %(bevegelse)steg%. Skriptet ser da slik ut: 
+!(skript). skript-1b.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 7.| For å hindre at hun snur seg opp-ned, klikk på %(systemvalg)kun mot venstre eller høyre-knappen% i %(systemvalg)Figur-boksen%. Den ser slik ut:
+!(systemdetalj). kun-mot-venstre-eller-hoyre.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/lagre_symbol.png! %(lagre)Lagre prosjektet%
+
+%(prove)Ting du kan prøve%
+
+|^. 8.| Endre hastighetsvariabelen, slik at heksa går fortere eller saktere.|^. !(sjekkrute). ../images/sjekkrute.png!| 
+|^. 9.| Hvordan kan vi få heksa til å gå fortere jo lenger hun flyr? Dette er nokså vanskelig, så ikke være bekymret hvis du ikke skjønner hvordan. Du vil få flere hint underveis.|^. !(sjekkrute). ../images/sjekkrute.png!| 
+
+h2. Steg 2: Få heksa til å dukke opp og forsvinne
+
+!(symbol). ../images/sjekkliste_symbol.png! %(sjekkliste)Sjekkliste%
+
+|^. 1.| For å gjøre spillet mer gøy vil vi %(instruksjon)få heksa til å dukke opp og forsvinne%, helt tilfeldig. Vi gjør dette med et nytt skript, som skal kjøre samtidig med skriptet som beveger på heksa. Det nye skriptet gjemmer bort heksa en tilfeldig periode, og viser henne deretter frem igjen i en tilfeldig periode. Dette skal skje %(instrukson)om og om igjen%, fram til spillet er slutt. Slik lager du dette skriptet:
+!(skript). skript-2.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/test_symbol.png! %(test)Test prosjektet%
+
+|^.  2.| Klikk på det grønne flagget. Flytter heksa fra side til side? Forsvinner hun og dukker opp igjen helt tilfeldig? Da er alt riktig.|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/lagre_symbol.png! %(lagre)Lagre prosjektet%
+
+
+%(prove)Ting du kan prøve%
+
+|^. 3.| Prøv å endre tallene i koden der det står: %(operator)tilfeldig tall fra% &nbsp;    %(operator)til% &nbsp; %(variabel)sekunder%. Hva skjer hvis du velger veldig store eller små tall? Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+h2. Steg 3: Tryll bort heksa med et klikk!
+
+For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre - for eksempel %(instruksjon)klikke på heksa for å få henne til å forsvinne%. Når hun forsvinner vil vi også at det skal komme %(instruksjon)en stilig tryllelyd%.
+
+!(symbol). ../images/sjekkliste_symbol.png! %(sjekkliste)Sjekkliste%
+
+
+|^. 1.| Fra Lyd-boksen henter du lyden Electronic/Fairydust.|^. !(sjekkrute). ../images/sjekkrute.png!| 
+|^. 2. | Lag så følgende skript:
+!(innramming). skript-3a.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/test_symbol.png! %(test)Test prosjektet%
+
+|^. 3.| Klikk på det grønne flagget. Forsvinner heksa med en tryllelyd når du klikker på henne? |^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/lagre_symbol.png! %(lagre)Lagre prosjektet%
+
+%(prove)Ting du kan prøve%
+
+|^. 4.| Spør hjelperen din om du kan ta opp en egen lyd. Denne kan brukes istedenfor tryllelyden,|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+h2. Steg 4: Legg til tid og poeng
+
+Vi har en heks å trylle bort, så nå vil vi ha %(instruksjon)poeng% for å gjøre det! Vi vil også ha en %(instruksjon)tidsfrist%, slik at det er om å gjøre å få flest mulig poeng på denne tiden. Vi løser begge deler ved å bruke variabler.
+
+!(symbol). ../images/sjekkliste_symbol.png! %(sjekkliste)Sjekkliste%
+
+|^. 1.| Lag en ny %(systemvalg)Variabel%(systemvalg) som heter %(systemvalg)poeng%. Denne skal gjelde %(systemvalg)for alle figurer%. Legg til en ny blokk som gjør at poengvariabelen økes med 1 poeng, for hver gang spilleren klikker på heksa.
+!(skript). skript-3b.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!| 
+|^. 2.| Bytt til %(systemvalg)Scene% og lag en ny variabel som heter %(systemvalg)tid% (velg _vis på scenen_ og _bare for denne figuren_). 
+Lag et nytt skript som kjører når det grønne flagget klikkes. 
+Legg inn følgende blokker:
+%(variabel)sett tid til% 30 (sekunder)
+%(variabel)sett tid til%  0
+Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sekunder% og deretter redusere tiden med 1 sekund (%(variabel)endre tid med% -1). Denne skal kjøre fram til tiden er ute (%(operator)tid = 0%). 
+Til slutt stopper du hele spillet med en %(styring)stopp alle% -blokk.
+!(skript). skript-4.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/test_symbol.png! %(test)Test prosjektet%
+
+!(symbol). ../images/lagre_symbol.png! %(lagre)Lagre prosjektet%
+
+%(prove)Ting du kan prøve%
+
+|^. 3.| Hvordan får du heksa til å gå fortere når spillet er i gang?|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+Bra jobba! Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
+
+
+h2. Steg 5: En ekstra utfordring - flere hekser! 
+
+!(symbol). ../images/sjekkliste_symbol.png! %(sjekkliste)Sjekkliste%
+
+|^. 1.| Hvis én heks er bra, må vel flere være bedre! La oss ha 3 hekser flyvende rundt!
+%(instruksjon)Lag flere hekser% ved å %(systemvalg)høyreklikke% på den du allerede har, og så %(systemvalg)kopiere% denne:
+!(systemutsnitt). lag-kopi.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!| 
+|^. 2.| %(instruksjon)La heksene få ulik størrelse%. Dette gjør du ved først å klikke på %(systemvalg)Drakter% og deretter %(systemvalg)Rediger%. Velg så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:
+!(systemdetalj). endre-storrelse.png!
+|^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 3. | Du kan også %(instruksjon)endre heksenes flyvefart%. Dette gjøres i  
+%(variabel)hastighet% -variabelen i %(systemvalg)det øverste skriptet% for hver enkelt figur.|^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 4.| Til slutt kan du %(instruksjon)spre heksene% litt bedre ut på scenen. Dette gjør du ved å %(systemvalg)klikke og dra figurene% rundt i selve skjermbildet.|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/test_symbol.png! %(test)Test prosjektet%
+
+|^. 5.| Klikk på det grønne flagget. Har du nå tre hekser som: <br>1. flyr fra side til side?<br>2. plutselig forsvinner og dukker opp igjen?<br>3. forsvinner når du klikker på dem?
+Gratulerer! Da har du gjort alt riktig!|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+!(symbol). ../images/lagre_symbol.png! %(lagre)Lagre prosjektet%
+
+%(prove)Ting du kan prøve%
+
+|^. 6.| Hvor mange hekser synes du spillet fungerer best med? |^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 7.| Klarer du å få heksene til å se forskjellige ut? Klikk på Drakter og prøv deg frem. Du kan også velge noen av blokkene under Utseende.|^. !(sjekkrute). ../images/sjekkrute.png!|
+|^. 8.| Kan du få heksene til å bli verdt forskjellige poenger? Hva med å få den minste og raskeste til å gi 10 poeng?|^. !(sjekkrute). ../images/sjekkrute.png!|
+
+Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling.
+Husk også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på %(systemvalg)Legg ut% i toppmenyen.
+
+
