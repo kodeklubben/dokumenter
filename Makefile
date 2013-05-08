@@ -1,6 +1,4 @@
-TEXTILES += 01-Velkommen-til-kodeklubben/01-Velkommen-til-kodeklubben.textile
-TEXTILES += 01-Felix-og-Herbert-gjennomgang/01-Felix-og-Herbert-gjennomgang.textile
-TEXTILES += 02-Felix-og-Herbert-Opplysninger-til-instruktor/02-Felix-og-Herbert-Opplysninger-til-instruktor.textile
+TEXTILES += $(shell find -type f -name "*.textile" -not -name "header.textile" -not -name "footer.textile")
 
 HTMLS=$(TEXTILES:.textile=.html)
 PDFS=$(TEXTILES:.textile=.pdf)
