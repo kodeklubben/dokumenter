@@ -69,7 +69,7 @@ p(intro). For å gjøre dette til et ordentlig spill må vi gi spilleren noe å 
 
 
 |^. 1.| Fra Lyd-boksen henter du lyden Electronic/Fairydust.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
-|^. 2. | Lag så følgende skript:!(skript). skript-3a.png!|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
+|^. 2. | Lag så følgende skript:<br> !(skript). skript-3a.png!|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
 !(symbol). ../../../../images/test-symbol.png! %(test)Test prosjektet%
 
@@ -90,8 +90,8 @@ p(intro). Vi har en heks å trylle bort, så nå vil vi ha %(instruksjon)poeng% 
 |^. 1.| Lag en ny %(systemvalg)Variabel%(systemvalg) som heter %(systemvalg)poeng%. Denne skal gjelde %(systemvalg)for alle figurer%. Legg til en ny blokk som gjør at poengvariabelen økes med 1 poeng, for hver gang spilleren klikker på heksa.
 !(skript). skript-3b.png!|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 |^. 2.| Bytt til %(systemvalg)Scene% og lag en ny variabel som heter %(systemvalg)tid% (velg _vis på scenen_ og _bare for denne figuren_). 
-Lag et nytt skript som kjører når det grønne flagget klikkes. Legg inn følgende blokker:<br>%(variabel)sett tid til% 30 (sekunder)<br>%(variabel)sett tid til%  0
-Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sekunder% og deretter redusere tiden med 1 sekund (%(variabel)endre tid med% -1). Denne skal kjøre fram til tiden er ute (%(operator)tid = 0%). <br>Til slutt stopper du hele spillet med en %(styring)stopp alle% -blokk.<br>!(skript). skript-4.png!|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
+Lag et nytt skript som kjører når det grønne flagget klikkes. Legg inn følgende blokker:<br> %(variabel)sett tid til% 30 (sekunder)<br> %(variabel)sett tid til%  0
+Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sekunder% og deretter redusere tiden med 1 sekund ( %(variabel)endre tid med% -1 ). Denne skal kjøre fram til tiden er ute ( %(operator)tid = 0% ). <br>Til slutt stopper du hele spillet med en %(styring)stopp alle% -blokk.<br>!(skript). skript-4.png!|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
 !(symbol). ../../../../images/test-symbol.png! %(test)Test prosjektet%
 
