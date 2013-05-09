@@ -1,0 +1,37 @@
+h5. Nivå 2
+
+h1. En-armet banditt
+
+*Notater for klubbledere*
+
+h3. Introduksjon:
+
+Dette er et enkelt spill som har tre sprites som bytte drakt. Du trenger å stoppe dem når alle tre har samme drakt (som et en-armet banditt).
+
+h3. Kunnskaper:
+
+Dette prosjekt inkluderer
+* Changing costumes
+* Kjøring av en loop
+* Stopping a loop on click
+
+h3. Ressurser:
+
+Dette prosjekt bruker bare standard bilder som er inkludert med Scratch.
+
+h3. Scratch korter som trengs:
+
+* Broadcast
+
+h3. Oppgaver:
+
+* Lag en sprite som endre draktbildet
+* Få til at bildet endre seg
+* Få den til å stoppe når man klikke på den
+* Lag andre sprites
+
+h3. Utfordringer:
+
+* Gjør spillet vanskeligere
+* Gjør at spillet blor vanskeligere og så enklere over tid
+* Oppdag når alle sprites har stoppet på samme drakt.
