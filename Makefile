@@ -13,7 +13,11 @@ WKOPTS += --margin-right 25
 WKOPTS += --page-size A4
 WKOPTS += --footer-center "[page]/[topage]"
 
-all: $(HTMLS) $(PDFS)
+all: htmls pdfs
+
+htmls: $(HTMLS)
+
+pdfs: $(PDFS)
 
 %.html: %.textile Makefile
 	@echo Generating $@
