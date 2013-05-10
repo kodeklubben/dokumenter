@@ -1,5 +1,4 @@
 TEXTILES += $(shell find -type f -name "*.textile" -not -name "header.textile" -not -name "footer.textile")
-TEXTILES += 02-En-armet-banditt/02-En-armet-banditt.textile
 
 HTMLS=$(TEXTILES:.textile=.html)
 PDFS=$(TEXTILES:.textile=.pdf)
