@@ -13,7 +13,7 @@ WKOPTS += --margin-right 25
 WKOPTS += --page-size A4
 WKOPTS += --footer-center "[page]/[topage]"
 
-all: $(HTMLS) $(PDFS)
+all: $(HTMLS) $(PDFS) gitignore
 
 %.html: %.textile Makefile
 	@echo Generating $@
@@ -24,6 +24,10 @@ all: $(HTMLS) $(PDFS)
 %.pdf: %.html Makefile
 	@echo Generating $@
 	@wkhtmltopdf $(WKOPTS) $< $@
+
+gitignore:
+	echo $(HTMLS) | tr " " "\n" | sed -e "s,^\./,,g" > .gitignore
+	echo $(PDFS) | tr " " "\n" | sed -e "s,^\./,,g" >> .gitignore
 
 clean:
 	-rm -rf $(HTMLS) $(PDFS)
