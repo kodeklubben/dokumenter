@@ -17,9 +17,10 @@ all: $(HTMLS) $(PDFS) gitignore
 
 %.html: %.textile Makefile
 	@echo Generating $@
-	@cat common/header.html > $@
-	@cat common/header.textile $< common/footer.textile | redcloth >> $@
-	@cat common/footer.html >> $@
+	$(eval ROOT=$(shell echo "$<" | sed -e "s,[^/]\+/,../,g" -e "s,/[^/]\+$$,,g"))
+	@cat common/header.html | sed -e "s,ROOT,$(ROOT),g" > $@
+	@cat common/header.textile $< common/footer.textile | redcloth | sed -e "s,ROOT,$(ROOT),g" >> $@
+	@cat common/footer.html | sed -e "s,ROOT,$(ROOT),g" >> $@
 
 %.pdf: %.html Makefile
 	@echo Generating $@
