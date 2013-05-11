@@ -1,0 +1,151 @@
+h5. Nivå 2
+
+h1. JafseFisk
+
+h2. Introduksjon:
+
+Vi skal lage et JafseFisk-spill! Hjelp Sultne Fisk å prøve å spise alle byttedyrene som svømmer i havet.
+!images/JafseFisk1.png!
+
+%(checklist)Sjekkliste% - følg instruksjonene en etter en
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet% - klikk på det grønne flagget for å teste koden din
+
+
+%(save)Lagre prosjektet% - klikk på denne for å lagre koden din !images/lagresymbol.png!
+
+
+h3. Steg 1: Sultne Fisk følger musepekeren
+
+*Først skal vi lage Sultne Fisk som svømmer rundt i havet!*
+%(checklist)Sjekkliste%
+# *Start et nytt Scratch prosjekt.*
+# Velg *Scene*, deretter scenens %(tab)bakgrunn%. %(button)Last inn% bakgrunnen *Natur/underwater* og fjern *background1*.
+# Forandre navnet til *figur1* til *Sultne Fisk*.
+# %(tab)Last inn%  Sultne Fisks drakt, for eksempel *Animals/fish1-b*, deretter fjerner du de eksisterende *drakt 1* og  *drakt2*.
+# Bruk knappen i midten til venstre over %(tab)drakt%-fanen for å passe på at figuren bare kan flippe mellom venstre og høyre.  !images/Steg1_fig2.png!
+# *Lag et skript slik at Sultne Fisk skal følge musepekeren rundt i sjøen, slik:*
+!images/Steg1_fig1.png!
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Flytt musepekeren rundt i sjøen.* Følger fisken med?
+Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen? 
+Hvordan ser den ut? Hvorfor gjør den dette?
+
+# Du kan stoppe Sultne Fisks maniske flipping hvis du sørger for at den bare flytter seg når den ikke er for nær musepekeren (%(control)avstand til% - blokken ligger under %(palette)Sansing%-paletten).
+!images/Steg1_fig3.png!
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+h4. Prøv ut!
+Hvis du vil kan du forandre tallene i skriptet. Hvordan forandrer det bevegelsene til SultneFisk? *Sett distanseterskelen til et stort tall* (f.eks. 100), eller et *lite tall* (f.eks. 1). *Sett antall steg fisken flytter seg til et stort tall* (f.eks. 20) eller et *lite tall* (f.eks. 1, eller 0)
+
+h3. Steg 2: Legg til byttedyr
+*Det er på tide å legge inn noe SultneFisk kan prøve å spise!*
+%(checklist)Sjekkliste%
+# %(button)Importèr% en *ny figur* fra filen *Animals/lobster1*.
+# Bruk *krympeverktøyet* (over Scene) for å gjøre denne figuren mindre.
+# *Lag et skript som beveger byttedyret*. Vi vil at byttedyrene skal bevege seg i tilfeldige retninger, så vi skal la dem bevege seg litt framover og så snu en tilfeldig valgt vinkel med eller mot klokka, og deretter gjenta.  
+!images/Steg2_fig1.png!
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Klikk på det grønne flagget* og se hvordan byttedyret svømmer rundt. 
+Svømmer det slik du forventet?  Ser bevegelsene naturlige ut?
+*I øyeblikket samspiller ikke Sultne Fisk og byttedyret med hverandre.  Det skal vi gjøre noe med i neste steg.*
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+h4. Prøv ut!
+# Prøv å forandre tallene som bestemmer bevegelsene, «gå» og «vend...». Hvordan forandrer det byttedyrenes bevegelser?
+# Hva gjør %(contron)sprett tilbake ved kanten% ? Fjern den fra programmet og se hva som skjer.
+
+h3. Steg 3: Sultne Fisk spiser byttet
+*Nå skal vi la Sultne Fisk spise byttet!*  Når Sultne Fisk har fanget byttet i munnen skal to ting skje:
+# Sultne Fisk må lukke munnen og lage en «gomle»-lyd.
+# Byttet må forsvinne, og så komme igjen en liten stund senere.
+
+%(checklist)Sjekkliste%
+# Først lar vi byttet forsvinne hvis den berører Sultne Fisk, og så komme tilbake etter 3 sekunder. Bruk %(control)berører%- blokken for å sjekke om byttet kommer borti Sultne Fisk.
+!images/Steg3_fig1.png!
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Prøv spillet ditt igjen – ser du noen problemer?* Legg merke til at byttet forsvinner uansett hvor det berører Sultne Fisk. Dessuten kan fisken bare vente 3 sekunder og spise byttet i samme øyeblikk som det dukker opp igjen – det er ikke særlig rettferdig!
+#  Hvordan kan vi sikre at byttet bare forsvinner hvis det berører Sultne Fisks munn? Tja, vi kunne bruke %(control)berører fargen%-blokken  og se om den berører fiskens blå tenner. For å gjøre dette, bytt %(control)berører% -blokken med %(control)berører fargen%  i skriptet ditt. Klikk på fargen i blokken og klikk deretter på fiskens tenner.
+#  Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen før den dukker opp igjen ved å bruke en %(control)gå til x:  Y:  % -blokk og gi den en tilfeldig verdi for x og y.
+!images/Steg3_fig2.png!
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Prøv spillet igjen* – forsvinner byttet bare når det berører fiskens tenner? Og kommer det igjen i et tilfeldig punkt på skjermen istedet for samme sted som det ble spist?
+#  Fisken må vite når den har spist noe slik at den kan gi fra seg en lyd og bytte farge. For å gjøre dette kan vi la byttet  %(control)send melding%  om at det er spist før det forsvinner. 
+!images/Steg3_fig3.png!
+
+*Nå vil vi at fiskens respons på denne meldingen er å lage en «gomle»-lyd og klikke med kjevene.*
+# Legg til en ny %(tab)drakt% for Sultne Fisk ved å %(button)importere% filen* Animals/fish1-a* (fisk med lukket munn), og %(tab)lyden% fra *Effects/Pop*.
+#  Legg til *et nytt skript* for Sultne Fisk for å reagere på meldingen fra byttedyret. Dette skriptet gjør at fisken spiller «gomle»-lyden, %(control)skift til drakt%  med *lukket munn*, venter litt og så bytter tilbake til åpen munn.
+!images/Steg3_fig4.png!
+
+*Nå er Sultne Fisk klar til å spise, la oss fylle havet med byttedyr. Høyreklikk på bytte-figurn og klikk «lag kopi» flere ganger.*
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
+*Klikk på det grønne flagget.* Spiser Sultne Fisk byttet? Spiser den alle byttedyrene?
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+h4. *Noe å tenke på..*
+Hvorfor bør vi legge til en «vis»-blokk i begynnelsen av bytteskriptet? Tenk på hva som vil skje om byttet blir spist og spillet stoppes før det dukker opp igjen. Hva vil skje om spillet startes igjen?
+
+*Godt gjort! Du har fullført basisspillet! Men det er flere muligheter for å utvide spillet; er du klar for en utfordring?*
+h4. Utfordring 1: Forandre bevegelsene til byttedyrene
+I øyeblikket beveger alle byttedyrene seg likt. *Kan du få en av dem til å bevege seg annerledes?*
+*Hint:* Ikke bruk for lang tid på denne delen uten å se på de andre aktivitetene i dette prosjektet. 
+*Velg deg ut et byttedyr å eksperimentere med*. Hvis de har samme drakt, bytt farge med %(control)sett farge effekt%-blokken. Slik kan du se forskjell fra resten av byttedyrene.
+*Gjør slik at dette byttedyret beveger seg saktere enn de andre. *
+*Hint:* Se på blokken %(control)gå (2) steg%.
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+Beveger byttet seg saktere? Gjør dette spillet bedre? Hvis du klarte dette, *prøv å gjøre en av byttedyrene kjappere enn de andre.*
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene spillet bedre?
+*Hint:* Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i %(control)tilfeldig tall% -blokken i  %(control)vend%-blokken.
+*Hva om du lar alle byttedyrene bevege seg forskjellig* ved å bruke forskjellige kombinasjoner av disse bevegelsene?
+*Gjør noen av disse forandringene spillet bedre?* Gjør de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette «bedre»?
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+h4. Utfordring 2: Hjelp byttet å unngå den sultne fisken
+Byttedyrene i dette spillet er skikkelig dumme! De svømmer bare tilfeldig rundt til de blir spist. Ekte fisk svømmer vekk fra rovfisker. *Nå vil vi la et av byttedyrene svømme vekk fra Sultne Fisk.*
+Det fins ingen blokk i Scratch som gir retningen til en annen figur. Men, du kan få en figur til å snu seg i retningen av en annen, og deretter la den snu seg i motsatt retning. Blokkene du trenger fins i *Bevegelse*-paletten.
+Ved å bruke denne ideen, *hjelp et av byttedyrene å snu seg vekk fra Sultne Fisk*. Du vil kanskje også la den virre mens den svømmer bort?
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+Gjør dette at fisken er vanskeligere å ta? Gjør det spillet bedre?
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+h4. Utfordring 3: Legg til poeng
+Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? *Du må kunne samle poeng, så la oss legge til en poengtavle.*
+Se på * «Keep Score scratch card»*  for å få noen hint om hvordan det kan gjøres.
+*Hvor vil du legge inn blokken som forandrer poengsummen?*
+*Pass på at poengene går tilbake til null ved begynnelsen av spillet.* Hvor skal du legge inn denne blokken?
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+Går poengsummen til null når spillet starter? Går den opp hver gang du spiser byttedyr?
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+h4. Utfordring 4: Legg til nedtelling
+*Gi deg selv en tidsfrist.* Hvor mange fisk kan du spise på 30 sekunder?
+Se på *«Timer scratch card»* for å se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders spill.
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
+Begynner tidtakeren på 30? Teller den ned med rett hastighet? Kan du fange fisk mens tiden telles ned? Stopper spillet når telleren når null?
+%(save)Lagre prosjektet% . !images/lagresymbol.png!
+
+h4. Utfordring 5: Legg til bonuspoeng
+Legg til en belønning med høy bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
+*Hint:* En måte å gjøre dette på er å bruke en *variabel for å telle hvor mange byttedyr som svømmer i havet.*
+%(save)Lagre prosjektet% . !images/lagresymbol.png!
+
+
+h4. Utfordring 6: Forandre spillet: Hold byttedyrene i live!
+Av og til kan man få glimrende nye idèer ved å gjøre det motsatte av en eksisterende idè. 
+*Modifiser spillet slik at du isteden kontrollerer et byttedyr i et hav av mange Sultne Fisk.* Hvor lenge kan du holde det gående før du blir spist?
+%(save)Lagre prosjektet% . !images/lagresymbol.png!
+*Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!*
+Ikke glem at du kan dele spillet med alle vennene og familien din ved å klikke på *Legg ut* i topp-menyen.
+
