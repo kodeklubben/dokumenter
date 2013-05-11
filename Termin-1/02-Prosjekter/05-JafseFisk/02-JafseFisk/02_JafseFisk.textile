@@ -41,9 +41,11 @@ Hvordan ser den ut? Hvorfor gjør den dette?
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
 
 h4. Prøv ut!
+
 Hvis du vil kan du forandre tallene i skriptet. Hvordan forandrer det bevegelsene til SultneFisk? *Sett distanseterskelen til et stort tall* (f.eks. 100), eller et *lite tall* (f.eks. 1). *Sett antall steg fisken flytter seg til et stort tall* (f.eks. 20) eller et *lite tall* (f.eks. 1, eller 0)
 
 h3. Steg 2: Legg til byttedyr
+
 *Det er på tide å legge inn noe SultneFisk kan prøve å spise!*
 %(checklist)Sjekkliste%
 # %(button)Importèr% en *ny figur* fra filen *Animals/lobster1*.
@@ -59,10 +61,12 @@ Svømmer det slik du forventet?  Ser bevegelsene naturlige ut?
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
 
 h4. Prøv ut!
+
 # Prøv å forandre tallene som bestemmer bevegelsene, «gå» og «vend...». Hvordan forandrer det byttedyrenes bevegelser?
 # Hva gjør %(contron)sprett tilbake ved kanten% ? Fjern den fra programmet og se hva som skjer.
 
 h3. Steg 3: Sultne Fisk spiser byttet
+
 *Nå skal vi la Sultne Fisk spise byttet!*  Når Sultne Fisk har fanget byttet i munnen skal to ting skje:
 # Sultne Fisk må lukke munnen og lage en «gomle»-lyd.
 # Byttet må forsvinne, og så komme igjen en liten stund senere.
@@ -106,13 +110,19 @@ I øyeblikket beveger alle byttedyrene seg likt. *Kan du få en av dem til å beveg
 
 !images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
 Beveger byttet seg saktere? Gjør dette spillet bedre? Hvis du klarte dette, *prøv å gjøre en av byttedyrene kjappere enn de andre.*
+
 !images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+
 Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene spillet bedre?
+
 *Hint:* Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i %(control)tilfeldig tall% -blokken i  %(control)vend%-blokken.
 *Hva om du lar alle byttedyrene bevege seg forskjellig* ved å bruke forskjellige kombinasjoner av disse bevegelsene?
 *Gjør noen av disse forandringene spillet bedre?* Gjør de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette «bedre»?
+
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
+
 h4. Utfordring 2: Hjelp byttet å unngå den sultne fisken
+
 Byttedyrene i dette spillet er skikkelig dumme! De svømmer bare tilfeldig rundt til de blir spist. Ekte fisk svømmer vekk fra rovfisker. *Nå vil vi la et av byttedyrene svømme vekk fra Sultne Fisk.*
 Det fins ingen blokk i Scratch som gir retningen til en annen figur. Men, du kan få en figur til å snu seg i retningen av en annen, og deretter la den snu seg i motsatt retning. Blokkene du trenger fins i *Bevegelse*-paletten.
 Ved å bruke denne ideen, *hjelp et av byttedyrene å snu seg vekk fra Sultne Fisk*. Du vil kanskje også la den virre mens den svømmer bort?
@@ -121,6 +131,7 @@ Gjør dette at fisken er vanskeligere å ta? Gjør det spillet bedre?
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
 
 h4. Utfordring 3: Legg til poeng
+
 Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? *Du må kunne samle poeng, så la oss legge til en poengtavle.*
 Se på * «Keep Score scratch card»*  for å få noen hint om hvordan det kan gjøres.
 *Hvor vil du legge inn blokken som forandrer poengsummen?*
@@ -130,6 +141,7 @@ Går poengsummen til null når spillet starter? Går den opp hver gang du spiser by
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
 
 h4. Utfordring 4: Legg til nedtelling
+
 *Gi deg selv en tidsfrist.* Hvor mange fisk kan du spise på 30 sekunder?
 Se på *«Timer scratch card»* for å se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders spill.
 !images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
@@ -137,12 +149,14 @@ Begynner tidtakeren på 30? Teller den ned med rett hastighet? Kan du fange fisk 
 %(save)Lagre prosjektet% . !images/lagresymbol.png!
 
 h4. Utfordring 5: Legg til bonuspoeng
+
 Legg til en belønning med høy bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
 *Hint:* En måte å gjøre dette på er å bruke en *variabel for å telle hvor mange byttedyr som svømmer i havet.*
 %(save)Lagre prosjektet% . !images/lagresymbol.png!
 
 
 h4. Utfordring 6: Forandre spillet: Hold byttedyrene i live!
+
 Av og til kan man få glimrende nye idèer ved å gjøre det motsatte av en eksisterende idè. 
 *Modifiser spillet slik at du isteden kontrollerer et byttedyr i et hav av mange Sultne Fisk.* Hvor lenge kan du holde det gående før du blir spist?
 %(save)Lagre prosjektet% . !images/lagresymbol.png!
