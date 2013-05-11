@@ -1,7 +1,8 @@
 h1. JafseFisk
+
 *INFO TIL KLUBBLEDERE*
 *Introduksjon*
-Vi skal lage et fiskejafse-spill! Hjelp  Sultne Fisk å spise alle byttedyrene som svømmer rundt henne.
+Vi skal lage et fiskejafse-spill! Hjelp  Sultne Fisk Ã¥ spise alle byttedyrene som svÃ¸mmer rundt henne.
 
 *Ferdigheter*
 Dette prosjektet dekker
@@ -16,20 +17,20 @@ Dette prosjektet dekker
 Dette prosjektet bruker ressurser fra Scratch-mappene Bakgrunner og Drakter OG Sultne Fisk sine drakter fins i frivillighetspakken.
 
 *Hvilke Scratch Kort kreves?*
-Animèr det/Animate it
+AnimÃ¨r det/Animate it
 Poengtavle/Keep score
 Tidtaker/Timer
-Følg musen/Follow the mouse
+FÃ¸lg musen/Follow the mouse
 
 *Basisoppgaver*
-Steg 1: Store Sultne Fisk følger musepekeren
+Steg 1: Store Sultne Fisk fÃ¸lger musepekeren
 Steg 2: Legg til byttedyr
 Steg 3: Store Sultne Fisk spiser byttet
 
 *Utfordringer*
 # La byttet bevege seg anderledes
-# Byttet unngår Store Sultne Fisk
+# Byttet unngÃ¥r Store Sultne Fisk
 # Legg til poeng
 # Legg til nedtelling
 # legg til bonuspoeng
-# Forandre spillet for å holde byttet i live!
+# Forandre spillet for Ã¥ holde byttet i live!
