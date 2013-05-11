@@ -27,8 +27,8 @@ all: $(HTMLS) $(PDFS) gitignore
 	@wkhtmltopdf $(WKOPTS) $< $@
 
 gitignore:
-	echo $(HTMLS) | tr " " "\n" | sed -e "s,^\./,,g" > .gitignore
-	echo $(PDFS) | tr " " "\n" | sed -e "s,^\./,,g" >> .gitignore
+	echo $(HTMLS) | tr " " "\n" | sed -e "s,^\./,,g" | sort > .gitignore
+	echo $(PDFS) | tr " " "\n" | sed -e "s,^\./,,g" | sort >> .gitignore
 
 clean:
 	-rm -rf $(HTMLS) $(PDFS)
