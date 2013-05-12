@@ -21,17 +21,18 @@ pdfs: $(PDFS)
 
 %.html: %.textile Makefile
 	@echo Generating $@
-	@cat common/header.html > $@
-	@cat common/header.textile $< common/footer.textile | redcloth >> $@
-	@cat common/footer.html >> $@
+	$(eval ROOT=$(shell echo "$<" | sed -e "s,[^/]\+/,../,g" -e "s,/[^/]\+$$,,g"))
+	@cat common/header.html | sed -e "s,ROOT,$(ROOT),g" > $@
+	@cat common/header.textile $< common/footer.textile | redcloth | sed -e "s,ROOT,$(ROOT),g" >> $@
+	@cat common/footer.html | sed -e "s,ROOT,$(ROOT),g" >> $@
 
 %.pdf: %.html Makefile
 	@echo Generating $@
 	@wkhtmltopdf $(WKOPTS) $< $@
 
 gitignore:
-	echo $(HTMLS) | tr " " "\n" | sed -e "s,^\./,,g" > .gitignore
-	echo $(PDFS) | tr " " "\n" | sed -e "s,^\./,,g" >> .gitignore
+	echo $(HTMLS) | tr " " "\n" | sed -e "s,^\./,,g" | sort > .gitignore
+	echo $(PDFS) | tr " " "\n" | sed -e "s,^\./,,g" | sort >> .gitignore
 
 clean:
 	-rm -rf $(HTMLS) $(PDFS)
