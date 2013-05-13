@@ -81,7 +81,7 @@ Kan løven og papegøyen flytte seg først etter nedtellingen?
 %(save)Lagre prosjektet%. !images/lagresymbol.png!
 
 
-h3. Steg 4: Avslutte kappl�pet
+h3. Steg 4: Avslutte kappløpet
 
 Vi vil vite hvem som vinner kappløpet og gjøre klart for en ny runde.
 
