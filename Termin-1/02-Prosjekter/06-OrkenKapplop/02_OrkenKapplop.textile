@@ -1,0 +1,151 @@
+h5. Nivå 2
+
+h1. Ørkenkappløp
+
+h2. Introduksjon:
+
+Dette spillet er for to spillere der en papegøye og en løve konkurrerer om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
+!images/OrkenKapplop1.png!
+
+%(checklist)Sjekkliste% - følg instruksjonene en etter en
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet% - klikk på det grønne flagget for å teste koden din
+
+
+%(save)Lagre prosjektet% - klikk på denne for å lagre koden din !images/lagresymbol.png!
+
+
+h3. Steg 1: Lag en scene og legg til figurer
+
+%(checklist)Sjekkliste%
+# Velg *Scene/Bakgrunner*, og legg til *Nature/desert*.
+# *Legg til en ny figur*, velg *løvefiguren* du finner i *Animals-mappen*.
+# Legg til enda en ny figur, *papegøye* from Animals-mappen.
+
+h3. Steg 2: La løven og papegøyen bevege seg
+
+*Vi vil at figurene skal bevege seg når en tast trykkes.*
+
+%(checklist)Sjekkliste%
+#1 Velg først *løvefiguren* og la den %(control)gå (4) steg% når du trykker *'L'-tasten*.
+!images/OrkenKapplop_Steg2_fig1.png!
+# Velg *papegøyen* og la den %(control)gå (4) steg% når du trykker *'A'-tasten*
+!images/OrkenKapplop_Steg2_fig2.png!
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Trykk på det grønne flagget.*
+Beveger løven og papegøyen seg over skjermen når du trykker *'A'- og 'L'-tastene*?
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+h3. Steg 3: Start kappløpet
+
+Vi må ha en måte å starte kappløpet på, og å vite hvem som har vunnet. *Først må vi lage en start-knapp.*
+
+%(checklist)Sjekkliste%
+
+#1 Legg til *en ny figur fra en fil*. Velg *knapp*figuren som er under mappen "Things".
+# *Rediger drakten til knapp-figuren*, legg til teksten *'start'* og klikk *OK*. Flytt figuren til midten av scenen.
+# *Legg nå til et skript som viser figuren når spillet starter:* !images/OrkenKapplop_Steg3_fig1.png!
+# Nå vil vi ha en knapp som *teller ned fra 3*, sier *LØP* og deretter %(control)skjul% når den klikkes. *Legg til et annet skript, som dette:
+!images/OrkenKapplop_Steg3_fig2.png!
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Trykk på det grønne flagget.*
+Når du trykker på startknappen, teller den ned for å starte kappløpet før den forsvinner?
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+Vi vil bare at dyrene skal flytte seg *etter at kappløpet er startet* og vi vil vite *når kappløpet er ferdig* så vi trenger 
+*en variabel* som kan gi oss denne informasjonen.
+
+# *Legg til en variabel* for alle figurene, kall den *kappløp*. *Ikke kryss av* i boksen til venstre, slik at den ikke vises i scenen.
+!images/OrkenKapplop_Steg3_fig5.png!
+# *Sett kappløp til å være 0* når spillet startes. 
+Forandre skriptet %(control)når flagg klikkes% slik:
+!images/OrkenKapplop_Steg3_fig3.png!
+
+# Når nedtellingen i starten er ferdig, sett %(control)sett kappløp til 1%.
+
+# *Løven og papegøyen må stå stille* hvis ikke kappløp-variablen er 1. Klikk på papegøye-figuren. *Legg til en styringsblokk i skriptet* som bare lar den flytte seg hvis *kappløp = 1*.
+!images/OrkenKapplop_Steg3_fig4.png!
+
+# Gjør nå det samme for løvefiguren.
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Trykk på det grønne flagget.*
+Kan løven og papegøyen flytte seg først etter nedtellingen?
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+
+h3. Steg 4: Avslutte kappløpet
+
+Vi vil vite hvem som vinner kappløpet og gjøre klart for en ny runde.
+
+%(checklist)Sjekkliste%
+
+#1 *Legg til en blokk i papegøyens skript* som %(control)sett kappløp til 0% når figuren berører kanten av skjermen.
+!images/OrkenKapplop_Steg4_fig1.png!
+
+# Hvis papegøyen vinner kappløpet vil vi vite det. *Spill inn en ny lyd* for *papegøyen* som skal spilles hvis papegøyen vinner. Trykk %(tab)Lyder% og spill inn vinnerlyden for papegøyen!
+
+# *Legg til blokkene som vil %(control)spille lyden% og la papegøyen fortelle at den vant:
+!images/OrkenKapplop_Steg4_fig2.png!
+
+# *Gjenta disse stegene for løven.*
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+*Trykk på det grønne flagget.*
+Kan du trykke startknappen og bevege dyrene med tastene *'P'* og *'L'*?
+Lager figurene vinnerlydene sine og sier at de vant på slutten av spillet?
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+
+h3. Steg 5: Nullstill spillet
+
+Etter at kappløpet er over må vi fortelle de andre figurene at spillet er over og nullstille spillet slik at vi kan spille igjen.
+*Vi må la vinnerfiguren melde fra at den har vunnet.*
+
+%(checklist)Sjekkliste%
+
+#1 Klikk på *papegøyefiguren.* Legg til en blokk som %(control) sender melding% *"avslutt"* etter at figuren sier den har vunnet.
+!images/OrkenKapplop_Steg5_fig1.png!
+
+# *Vi trenger nå et nytt skript* som lytter etter denne avslutningsmeldingen og flytter papegøyen tilbake til start.
+*Hva skjer om du forandrer verdien x settes til?*
+!images/OrkenKapplop_Steg5_fig2.png!
+
+# *Legg til det samme skriptet for løven.* Test forskjellige *x-verdier* for å være sikker på at løven og papegøyen starter fra samme sted.
+
+# Vi vil også sette løven og papegøyen i samme posisjon når prosjektet starter, så *legg til enda et skript for hver figur som flytter dem til start når vi klikker det grønne flagget.* 
+!images/OrkenKapplop_Steg5_fig3.png!
+
+# *Gå til knapp-figuren og legg til et skript som viser knappen når den mottar avslutningsmeldingen.*
+
+
+!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
+*Klikk på det grønne flagget.*
+Kan du spille mot en venn, en av dere styrer papegøyen ved å trykke *'A'*, og den andre løven ved å trykke *'L'*?
+
+%(save)Lagre prosjektet%. !images/lagresymbol.png!
+
+* Du har fullført alle basisaktivitetene, GODT GJORT!
+Nå kan du prøve deg på denne utfordringen!*
+
+
+
+h4. Utfordring: Legg til en rakett!
+
+* *Prøv å legge til en rakett* som kan brukes en gang per kappløp og som flytter papegøyen eller løven *30 steg på en gang.*
+
+* *Legg til en ny drakt* med ild som kommer ut bak hver figur og la denne drakten aktiveres når raketten avfyres.
+
+* *Lag en ny lyd* som figuren kan gi fra seg når raketten avfyres.
+
+!images/OrkenKapplop_utfordring.png!
+
+
