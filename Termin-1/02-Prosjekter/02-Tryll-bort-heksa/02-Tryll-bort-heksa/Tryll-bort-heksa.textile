@@ -1,4 +1,5 @@
-h1. Nivå 1: Tryll bort heksa
+
+h1(nivaa1). Nivå 1: Tryll bort heksa
 
 h2. Introduksjon
 
@@ -9,11 +10,11 @@ p(intro). Dette prosjektet er inspirert av tivolispillet _whack-a-mole_, hvor ma
 
 
 table(oversikt).
-|%(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
+| %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
 | %(test)Test%| Klikk på det grønne flagget for å teste koden.|
 | %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
 
-h3. Steg 1: Lag en flyvende heks
+h4(steg). Steg 1: Lag en flyvende heks
 
 %(sjekkliste)Sjekkliste%
 
@@ -42,7 +43,7 @@ På scenen skal variabelen hete %(systemvalg)Figur1: hastighet%. Hvis den bare h
 |^. 8.| Endre hastighetsvariabelen, slik at heksa går raskere eller saktere.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 |^. 9.| Hvordan kan vi få heksa til å gå fortere jo lenger hun flyr? Dette er nokså vanskelig, så ikke være bekymret hvis du ikke skjønner hvordan. Du vil få flere hint underveis.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
-h3. Steg 2: Få heksa til å dukke opp og forsvinne
+h4(steg). Steg 2: Få heksa til å dukke opp og forsvinne
 
 p(intro). For å gjøre spillet mer gøy vil vi %(instruksjon)få heksa til å dukke opp og forsvinne%, helt tilfeldig.
 
@@ -61,7 +62,7 @@ p(intro). For å gjøre spillet mer gøy vil vi %(instruksjon)få heksa til å d
 
 |^. 3.| Prøv å endre tallene i koden der det står: %(operator)tilfeldig tall fra% &nbsp;    %(operator)til% &nbsp; %(variabel)sekunder%. Hva skjer hvis du velger veldig store eller små tall? Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
-h3. Steg 3: Tryll bort heksa med et klikk!
+h4(steg). 3: Tryll bort heksa med et klikk!
 
 p(intro). For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre - for eksempel %(instruksjon)klikke på heksa for å få henne til å forsvinne%. Når hun forsvinner vil vi også at det skal komme %(instruksjon)en stilig tryllelyd%.
 
@@ -81,7 +82,7 @@ p(intro). For å gjøre dette til et ordentlig spill må vi gi spilleren noe å 
 
 |^. 4.| Spør hjelperen din om du kan ta opp en egen lyd. Denne kan brukes istedenfor tryllelyden.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
-h3. Steg 4: Legg til tid og poeng
+h4(steg). Steg 4: Legg til tid og poeng
 
 p(intro). Vi har en heks å trylle bort, så nå vil vi ha %(instruksjon)poeng% for å gjøre det! Vi vil også ha en %(instruksjon)tidsfrist%, slik at det er om å gjøre å få flest mulig poeng på denne tiden. Vi løser begge deler ved å bruke variabler.
 
@@ -103,7 +104,7 @@ Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sek
 
 p(utro). Bra jobba! Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
-h3. Steg 5: En ekstra utfordring - flere hekser! 
+h4(utfordring). Flere hekser! 
 
 %(sjekkliste)Sjekkliste%
 

@@ -1,0 +1,201 @@
+
+................................................................
+
+Veiledning for hvordan man gjør om dokumenter til textile-format
+
+................................................................
+
+
+Aller først...
+Før du går i gang med textile-dokumentene må du opprette forbindelse til github. Du må også ha en editor å opprette textile-filer i. Gå til pkt 2. Github og 3. Editor, for å gjøre unna dette.
+
+
+1. Opprett en textile-fil i editoren. Den skal hete det samme som fila du har jobbet med så langt, men det skal stå .textile på slutten av fila. Eksempel: 01-Felix-og-Herbert-gjennomgang.textile
+
+2. Lagre på riktig sted i filstrukturen. Gå til dokumenter/termin1/02-Prosjekter, og finn aktuell mappe. Det skal ligge en pdf-fil med samme navn (på engelsk) der fra før.
+
+3. Samme sted i filstrukturen kan du også lagre de bildefilene som skal inn i den aktuelle fila. OBS! Bilder som er en del av layout-en trenger du ikke å ta med (f.eks. overskriftsymbolene for sjekkliste, testing og lagring).
+
+4. Last opp fila på github (se pkt 2.6-11) 
+
+5. Gå til github (https://github.com/kodeklubben/dokumenter) og finn igjen textile-fila der.
+
+6. Åpne fila og velg "Edit" oppe til høyre. Kopier over tekstinnholdet ditt, og start formatering (se pkt 4. Formatering). 
+
+7. Ønsker du å se hvordan dokumentet ser ut underveis, klikk på "Preview" oppe til venstre. Det er vel og merke ikke endelig design du ser på da. Noen detaljer (slik som overskriftsymbolene, fargebakgrunnen på kodeblokkene, etc) vil først komme på når fila gjøres om til html. Men hvis du ser tegn eller tekst som tilhører formateringen (f.eks. %(sjekkliste) er det noe som ikke er helt riktig. Dette skal være helt usynlig i preview-modus.
+
+8. Når du er ferdig - eller skal ta en pause i arbeidet - må endringene lagres. Det gjøres ved å gå nederst på siden og velge "Commit Changes". Legg inn en kommentar à la "Lagt inn innhold" "Rettet noen småfeil", etc.
+
+
+
+2. GITHUB
+
+2.1. Opprett bruker på github.
+2.2. Be om Anders om skrivetilgang for din bruker (f.eks. på G+)
+2.3. Last ned github-klient (Trykk på "Clone in Mac")
+2.4. Last ned repositoriet "dokumenter"
+2.5. Du vil nå få en kopi av filstrukturen som ligger lokalt på din maskin. 
+
+Når du skal laste opp dine nye filer:
+2.6 Gå til "Changes" i venstremenyen.
+2.7 Sjekk at de filene du vil laste opp er avhuket.
+2.8 Legg inn en liten kommentar i feltet "Commit summary"
+2.9 Trykk på "Commit"-knappen
+2.10 Foreta en "Pull" (Velg "Repository > Pull" fra toppmemyen)for å oppdatere repositoriet ditt. Om noen har opprettet duplikater eller endret på filene dine vil du få beskjed om det (spør på G+ om du får beskjeder du ikke skjønner)
+2.11 Foreta en "Push" (Velg "Repository > Pull" fra toppmemyen). Nå vil filene dine bli lastet opp på serveren.
+
+
+3. EDITOR
+
+For å få lagret et dokument som .textile trenger du en tekst- eller kodeeditor som lar deg gjøre det. I Windows funker Notepad. I TextEdit på Mac må du endre litt på innstillingene først:
+
+1. Gå inn på Valg.
+2. Under format, huk av for "Ren tekst".
+3. Lukk og åpne TextEdit. (mulig det holder å opprette nytt dokument)
+
+
+
+4. FORMATERING
+
+Textile er en forenklet måte å skrive html på. Når filen er ferdig kan man dermed generere en html-fil. 
+
+Noe av notasjonen er generell, mens noe er knyttet til Kodeklubbens spesielle design (CSS-en). Eksempler på sistnevnte er typisk der hvor noe står markert i parentereser (f.eks. %(variabel)hastighet% ). Da står det i CSS-en at all tekst som er markert slik skal ha hvite bokstaber med oransje bakgrunn. Ønsker vi senere å endre dette til lilla, er det bare å oppdatere dette i CSS-en.
+
+Er det noe i teksten du ikke finner relavant notasjon for, må du kommentere det i CSS-tråden på G+. Da er det godt mulig vi må spesifisere noe nytt for akkurat det.
+
+Husk også at du ikke kan låne notasjonen for en type innhold over på en annen type innhold, fordi du mener at de kan se sånn noenlunde ut. Dette fordi designet skal bestemmes av designeren/CSS-en. Vår oppgave er bare å markere ulike innholdselementer med riktig notasjon.
+
+Som oftest markerer man noe ved å sette det i starten av linja. Eks:
+h1. Dette er en overskrift
+I dette eksempelet er h1. notasjonen som tilsier at dette skal være en overskrift av type 1. Resten av linja "Dette er en overskrift" er selve innholdet, og det eneste som skal være synlig i previewet.
+
+Andre ganger står notasjonen midt inne i en tekst. F.eks. 
+Det neste du skal gjøre er å %(instruksjon)Lage flere figurer%. 
+Denne notasjonen vil sørge for at "Lage flere figurer" vil få et spesielt utseende i teksten (f.eks. underlinjert skrift) 
+
+
+
+Notasjon
+--------
+
+Overskrifter
+
+h1(nivaa1). = Hovedoverskrift for nivå 1
+Brukes i starten av dokumentene (f.eks. "h1(nivaa1). Tryll bort en heks")
+
+h1(nivaa2). = Hovedoverskrift for nivå 2
+Brukes i starten av dokumentene (f.eks. "h1(nivaa2). Ørkenracet")
+
+h1(nivaa3). = Hovedoverskrift for nivå 2
+Brukes i starten av dokumentene (f.eks. "h1(nivaa3). Lag ditt eget spill")
+
+h2. = Overskrift medium
+Brukes som andre overskrift i notatene ref "NOTATER FOR KLUBBLEDERE"
+
+h3. = Overskrift liten
+Brukes som andre overskrift i veiledningene ("Introduksjon") og gjennomgangen ("Komme i gang med Scratch" + "Rettledning til frivillige")
+
+h4(steg). = Overskrift spesial
+Brukes som overskrifter over avsnittene i Notater
+
+h4(Utfordring). = Overskrift spesial
+
+%(sjekkliste)Sjekkliste% - Slik skrives overskriften for Sjekkliste. Det gule hakesymbolet kommer automagisk inn foran.
+
+%(test)Test prosjektet% - Som over, men for testing
+
+%(lagre)Lagre prosjektet% - Som over, men for lagring
+
+%(prove)Ting du kan prøve% - Som over, men for ting du kan prøve
+
+
+Avsnitt ----------------------
+
+p. = vanlig avsnitt
+
+p(intro). = introduksjonen i starten av veiledningene, samt alle avsnittene i notatene
+
+p(utro). = sluttkommentarene som brukes i noen av stegene i veiledningene.
+
+
+Tekstmarkering ----------------
+
+_kursiv_
+*fet*
+??sitat??
+
+%(instruksjon)instruksjon% - Brukes for de abstrakte beskrivelsene av hva som skal gjøres. F.eks. "Nå er det klart for å %(instruksjon)legge til flere figurer%".
+
+%(systemvalg)systemvalg% - Brukes for de konkrete beskrivelsene av hva som skal gjøres i Scratch. 
+F.eks. "Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)woods%, som ligger i %(systemvalg)Nature% -mappen. 
+MERK: i originalen er det brukt mange forskjellige bakgrunner og skrifter i grånyanser for ulike typer systemreferanser/valg.
+
+Kodeblokker ---------------
+
+De følgende åtte er ment for å gjengi kodeblokker i teksten. Navn og bagrunnsfarge korrelerer til navn og fargekode i Scratch.
+
+%(styring)styring% 
+
+%(bevegelse)bevegelse%
+
+%(lyd)lyd%
+
+%(penn)penn%
+
+%(utseende)utseende%
+
+%(sansning)sansning%
+
+%(operator)operator%
+
+%(variabel)variabel%
+
+Lister ----------------
+
+Unummerert liste 
+* = Første linje i lista 
+* = Andre linje i lista 
+* = Tredje linje i lista 
+
+Nummerert liste (brukes i alle sjekklistene + testing og prøving)
+# = Første linje i lista - avhukingsruta kommer automagisk på
+# = Andre linje i lista - avhukingsruta kommer automagisk på
+# = Tredje linje i lista - avhukingsruta kommer automagisk på
+
+
+Tabeller
+
+| 1. kolonne | 2. kolonne | 3. kolonne |
+| 1. kolonne | 2. kolonne | 3. kolonne |
+| 1. kolonne | 2. kolonne | 3. kolonne |
+
+Klipp og lim:
+Denne tabellen kan kopieres rett inn i alle veiledningene. Det er den som står nederst på første side:
+
+table(oversikt).
+| %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
+| %(test)Test%| Klikk på det grønne flagget for å teste koden.|
+| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
+p(class). paragraph with a classname
+
+| a | table | row 1 |
+| a | table | row 2 |
+
+
+Bilder -----------------
+
+!imageurl! - bilde
+!(skjermbilde)!. =  Det øverste bildet i veiledningenen. Eks: skjermbilde-tre-hekser.png!
+!(systemdetalj)!. - for bilder er så små at de kanskje kan vises på samme linje som teksten
+!(systemutsnitt)!. - for bilder som er såpass store at de bør ha linjeskift først. 
+
+
+Lenker --------------
+
+"linktext":url - F.eks. "Google":http://www.google.com
+
+--------------------
+
+
+For flere notasjoner, se http://redcloth.org/textile
