@@ -23,8 +23,8 @@ h3(sjekkliste). Sjekkliste
 # Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Dog2'.
 # Trykk på 'i' i hjørnet av !dog2.png(Dog2)! og bytt navn på figuren til 'Felix'.
 # Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til !rotasjonsmate-hv.png(Høyre/venstre)!.
-# Velg fanen 'Drakter' og slett den tredje drakten ved å trykke på X i hjørnet av drakten. !dog2-c.png!
-# Velg fanen 'Skript' og lag dette skriptet:
+# Velg !ROOT/images/fane-drakter.png(drakter)!-fanen og slett den tredje drakten ved å trykke på X i hjørnet av drakten. !dog2-c.png!
+# Velg !ROOT/images/fane-skript.png(skript)!-fanen og lag dette skriptet:
 !(skript)skript1.png!
 
 h3(test). Test prosjektet
@@ -83,7 +83,7 @@ h3(sjekkliste). Sjekkliste
 
 # Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 !(skript)skript4.png!
-# Velg Herbert og gå til fanen 'Drakter'.
+# Velg Herbert og gå til !ROOT/images/fane-drakter.png(drakter)!-fanen.
 # Slett drakt nummer to ved å trykke på krysset ved siden av denne drakten.
 # Hent en ny drakt ved å trykke på !figur-fra-bibliotek.png(Velg drakt fra biblioteket)! og velg 'Fantasi/ghost2-a'
 # Gjør drakten mindre ved å velge !krymp.png(Krymp)! og trykke seks ganger på spøkelsesdrakten.
@@ -107,7 +107,7 @@ La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde He
 
 h3(sjekkliste). Sjekkliste
 
-# På fanen 'Skript' under kategorien 'Data', lag en ny variabel. La den gjelde for alle figurer og kall den poengsum.
+# På !ROOT/images/fane-skript.png(skript)!-fanen under kategorien !ROOT/images/kategori-data.png(Data)!, lag en ny variabel. La den gjelde for alle figurer og kall den poengsum.
 !ny-variabel-poengsum.png!
 # Lag disse to skriptene på scenen:
 !(skript)skript6.png!

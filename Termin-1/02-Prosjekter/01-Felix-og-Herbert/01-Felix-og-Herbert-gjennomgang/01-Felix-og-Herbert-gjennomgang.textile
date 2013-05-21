@@ -35,12 +35,12 @@ Gå gjennom ett og ett av disse stegene. Forsikre deg om at alle barna har utfø
 
 h3. Frittstående blokker
 
-* Dobbeltklikk på blokken !bevegelse-ga-10-steg.png(Gå 10 steg)! i !kategori-bevegelse.png(Bevegelse)!-kategorien. Forklar at Felix har flyttet seg.
+* Dobbeltklikk på blokken !bevegelse-ga-10-steg.png(Gå 10 steg)! i !ROOT/images/kategori-bevegelse.png(Bevegelse)!-kategorien. Forklar at Felix har flyttet seg.
 * Høyreklikk på blokken og vis hjelpen.
 * Dra blokken !bevegelse-ga-10-steg.png(Gå 10 steg)! inn i skript-området.
 * Dobbeltklikk på blokken i skript-området. Vis at Felix flytter seg igjen.
 * Dobbeltklikk på blokken noen ganger for å flytte Felix.
-* Vis hvordan man åpner !kategori-lyd.png(Lyd)!-kategorien.
+* Vis hvordan man åpner !ROOT/images/kategori-lyd.png(Lyd)!-kategorien.
 * Dra !lyd-trommeslag-48-0-2.png(trommeslag)!-blokken inn i skript-området.
 * Dobbeltklikk på ‘trommeslag’-blokken i skript-området for å vise at den lager lyd.
 * Endre trommenummeret til 62 og varigheten til 0,3 takter.
@@ -58,14 +58,14 @@ h3. Skript
 h3. Drakter
 
 * Kommenter at vi ønsker at Felix beveger beina når han går.
-* Åpne !fane-drakter.png(drakter)!-fanen.
+* Åpne !ROOT/images/fane-drakter.png(drakter)!-fanen.
 * Vis at Felix har to drakter.
-* Åpne !fane-skript.png(skript)!-fanen
-* Legg til !utseende-neste-drakt.png(neste drakt)! fra !kategori-utseende.png(utseende)!-kategorien inn i løkken.
+* Åpne !ROOT/images/fane-skript.png(skript)!-fanen
+* Legg til !utseende-neste-drakt.png(neste drakt)! fra !ROOT/images/kategori-utseende.png(utseende)!-kategorien inn i løkken.
 * Dobbeltklikk på skriptet og se at Felix går til kanten av scenen.
 Du har nå et skript som ser slik ut:
 
-!skript1.png(Skript 1)!
+!(skript)skript1.png(Skript 1)!
 
 h3. Lagre og del prosjektet
 

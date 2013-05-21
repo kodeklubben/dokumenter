@@ -1,6 +1,4 @@
-h1. Felix og Herbert
-
-h5. Nivå 1
+h1(nivaa1). Felix og Herbert
 
 h2. Opplysninger til instruktør
 
@@ -13,7 +11,7 @@ h3. Ferdigheter
 Dette prosjektet dekker:
 * Endre drakter og utseende
 * Sette og huske poengsummen
-* %{color:red}Broadcast messages% (anorm: Hva er dette? Er det at man lærer å gi beskjeder tilbake til spilleren ala score og 'si'?)
+* Sende meldinger
 
 h3. Ressurser
 
@@ -29,5 +27,5 @@ h3. Grunnleggende øvelser
 # Felix jager Herbert
 # Felix sier fra når han har fanget Herbert
 # Herbert blir et spøkelse når han blir fanget
-# Huske poengsum %{color:red}(en: Keep score)Bedre uttrykk?%
+# Telle poeng
 
