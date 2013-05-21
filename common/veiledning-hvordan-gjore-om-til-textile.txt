@@ -86,7 +86,7 @@ Brukes i starten av dokumentene (f.eks. "h1(nivaa1). Tryll bort en heks")
 h1(nivaa2). = Hovedoverskrift for nivå 2
 Brukes i starten av dokumentene (f.eks. "h1(nivaa2). Ørkenracet")
 
-h1(nivaa3). = Hovedoverskrift for nivå 2
+h1(nivaa3). = Hovedoverskrift for nivå 3
 Brukes i starten av dokumentene (f.eks. "h1(nivaa3). Lag ditt eget spill")
 
 h2. = Overskrift medium
