@@ -294,7 +294,7 @@ h4(utfordring) - I veiledningene er de siste "kapitlene" listet under overskrift
 
 TABELLER
 Jeg har lagt inn masse innhold i tabeller, selv om dette sikkert er fyfy. Det er gjort fordi  mesteparten av innholdet består av innhold som layoutmessig bør ligge i tre kolonner. I første kolonne et nummer, i andre tekst og bildeinstruksjoner og i den siste en sjekkrute som kan hukes av. Dette kan kanskje ordnes med et fancy ol-element isteden? Jeg oppdaterer gjerne textile-koden hvis dette kan fikses.    
-
+!! Oppdaterie kommentarer rundt dette i CSS-tråden på G+
 For enkelhets skyld har jeg ikke klassifisert disse tabellene med noe eget elementnavn. Men tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre) har er merket table(oversikt).
 
 */
