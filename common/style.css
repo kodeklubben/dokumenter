@@ -1,38 +1,104 @@
-/* MON: ELEMENTER SOM MANGLER
-
-BILDER: (merket slik i textile: !(elementnavn)bildeurl!)
-skjermbilde - i originalversjonen hadde denne avrunda hjørner og gul ramme.
-img.
-systemdetalj - disse bildene er så små at de kanskje kan vises på samme linje som teksten
-systemutsnitt - disse er såpass store at de bør ha linjeskift først. I originalversjonen har de avrunda hjørner og gul ramme.
-sjekkrute - bare aktuell for sjekkrutene hvor man skal huke av underveis. Denne kan kanskje legges inn på en slik måte at man slipper å oppgi bilde-URL-en hele tida?
-
-TEKST
-p.intro - introduksjonnssnuttene (brukt bl.a. etter hvert steg i veiledningene)
-p.utro - avslutningskommentarer
-span.prove - det bør lages en overskrifttype for "Ting du kan prøve" som står i stil med overskriftene for "Sjekkliste", "Test prosjektet" og "Lagre prosjektet". Kanskje med et lyspæresymbol, elns?
-
-h1(nivaa1)(nivaa2) og (nivaa3) - Hovedoverskriften for de fleste dokumentene er i originalversjonen bakt sammen med logoen for kodeklubben (til høyre) og nivåangivelse  (til venstre). Dette kan kanskje løses med ulike klasser for nivå1, 2 og 3?
-h4(utfordring) - I veiledningene er de siste "kapitlene" listet under overskriftene "Utfordring". Disse kan enten ha eget design (som i originalen) eller så kan de se likedan ut som h4(steg) - men da må vi legge inn "En ekstra utfordring:" i starten av overskriften.
-
-TABELLER
-
-Jeg har lagt inn masse innhold i tabeller, selv om dette sikkert er fyfy. Det er gjort fordi  mesteparten av innholdet består av innhold som layoutmessig bør ligge i tre kolonner. I første kolonne et nummer, i andre tekst og bildeinstruksjoner og i den siste en sjekkrute som kan hukes av. Dette kan kanskje ordnes med et fancy ol-element isteden? Jeg oppdaterer gjerne textile-koden hvis dette kan fikses. 
-!! Se oppdatering om dette under CSS-tråden på G+. !!
-
-For enkelhets skyld har jeg ikke klassifisert disse tabellene med noe eget elementnavn. Men tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre) har er merket table(oversikt).
-
-*/
-
-
-
-
 body div.scratch {
   font-family: sans-serif;
 }
 
+div.scratch h1.nivaa1
+{
+  background-color: #BBE6FB;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  height: 2.2em;
+  padding-top: 0.8em;
+}
 
-div.scratch span.sjekkliste {
+div.scratch h1.nivaa1:before
+{
+  content: "Nivå 1";
+  float: left;
+  background-color: #4CAF53;
+  color: white;
+  margin-top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  border: 3px solid white;
+}
+
+div.scratch h1.nivaa2:before
+{
+  content: "Nivå 2";
+  float: left;
+  background-color: #4CAF53;
+  color: white;
+  margin-top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  border: 3px solid white;
+}
+
+div.scratch h1.nivaa3:before
+{
+  content: "Nivå 3";
+  float: left;
+  background-color: #4CAF53;
+  color: white;
+  margin-top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  border: 3px solid white;
+}
+
+.clearfix:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+table.oversikt
+{
+  margin: 1em auto;
+  background-color: #eee;
+  border: solid 1px #ccc;
+  padding: 1em;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+}
+
+table td
+{
+  padding: 1em;
+}
+
+div.scratch .sjekkliste {
   background-image: url(../images/sjekkliste-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -42,7 +108,7 @@ div.scratch span.sjekkliste {
   color: #ECA320;
 }
 
-div.scratch span.test {
+div.scratch .test {
   background-image: url(../images/test-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -52,7 +118,7 @@ div.scratch span.test {
   color: #36A037;
 }
 
-div.scratch span.lagre {
+div.scratch .lagre {
   background-image: url(../images/lagre-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -148,11 +214,14 @@ div.scratch h3 {
 
 
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
-div.scratch h4.steg {
+div.scratch .steg {
   background-color: #329738;
   color: white;
   font-size: 1.5em;
   padding: 10px;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
 }
 
 
@@ -198,52 +267,34 @@ div.scratch span.palett {
   padding: 2px;
 }
 
-
-/* 
-ANDERS SIN CSS
-
-body
-{
-  font-family:Tahoma, Geneva, sans-serif;
+div.scratch img.skript {
+  display: block;
+  margin: 1em auto;
+  padding: 2em;
+  border: solid 1px #ccc;
+  background-color: #eee;
 }
 
-.tittel h1
-{
-  background-color: #BBE6FB;
-  color: white;
-  margin-top: 1em;
-  height: 2.2em;
-  padding-top: 0.8em;  
-}
 
-.tittel h2
-{
-  float: left;
-  background-color: #4CAF53;
-  color: white;
-  margin-top: -1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  padding-top: 2.2em;
-  height: 3.8em;
-  width: 6em;
-  text-align: center;
-  vertical-align: center;
-  border-radius: 15px; 
-  -moz-border-radius: 15px; 
-  -webkit-border-radius: 15px; 
-  border: 3px solid white;
-}
+/* MON: ELEMENTER SOM MANGLER
 
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
+BILDER: (merket slik i textile: !(elementnavn)bildeurl!)
+skjermbilde - i originalversjonen hadde denne avrunda hjørner og gul ramme.
+img.
+systemdetalj - disse bildene er så små at de kanskje kan vises på samme linje som teksten
+systemutsnitt - disse er såpass store at de bør ha linjeskift først. I originalversjonen har de avrunda hjørner og gul ramme.
+sjekkrute - bare aktuell for sjekkrutene hvor man skal huke av underveis. Denne kan kanskje legges inn på en slik måte at man slipper å oppgi bilde-URL-en hele tida?
+
+TEKST
+p.intro - introduksjonnssnuttene (brukt bl.a. etter hvert steg i veiledningene)
+p.utro - avslutningskommentarer
+span.prove - det bør lages en overskrifttype for "Ting du kan prøve" som står i stil med overskriftene for "Sjekkliste", "Test prosjektet" og "Lagre prosjektet". Kanskje med et lyspæresymbol, elns?
+h1(nivaa1)(nivaa2) og (nivaa3) - Hovedoverskriften for dokumentet er i originalversjonen bakt sammen med logoen for kodeklubben (til høyre) og nivåangivelse  (til venstre). Dette kan kanskje løses med ulike klasser for nivå1, 2 og 3?
+h4(utfordring) - I veiledningene er de siste "kapitlene" listet under overskriftene "Utfordring". Disse kan enten ha eget design (som i originalen) eller så kan de se likedan ut som h4(steg) - men da må vi legge inn "En ekstra utfordring:" i starten av overskriften.
+
+TABELLER
+Jeg har lagt inn masse innhold i tabeller, selv om dette sikkert er fyfy. Det er gjort fordi  mesteparten av innholdet består av innhold som layoutmessig bør ligge i tre kolonner. I første kolonne et nummer, i andre tekst og bildeinstruksjoner og i den siste en sjekkrute som kan hukes av. Dette kan kanskje ordnes med et fancy ol-element isteden? Jeg oppdaterer gjerne textile-koden hvis dette kan fikses.    
+
+For enkelhets skyld har jeg ikke klassifisert disse tabellene med noe eget elementnavn. Men tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre) har er merket table(oversikt).
 
 */
-
-
