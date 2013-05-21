@@ -1,6 +1,4 @@
-h1. Felix og Herbert
-
-h5. Nivå 1
+h1(nivaa1). Felix og Herbert
 
 h2. Komme i gang med Scratch
 

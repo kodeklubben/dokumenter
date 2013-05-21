@@ -1,31 +1,29 @@
-/* 
-ANDERS SIN CSS
-
-body
-{
-  font-family:Tahoma, Geneva, sans-serif;
+body div.scratch {
+  font-family: sans-serif;
 }
 
-.tittel h1
+div.scratch h1.nivaa1
 {
   background-color: #BBE6FB;
   color: white;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
   height: 2.2em;
-  padding-top: 0.8em;  
+  padding-top: 0.8em;
 }
 
-.tittel h2
+div.scratch h1.nivaa1:before
 {
+  content: "Nivå 1";
   float: left;
   background-color: #4CAF53;
   color: white;
-  margin-top: -1em;
+  margin-top: -2em;
   margin-left: 1em;
   margin-right: 1em;
-  padding-top: 2.2em;
-  height: 3.8em;
-  width: 6em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
   text-align: center;
   vertical-align: center;
   border-radius: 15px; 
@@ -34,24 +32,73 @@ body
   border: 3px solid white;
 }
 
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+div.scratch h1.nivaa2:before
+{
+  content: "Nivå 2";
+  float: left;
+  background-color: #4CAF53;
+  color: white;
+  margin-top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  border: 3px solid white;
 }
 
-*/
-
-
-body div.scratch {
-  font-family: sans-serif;
+div.scratch h1.nivaa3:before
+{
+  content: "Nivå 3";
+  float: left;
+  background-color: #4CAF53;
+  color: white;
+  margin-top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1.8em;
+  height: 3.2em;
+  width: 5em;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  border: 3px solid white;
 }
 
+.clearfix:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 
-div.scratch span.sjekkliste {
+table.oversikt
+{
+  margin: 1em auto;
+  background-color: #eee;
+  border: solid 1px #ccc;
+  padding: 1em;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+}
+
+table td
+{
+  padding: 1em;
+}
+
+div.scratch .sjekkliste {
   background-image: url(../images/sjekkliste-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -61,7 +108,7 @@ div.scratch span.sjekkliste {
   color: #ECA320;
 }
 
-div.scratch span.test {
+div.scratch .test {
   background-image: url(../images/test-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -71,7 +118,7 @@ div.scratch span.test {
   color: #36A037;
 }
 
-div.scratch span.lagre {
+div.scratch .lagre {
   background-image: url(../images/lagre-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -167,11 +214,14 @@ div.scratch h3 {
 
 
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
-div.scratch h4.steg {
+div.scratch .steg {
   background-color: #329738;
   color: white;
   font-size: 1.5em;
   padding: 10px;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
 }
 
 
@@ -217,7 +267,13 @@ div.scratch span.palett {
   padding: 2px;
 }
 
-
+div.scratch img.skript {
+  display: block;
+  margin: 1em auto;
+  padding: 2em;
+  border: solid 1px #ccc;
+  background-color: #eee;
+}
 
 
 /* MON: ELEMENTER SOM MANGLER
