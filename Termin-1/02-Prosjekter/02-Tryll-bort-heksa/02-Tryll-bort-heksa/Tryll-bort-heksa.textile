@@ -1,4 +1,3 @@
-
 h1(nivaa1). Nivå 1: Tryll bort heksa
 
 h2. Introduksjon
@@ -51,7 +50,7 @@ p(intro). For å gjøre spillet mer gøy vil vi %(instruksjon)få heksa til å d
 
 |^. 1.| Vi gjør dette med et nytt skript, som skal kjøre samtidig med skriptet som beveger på heksa. Det nye skriptet gjemmer bort heksa en tilfeldig periode, og viser henne deretter frem igjen i en tilfeldig periode. Dette skal skje %(instrukson)om og om igjen%, fram til spillet er slutt. Slik lager du dette skriptet:<br>!(skript). skript-2.png! |^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
-!(symbol). ../../../../images/test-symbol.png! %(test)Test prosjektet%
+%(test)Test prosjektet%
 
 |^.  2.| Klikk på det grønne flagget. Flytter heksa fra side til side? Forsvinner hun og dukker opp igjen helt tilfeldig? Da er alt riktig.|^. !(sjekkrute). ../../../../images/sjekkrute.png!|
 
