@@ -1,4 +1,3 @@
-
 ................................................................
 
 Veiledning for hvordan man gjør om dokumenter til textile-format
@@ -41,8 +40,9 @@ Når du skal laste opp dine nye filer:
 2.7 Sjekk at de filene du vil laste opp er avhuket.
 2.8 Legg inn en liten kommentar i feltet "Commit summary"
 2.9 Trykk på "Commit"-knappen
-2.10 Foreta en "Pull" (Velg "Repository > Pull" fra toppmemyen)for å oppdatere repositoriet ditt. Om noen har opprettet duplikater eller endret på filene dine vil du få beskjed om det (spør på G+ om du får beskjeder du ikke skjønner)
-2.11 Foreta en "Push" (Velg "Repository > Pull" fra toppmemyen). Nå vil filene dine bli lastet opp på serveren.
+2.10 Klikk på sync branches og kryss fingrene.
+2.11 Foreta en "Pull" (Velg "Repository > Pull" fra toppmemyen)for å oppdatere repositoriet ditt. Om noen har opprettet duplikater eller endret på filene dine vil du få beskjed om det (spør på G+ om du får beskjeder du ikke skjønner)
+2.12 Foreta en "Push" (Velg "Repository > Pull" fra toppmemyen). Nå vil filene dine bli lastet opp på serveren.
 
 
 3. EDITOR
@@ -57,7 +57,7 @@ For å få lagret et dokument som .textile trenger du en tekst- eller kodeeditor
 
 4. FORMATERING
 
-Textile er en forenklet måte å skrive html på. Når filen er ferdig kan man dermed generere en html-fil. 
+Textile er en forenklet måte å skrive html på. Når filen er ferdig kan man dermed generere en ordentlig html-fil. 
 
 Noe av notasjonen er generell, mens noe er knyttet til Kodeklubbens spesielle design (CSS-en). Eksempler på sistnevnte er typisk der hvor noe står markert i parentereser (f.eks. %(variabel)hastighet% ). Da står det i CSS-en at all tekst som er markert slik skal ha hvite bokstaber med oransje bakgrunn. Ønsker vi senere å endre dette til lilla, er det bare å oppdatere dette i CSS-en.
 
@@ -102,7 +102,7 @@ h4(Utfordring). = Overskrift spesial
 
 %(sjekkliste)Sjekkliste% - Slik skrives overskriften for Sjekkliste. Det gule hakesymbolet kommer automagisk inn foran.
 
-%(test)Test prosjektet% - Som over, men for testing
+%(test)Test prosjektet% - Som over, men for testing - h3(test). fungerer også
 
 %(lagre)Lagre prosjektet% - Som over, men for lagring
 
@@ -157,10 +157,25 @@ Unummerert liste
 * = Andre linje i lista 
 * = Tredje linje i lista 
 
-Nummerert liste (brukes i alle sjekklistene + testing og prøving)
+Nummerert liste - ordinær 
 # = Første linje i lista - avhukingsruta kommer automagisk på
 # = Andre linje i lista - avhukingsruta kommer automagisk på
 # = Tredje linje i lista - avhukingsruta kommer automagisk på
+
+
+Nummerert liste  for bruk i alle sjekklistene + testing og prøving
+(avhuking)# = Første linje i lista - avhukingsruta kommer automagisk på
+# = Andre linje i lista - avhukingsruta kommer fortsatt automagisk på
+etc
+
+NB! For å få punktnumrene til å fortsette å løpe i overgangen mellom de ulike listene (f.eks: sjekklisten har punkt 1-3, test har pkt 4-5, lagre pkt 6 og prøve pkt 8-9) gjør slik:
+(avhuking)# Sjekklistens første pkt
+# sjekklistens andre pkt
+# sjekklistens tredje pkt
+
+(avhuking)#4 testlistens første pkt (men det står nr 4 til venstre for punktet)
+# testlistens andre pkt (men det står nr 5 til venstre for punktet)
+
 
 
 Tabeller
