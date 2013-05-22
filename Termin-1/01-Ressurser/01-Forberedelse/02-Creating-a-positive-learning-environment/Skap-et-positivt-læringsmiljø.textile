@@ -7,7 +7,7 @@ h2. Etablér en rutine
 p. Å drive en engasjerende og kreativ kodeklubb oppnår man mest ved å etablere rutiner, og holde seg til dem. Hvis barna vet hva de skal gjøre og hva de kan forvente av timene, vil det bli lettere å lære og få best mulig utbytte av undervisningen.
 Før du starter kodeklubben, tenk på følgende:
 
-* Hva vil du at barna skal gjøre når de først kommer til klasserommet?
+* Hva vil du at barna skal gjøre når de først kommer inn i rommet? 
 * Skal de sitte og vente rolig til alle har kommet, og avvente videre instrukser?
 * Skal de logge seg på og begynne med én gang?
 * Hvis en elev står fast på noe, hva skal de gjøre?
@@ -15,9 +15,8 @@ Før du starter kodeklubben, tenk på følgende:
 * Er det greit om de roper på deg?
 * Gjør deg opp en mening om hva du ønsker at de skal gjøre, og forklar det tydelig ved begynnelsen på hver time.
 * Hvordan får du hele gruppen sin oppmerksomhet?
-* De fleste skoler har tegn som elevene kjenner til (f.eks. løfte opp hånda, telle ned fra fem, klappe). Spør eventuelt hva lærerne på skolen pleier å gjøre for å signalisere, og tilpass det til timene dine.
 
-p. Gi barna beskjed når halve timen er gått. Når det er fem til ti minutter igjen bør de begynne å avslutte.
+p. Gi barna beskjed når halve tiden er gått. Når det er fem til ti minutter igjen bør de begynne å avslutte.
 
 p. Som en avslutning for hver time, kan det være lurt å ta en liten oppsummering med gruppen. La dem først lagre og logge av, og snakk så om hva de har lært og gjenta hovedpunktene. Spør dem hva de mener var mest morsomt? Lett? Vanskelig? Hvordan løste de utfordringene? Det er også en god idé å avslutte på en positiv måte, ved å gi uttrykk for verdsettelse. Si f.eks. at de var flinke, og fremhev eventuelt de som gjorde en god innsats.
 
@@ -29,14 +28,17 @@ p. Barn lærer best i et rolig og positivt miljø hvor deres innsats blir sett o
 * Snakk alltid rolig, høflig og entusiastisk til barna.
 * Ikke kritisér dem eller hev stemmen.
 * Tenk på hvordan barna tar etter deg som et eksempel. Vær positiv og oppfør deg slik du forventer at de også skal oppføre seg.
-* Noen skoler har belønningssystemer (plusspoeng, stjerne i boka e.l.). Om prosjektet kjøres i skolesammenheng kan dette være noe å inkludere.
-* Forsøk heller å fokusere på god oppførsel enn dårlig. Ros de barna som konsekvent utfører oppgavene på en god måte. Hvis noen ikke gjør den innsatsen du forventer, minn dem på det på en rolig måte. Helst bør det være en lærer tilstede, for å hjelpe til med å holde orden.
-* Spør læreren om Kodeklubben-diplomene kan bli gitt ut når elevene er samlet i fellesklassen sin. Dette vil synliggjøre barnas innsats for resten av elevene på skolen.
+* Forsøk heller å fokusere på god oppførsel enn dårlig. Ros de barna som konsekvent utfører oppgavene på en god måte. Hvis noen ikke gjør den innsatsen du forventer, minn dem på det på en rolig måte.
+
+_Dersom kodeklubben kjøres i skole/SFO-sammenheng:_
+* Dersom det er mange elever i gruppen bør du få en lærer eller assistent til å være med for å hjelpe til med å holde orden.
+* Hvis elevene er vant til belønningssystemer (plusspoeng, stjerne i boka e.l.) kan det være lurt å inkludere dette.
+* Spør læreren om Kodeklubben-diplomene kan deles ut når elevene er samlet i fellesklassen sin. Dette vil synliggjøre barnas innsats for resten av elevene på skolen.
 
 h2. Individuell læring
 
-p. Noen elever trenger mer oppfølging enn andre. For eksempel kan noen ha lære- eller konsentrasjonsvansker, eller ha annet språk enn norsk som morsmål. Spør læreren hva du kan gjøre for å tilrettelegge undervisningen for disse. Kanskje du kan opprette grupper hvor elevene hjelper hverandre?
+p. Alle barn har forskjellige evner og sterke sider, og lærer på ulike måter og i ulikt tempo. Vær tålmodig og fleksibel, og prøv å følge opp hvert barn individuelt. Prøv også å få dem til å finne ut av ting på egen hånd. Hvis noen konstant har vansker eller ligger etter, kan du forsøke å sette dem i gruppe med en flinkere elev.
 
-p. Alle barn har forskjellige evner og sterke sider, og lærer på ulike måter og i ulikt tempo. Vær tålmodig og fleksibel, og følg opp hvert barn individuelt, samtidig som du tenker på at det beste er om de selv finner ut av ting. Hvis noen konstant har vansker eller ligger etter, tenk på om du kan sette dem i gruppe med en flinkere elev for deler av oppgavene.
+p. Noen barn trenger mer oppfølging enn andre. For eksempel grunnet lære-/konsentrasjonsvansker eller andre morsmål enn norsk. Undersøk på forhånd hva du kan gjøre for å tilrettelegge undervisningen for disse.
 
 p. På slutten av prosjektoppgavene er det noen utfordringer. Disse oppgavene er tenkt for de flinkeste, men du kan med fordel presentere de for alle elevene som en ekstra utfordring når de har blitt ferdig med grunnoppgavene.
