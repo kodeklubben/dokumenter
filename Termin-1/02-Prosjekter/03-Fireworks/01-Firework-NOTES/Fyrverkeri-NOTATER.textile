@@ -1,0 +1,31 @@
+h1(nivaa1). Fyrverkeri
+
+h2. Notater for klubbledere
+
+h3. Introduksjon
+
+p. Dette interaktive leketøyet viser hvordan fyrverkeri går av og smeller på alle stedene man klikker på himmelen.
+
+h3. Ferdigheter
+
+p. Oppgaven omhandler:<br>
+* Respons ved klikk
+* Endring av fyrverkeriets utseende
+* Avspilling av lyd
+* Sending og mottak av hendelser(events) 
+
+h3. Ressurser
+
+p. Prosjektet benytter ressurser fra bakgrunnsfolderne til Scratch, samt fra ressursfolderen for Fyrverkeri, som er inkludert i denne pakken.
+
+h3. Scratch-kort involvert
+
+* Endre farge
+* Glidende overgang
+
+h3. Grunnleggende øvelser
+
+p. Steg 1: Lag en rakett som flyr mot det markerte punkt
+Steg 2: Få raketten til å eksplodere
+Steg 3: La hver eksplosjon være unik
+Steg 4: Rett opp <broadcast>feilen
