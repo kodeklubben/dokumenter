@@ -1,0 +1,234 @@
+h1(nivaa1). 
+
+h2. Introduksjon
+
+p. I dette prosjektet skal vi lage et fyrverkeri som skytes opp over en storby. 
+
+!(skjermbilde). bilde01.png!
+
+table(oversikt).
+| %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
+| %(test)Test%| Klikk på det grønne flagget for å teste koden.|
+| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
+h4(steg). Steg 1: Lag en rakett som flyr mot musepekeren
+
+%(sjekkliste)Sjekkliste%
+
+p(intro). La oss først %(instruksjon)importere noen bilder% til spillet.
+
+(avhuking)# %(instruksjon)Start et nytt Scratch-prosjekt%. %(instruksjon)Slett kattefiguren% ved å %(systemvalg)høyreklikke% på !(systemdetalj). bilde02.png! og velge %(systemvalg)Slett%. 
+# Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)city-with-water%, som ligger i %(systemvalg)outdoor% -mappen.
+# For å %(instruksjon)legge til en rakett% klikker du på Hent en ny figur fra fil-knappen: !(systemdetalj). bilde03.png!, og velger deretter %(systemvalg)firework1.png% fra mappen %(systemvalg)Resources.
+# %(instruksjon)Få så raketten til å forsvinne% når det grønne flagget klikkes. Det gjør du ved å klikke på %(systemvalg)Skript%-fanen, og legge til følgende skript:
+!(systemutsnitt). bilde04.png!
+
+(avhuking)#5 Så vil vi at raketten skal %(instruksjon)fly mot muspekeren% når vi klikker med musa. Gjør dette ved å legge til en %(styring)når mellomrom trykkes% -blokk. Under denne legger du til en ny blokk som gjør raketten synlig og lar den gli mot musepekeren.
+!(systemutsnitt). bilde05.png!
+
+
+%(test)Test prosjektet%
+
+
+(avhuking)#6 Klikk på det grønne flagget, plasser musepekeren over scenen og trykk på mellomromstasten. Kommer raketten til syne og beveger seg mot musepekeren? Hva skjer når du flytter musepekeren og trykker på mellomromstasten igjen?
+
+
+%(lagre)Lagre prosjektet%
+
+
+(avhuking)#7 Raketter flyr vanligvis ikke fra side til side, så la oss forsikre oss om at den alltid %(instruksjon)flyr rett opp mot musepekeren fra bunnen av skjermen%. For å få til dette utvider vi skriptet med en %(bevegelse)gå til%-blokk:
+
+!(systemutsnitt). bilde06.png!
+
+
+%(test)Test prosjektet%
+
+(avhuking)#8 Klikk på det grønne flagget, plasser musepekeren over scenen og trykk på mellomromstasten. Flyr raketten mot musepekeren fra bunnen av skjermen? Bra! Hva skjer når du flytter musepekeren og trykker på mellomromstasten igjen? Gjentar det seg? Flotte greier!
+
+
+%(lagre)Lagre prosjektet%
+
+
+(avhuking)#9 Til slutt bytter vi ut mellomromstasten med %(instruksjon)museknappen%. Dette gjør vi ved å pakke inn skriptet vårt i en %(styring)for alltid hvis% %(sansning)museknappen er nede%-blokk:
+
+!(systemutsnitt). bilde06b.png!
+
+
+%(test)Test prosjektet%
+
+
+
+(avhuking)#10 Plasser musepekeren et valgfritt sted på scenen, og klikk. Klikk igjen et annet sted. Virker det? Supert!
+
+%(lagre)Lagre prosjektet%
+
+
+%(prove)Ting å prøve ut%
+
+(avhuking)#11 Forsøk å endre hvor rakettene beveger seg, slik at den glir mot musepekeren og danner en liten bue.
+# Lag raketter som beveger seg langsommere eller raskere enn andre.
+
+%(lagre)Lagre prosjektet%
+
+
+h4(steg) Steg 2: Få raketten til å eksplodere
+
+%(sjekkliste)Sjekkliste%
+
+(avhuking)# Første skritt for å få raketten til å eksplodere er å %(instruksjon)få den til å smelle%. Lyden %(systemvalg)importerer% du fra %(systemvalg)-Lyder% -fanen. Velg lyden %(systemvalg)bang% som ligger i %(systemvalg)Resources% -mappa.
+Legg til en %(lyd)bang% -lyd i skriptet under. Denne lyden skal skje rett før raketten skytes opp i lufta. <br>
+Neste skritt er å %(instruksjon)fjerne raketten fra scenen% når den treffer punktet som musepekeren har markert. Utvid skriptet ditt slik: 
+
+!(systemutsnitt). bilde07.png!
+
+
+(avhuking)#  I tillegg skal raketten sende en melding når den eksploderer. Vi skal lytte etter denne senere, men nå nøyer vi oss med å legge til en %(styring)send melding 'eksploder'%-blokk:
+
+!(systemutsnitt). bilde08.png!
+
+
+Test prosjektet
+
+
+
+• Plasser musepekeren et eller annet sted på scenen, og klikk.
+
+
+
+• Lager raketten lyd når den flyr opp mot musepekeren?
+
+
+
+• Forsvinner raketten når den har kommet opp til musepekeren?
+
+
+
+Lagre prosjektet
+
+
+
+2. Legg til en ny figur, 'Ressurser/firework1'.
+
+
+
+3. Når denne figuren får meldingen 'eksploder' skal den ikke være synlig, flyttes til samme 
+
+
+
+posisjon som raketten, bli synlig i noen sekunder for så å forsvinne igjen:
+
+
+
+Test prosjektet
+
+
+
+• Plasser musepekeren et eller annet sted på scenen, og klikk.
+
+
+
+• Forsvinner raketten slik den skal når fyrverkeriet vises?
+
+
+
+• Hva skjer dersom du holder museknappen nede mens du beveger musa? (Dette skal vi 
+
+
+
+fikse senere.)
+
+
+
+Lagre prosjektet
+
+
+
+Steg 3: Lage hver eksplosjon unik
+
+
+
+1. Vi kan lage hver eksplosjon unik ved at fargen endres fra gang til gang:
+
+
+
+Test prosjektet
+
+
+
+• Har hver eksplosjon en annen farge enn den forrige?
+
+
+
+Lagre prosjektet
+
+
+
+2. Ulike eksplosjoner.
+
+
+
+3. Til slutt skal vi få fyrverkeriet til å oppføre seg litt mer som det gjør i virkeligheten, ved at det 
+
+
+
+er lite når det først kommer til syne, og så blir større over tid:
+
+
+
+Test prosjektet
+
+
+
+• Vokser fyrverkeriet langsomt ut fra det punktet hvor raketten forsvinner?
+
+
+
+Lagre prosjektet
+
+
+
+Ting å prøve ut:
+
+
+
+• Lage hver eksplosjon enda mer forskjellig ved at de vokser med ulike hastigheter, og til 
+
+
+
+ulike størrelser.
+
+
+
+Lagre prosjektet.
+
+
+
+Steg 4: Fikse bug
+
+
+
+I steg 2 prøvde vi å holde museknappen nede mens vi bevegde musa, noe som førte til at 
+
+
+
+fyrverkeriet ikke oppførte seg slik vi vil. Dette skjer fordi når raketten sender meldingen 'eksploder', 
+
+
+
+starter den umiddelbart på nytt og sender en ny 'eksploder'-melding før den forrige er ferdig.
+
+
+
+1. For å fikse dette kan vi bytte 'send melding' med 'send melding eksploder og vent':
+
+
+
+Test prosjektet
+
+
+
+• Kommer eksplosjonen og fyrverkeriet på riktig sted og til riktig tid?
+
+
+
+Lagre prosjektet
