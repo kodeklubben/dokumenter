@@ -133,13 +133,14 @@ div.scratch span.instruksjon {
   font-weight: bold;
 }
 
-div.scratch span.systemvalg {
-  text-decoration: underline;
-}
 /* MON: Brukes for de konkrete beskrivelsene av hva som skal gjøres i Scratch. F.eks. "
 Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)woods%, som ligger i %(systemvalg)Nature% -mappen.
 
-Merk: Gjengivelse av kodeblokker gjøres med egne elementer */
+Merk: Gjengivelse av kodeblokker gjøres med egne elementer (se span.styring, span.bevegelse, etc)*/
+
+div.scratch span.systemvalg {
+  text-decoration: underline;
+}
 
 div.scratch span.styring {
   font-weight: bold;
@@ -202,6 +203,11 @@ div.scratch li {
   margin-bottom: 2px;
 }
 
+div.scratch .avhuking li:after
+{
+  float: right;
+  content: url('../images/sjekkrute.png');
+}
 
 div.scratch h2 {
   font-style: bold;
@@ -232,18 +238,6 @@ div.scratch h4 {
   color: darkgrey;
   font-style: italic;
 } */
-
-/* MON: Usikker på hva denne er ment til. Vet heller ikke hvordan man koder i textile for å bruke den*/
-div.scratch h4 + ul {
-  color: darkgrey;
-  font-style: italic;
-}
-
-/* MON: Litt usikker på hva denne er ment til */
-div.scratch p.define {
-  font-family: monospace;
-}
-
 
 
 /* MON: De følgende tre elementene (tab, knapp og palett)er erstattet av elementet span.systemvalg */
@@ -293,8 +287,5 @@ h1(nivaa1)(nivaa2) og (nivaa3) - Hovedoverskriften for dokumentet er i originalv
 h4(utfordring) - I veiledningene er de siste "kapitlene" listet under overskriftene "Utfordring". Disse kan enten ha eget design (som i originalen) eller så kan de se likedan ut som h4(steg) - men da må vi legge inn "En ekstra utfordring:" i starten av overskriften.
 
 TABELLER
-Jeg har lagt inn masse innhold i tabeller, selv om dette sikkert er fyfy. Det er gjort fordi  mesteparten av innholdet består av innhold som layoutmessig bør ligge i tre kolonner. I første kolonne et nummer, i andre tekst og bildeinstruksjoner og i den siste en sjekkrute som kan hukes av. Dette kan kanskje ordnes med et fancy ol-element isteden? Jeg oppdaterer gjerne textile-koden hvis dette kan fikses.    
-!! Oppdaterie kommentarer rundt dette i CSS-tråden på G+
-For enkelhets skyld har jeg ikke klassifisert disse tabellene med noe eget elementnavn. Men tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre) har er merket table(oversikt).
-
+table(oversikt) - Tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre).
 */
