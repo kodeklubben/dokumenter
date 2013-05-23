@@ -124,6 +124,7 @@ table td
 }
 
 div.scratch .sjekkliste {
+line-height:100px;
   background-image: url(../images/sjekkliste-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -131,9 +132,11 @@ div.scratch .sjekkliste {
   font-weight: bold;
   font-size: 1.5em;
   color: #ECA320;
+
 }
 
 div.scratch .test {
+line-height:100px;
   background-image: url(../images/test-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -144,6 +147,7 @@ div.scratch .test {
 }
 
 div.scratch .lagre {
+	line-height:100px;
   background-image: url(../images/lagre-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -155,7 +159,8 @@ div.scratch .lagre {
 
 
 div.scratch .prove {
-/*  background-image: url(../images/lagre-symbol.png);*/
+	line-height:100px;
+  background-image: url(../images/prove-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
   padding-left: 60px;
