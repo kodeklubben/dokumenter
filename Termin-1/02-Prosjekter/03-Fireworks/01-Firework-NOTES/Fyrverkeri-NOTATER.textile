@@ -12,7 +12,7 @@ p. Oppgaven omhandler:<br>
 * Respons ved klikk
 * Endring av fyrverkeriets utseende
 * Avspilling av lyd
-* Sending og mottak av hendelser(events) 
+* Sending og mottak av hendelser
 
 h3. Ressurser
 
