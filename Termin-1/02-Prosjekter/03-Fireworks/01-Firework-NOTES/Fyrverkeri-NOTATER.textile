@@ -20,8 +20,8 @@ p. Prosjektet benytter ressurser fra bakgrunnsfolderne til Scratch, samt fra res
 
 h3. Scratch-kort involvert
 
-* Endre farge
-* Glidende overgang
+* Change Color  
+* Glide
 
 h3. Grunnleggende øvelser
 
