@@ -27,7 +27,7 @@ Klikk på Variabler-knappen og deretter %(systemvalg)Lag en ny variabel% og kall
 På scenen skal variabelen hete %(systemvalg)Figur1: hastighet%. Hvis den bare heter _hastighet_ så slett den og legg den til en gang til.  
 %(systemvalg)Fjern avhukingen% ved siden av variabelen, slik at den ikke blir med på scenen.
 !(systemvalg). hastighet.png!
-#Vi vil at %(instruksjon)heksa skal bevege seg% når spillet starter. Det gjør vi ved å lage følgende skript:
+# Vi vil at %(instruksjon)heksa skal bevege seg% når spillet starter. Det gjør vi ved å lage følgende skript:
 !(skript). skript-1a.png!
 
 %(test)Test prosjektet%
@@ -103,7 +103,7 @@ Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sek
 
 p(utro). Bra jobba! Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
-h4(utfordring). Flere hekser! 
+h4(steg). En ekstra utfordring: Flere hekser! 
 
 %(sjekkliste)Sjekkliste%
 
