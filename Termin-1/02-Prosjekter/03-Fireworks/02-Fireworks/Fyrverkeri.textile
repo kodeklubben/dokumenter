@@ -71,7 +71,7 @@ p(intro). La oss først %(instruksjon)importere noen bilder% til spillet.
 %(lagre)Lagre prosjektet%
 
 
-h4(steg) Steg 2: Få raketten til å eksplodere
+h4(steg). Steg 2: Få raketten til å eksplodere
 
 %(sjekkliste)Sjekkliste%
 
@@ -82,153 +82,90 @@ Neste skritt er å %(instruksjon)fjerne raketten fra scenen% når den treffer pu
 !(systemutsnitt). bilde07.png!
 
 
-(avhuking)#  I tillegg skal raketten sende en melding når den eksploderer. Vi skal lytte etter denne senere, men nå nøyer vi oss med å legge til en %(styring)send melding 'eksploder'%-blokk:
+(avhuking)#2  I tillegg skal raketten sende en melding når den eksploderer. Vi skal lytte etter denne senere, men nå nøyer vi oss med å legge til en %(styring)send melding 'eksploder'%-blokk:
 
 !(systemutsnitt). bilde08.png!
 
 
-Test prosjektet
+%(test)Test prosjektet%
 
+(avhuking)#3 Plasser musepekeren et eller annet sted på scenen, og klikk. Lager raketten lyd når den flyr opp mot musepekeren? Forsvinner raketten når den har kommet opp til musepekeren? Da er alt riktig!
 
 
-• Plasser musepekeren et eller annet sted på scenen, og klikk.
+%(lagre)Lagre prosjektet%
 
 
+%(sjekkliste)Sjekkliste%
 
-• Lager raketten lyd når den flyr opp mot musepekeren?
+(avhuking)#4 Legg til en ny figur, 'Resources/firework1'.
+# Når denne figuren får meldingen 'eksploder' skal den ikke være synlig, flyttes til samme posisjon som raketten, bli synlig i noen sekunder for så å forsvinne igjen:
 
+!(systemutsnitt). bilde09.png!
 
 
-• Forsvinner raketten når den har kommet opp til musepekeren?
+%(test)Test prosjektet%
 
+(avhuking)#6 Plasser musepekeren et eller annet sted på scenen, og klikk. Forsvinner raketten slik den skal når fyrverkeriet vises?
+Hva skjer dersom du holder museknappen nede mens du beveger musa? (Dette skal vi fikse senere.)
 
 
-Lagre prosjektet
+%(lagre)Lagre prosjektet%
 
 
+h4(steg). Steg 3: Lage hver eksplosjon unik
 
-2. Legg til en ny figur, 'Ressurser/firework1'.
 
+%(sjekkliste)Sjekkliste%
 
+(avhuking)# Vi kan gjøre hver eksplosjon unik ved å %(instruksjon)endre fargen% fra gang til gang:
 
-3. Når denne figuren får meldingen 'eksploder' skal den ikke være synlig, flyttes til samme 
+!(systemutsnitt). bilde10.png!
 
+%(test)Test prosjektet%
 
+(avhuking)#2 Har hver eksplosjon en annen farge enn den forrige?
 
-posisjon som raketten, bli synlig i noen sekunder for så å forsvinne igjen:
 
+%(lagre)Lagre prosjektet%
 
 
-Test prosjektet
+%(sjekkliste)Sjekkliste%
 
+(avhuking)#3 La oss legge til flere rakettyper ved å veksle mellom forskjellige %(systemvalg)drakter%. Bruk %(systemvalg)firework2.png% og %(systemvalg)firework2.png% fra %(systemvalg)Resources%.
+# Til slutt skal vi få fyrverkeriet til å oppføre seg litt mer som det gjør i virkeligheten, ved at det er lite når det først kommer til syne, og så blir større over tid:
 
+!(systemutsnitt). bilde11.png!
 
-• Plasser musepekeren et eller annet sted på scenen, og klikk.
+%(test)Test prosjektet%
 
+(avhuking)#4 Vokser fyrverkeriet langsomt ut fra det punktet hvor raketten forsvinner?
 
+%(lagre)Lagre prosjektet%
 
-• Forsvinner raketten slik den skal når fyrverkeriet vises?
 
+%(prove)Ting å prøve ut%
 
+(avhuking)#5 Lage hver eksplosjon enda mer forskjellig ved at de vokser med ulike hastigheter, og til ulike størrelser.
 
-• Hva skjer dersom du holder museknappen nede mens du beveger musa? (Dette skal vi 
 
+%(lagre)Lagre prosjektet%
 
 
-fikse senere.)
+h4(steg). Steg 4: Fikse bugs
 
 
 
-Lagre prosjektet
+p(intro) I steg 2 prøvde vi å holde museknappen nede mens vi bevegde musa, noe som førte til at fyrverkeriet ikke oppførte seg slik vi vil. Dette skjer fordi når raketten sender meldingen 'eksploder', starter den umiddelbart på nytt og sender en ny 'eksploder'-melding før den forrige er ferdig.
 
+%(sjekkliste)Sjekkliste%
 
+(avhuking)# For å fikse dette kan vi bytte %(styring)send melding% med %(styring)send melding eksploder og vent%:
 
-Steg 3: Lage hver eksplosjon unik
+!(systemutsnitt). bilde12.png!
 
+%(test)Test prosjektet%
 
+(avhuking)#2 Kommer eksplosjonen og fyrverkeriet på riktig sted og til riktig tid?
 
-1. Vi kan lage hver eksplosjon unik ved at fargen endres fra gang til gang:
 
-
-
-Test prosjektet
-
-
-
-• Har hver eksplosjon en annen farge enn den forrige?
-
-
-
-Lagre prosjektet
-
-
-
-2. Ulike eksplosjoner.
-
-
-
-3. Til slutt skal vi få fyrverkeriet til å oppføre seg litt mer som det gjør i virkeligheten, ved at det 
-
-
-
-er lite når det først kommer til syne, og så blir større over tid:
-
-
-
-Test prosjektet
-
-
-
-• Vokser fyrverkeriet langsomt ut fra det punktet hvor raketten forsvinner?
-
-
-
-Lagre prosjektet
-
-
-
-Ting å prøve ut:
-
-
-
-• Lage hver eksplosjon enda mer forskjellig ved at de vokser med ulike hastigheter, og til 
-
-
-
-ulike størrelser.
-
-
-
-Lagre prosjektet.
-
-
-
-Steg 4: Fikse bug
-
-
-
-I steg 2 prøvde vi å holde museknappen nede mens vi bevegde musa, noe som førte til at 
-
-
-
-fyrverkeriet ikke oppførte seg slik vi vil. Dette skjer fordi når raketten sender meldingen 'eksploder', 
-
-
-
-starter den umiddelbart på nytt og sender en ny 'eksploder'-melding før den forrige er ferdig.
-
-
-
-1. For å fikse dette kan vi bytte 'send melding' med 'send melding eksploder og vent':
-
-
-
-Test prosjektet
-
-
-
-• Kommer eksplosjonen og fyrverkeriet på riktig sted og til riktig tid?
-
-
-
-Lagre prosjektet
+%(lagre)Lagre prosjektet%

@@ -18,10 +18,14 @@ TABELLER
 table(oversikt) - Tabellen i toppen av veiledningsdokumentene (den som viser en oversikt over Sjekkliste, Test og Lagre).
 */
 
+ body { margin: 80px; width: 700px;}
+
 
 body div.scratch {
   font-family: sans-serif;
 }
+
+
 
 div.scratch h1.nivaa1
 {
@@ -147,6 +151,17 @@ div.scratch .lagre {
   font-weight: bold;
   font-size: 1.5em;
   color: #235A99;;
+}
+
+
+div.scratch .prove {
+/*  background-image: url(../images/lagre-symbol.png);*/
+  background-repeat: no-repeat;
+  padding: 10px;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #grey;;
 }
 
 /* MON: Brukes for de abstrakte beskrivelsene av hva som skal gjøres. F.eks. "Legg til flere figurer" */
