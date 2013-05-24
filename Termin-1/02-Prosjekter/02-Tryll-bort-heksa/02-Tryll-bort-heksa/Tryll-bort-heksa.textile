@@ -61,7 +61,7 @@ p(intro). For å gjøre spillet mer gøy vil vi %(instruksjon)få heksa til å d
 
 (avhuking)#3 Prøv å endre tallene i koden der det står: %(operator)tilfeldig tall fra% &nbsp;    %(operator)til% &nbsp; %(variabel)sekunder%. Hva skjer hvis du velger veldig store eller små tall? Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.
 
-h4(steg). 3: Tryll bort heksa med et klikk!
+h4(steg). Steg 3: Tryll bort heksa med et klikk!
 
 p(intro). For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre - for eksempel %(instruksjon)klikke på heksa for å få henne til å forsvinne%. Når hun forsvinner vil vi også at det skal komme %(instruksjon)en stilig tryllelyd%.
 
@@ -103,9 +103,7 @@ Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sek
 
 p(utro). Bra jobba! Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
-h4(steg). En ekstra utfordring: Flere hekser! 
-
-%(sjekkliste)Sjekkliste%
+h4(utfordring). En ekstra utfordring: Flere hekser!
 
 (avhuking)# Hvis én heks er bra, må vel flere være bedre! La oss ha 3 hekser flyvende rundt! %(instruksjon)Lag flere hekser% ved å %(systemvalg)høyreklikke% på den du allerede har, og så %(systemvalg)kopiere% denne:<br>!(systemutsnitt). lag-kopi.png!
 # %(instruksjon)La heksene få ulik størrelse%. Dette gjør du ved først å klikke på %(systemvalg)Drakter% og deretter %(systemvalg)Rediger%. Velg så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:!(systemdetalj). endre-storrelse.png!

@@ -95,10 +95,9 @@ Brukes som andre overskrift i notatene ref "NOTATER FOR KLUBBLEDERE"
 h3. = Overskrift liten
 Brukes som andre overskrift i veiledningene ("Introduksjon") og gjennomgangen ("Komme i gang med Scratch" + "Rettledning til frivillige")
 
-h4(steg). = Overskrift spesial
-Brukes som overskrifter over avsnittene i Notater
+h4(steg). = Steg-overskrift til veiledningene
 
-h4(Utfordring). = Overskrift spesial
+h4(utfordring). = En ekstra-utfordring-overskrift til veiledningene
 
 %(sjekkliste)Sjekkliste% - Slik skrives overskriften for Sjekkliste. Det gule hakesymbolet kommer automagisk inn foran.
 

@@ -41,7 +41,7 @@ div.scratch h1.nivaa1:before
 {
   content: "Nivå 1";
   float: left;
-  background-color: #4CAF53;
+  background-color: #19A347;
   color: white;
   margin-top: -2em;
   margin-left: 1em;
@@ -61,7 +61,7 @@ div.scratch h1.nivaa2:before
 {
   content: "Nivå 2";
   float: left;
-  background-color: #4CAF53;
+  background-color: #19A347;
   color: white;
   margin-top: -2em;
   margin-left: 1em;
@@ -81,7 +81,7 @@ div.scratch h1.nivaa3:before
 {
   content: "Nivå 3";
   float: left;
-  background-color: #4CAF53;
+  background-color: #19A347;
   color: white;
   margin-top: -2em;
   margin-left: 1em;
@@ -168,6 +168,8 @@ div.scratch .prove {
   font-size: 1.5em;
   color: #grey;;
 }
+
+
 
 /* MON: Brukes for de abstrakte beskrivelsene av hva som skal gjøres. F.eks. "Legg til flere figurer" */
 div.scratch span.instruksjon {
@@ -262,7 +264,8 @@ div.scratch h3 {
 
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
 div.scratch .steg {
-  background-color: #329738;
+  /*line-height:100px;*/
+  background-color: #19A347;
   color: white;
   font-size: 1.5em;
   padding: 10px;
@@ -270,6 +273,26 @@ div.scratch .steg {
   -moz-border-radius: 5px; 
   -webkit-border-radius: 5px; 
 }
+
+
+div.scratch .utfordring {
+  background-color: #19A347;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  
+ background-image: url(../images/utfordring-symbol.png);
+  background-repeat: no-repeat;
+  padding-right: 20px;
+    padding-left: 55px;
+  /*font-weight: bold;*/
+    
+  
+}
+
 
 
 
