@@ -37,6 +37,28 @@ div.scratch h1.nivaa1
   padding-top: 0.8em;
 }
 
+
+div.scratch h1.nivaa2
+{
+  background-color: #BBE6FB;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  height: 2.2em;
+  padding-top: 0.8em;
+}
+
+
+div.scratch h1.nivaa3
+{
+  background-color: #BBE6FB;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  height: 2.2em;
+  padding-top: 0.8em;
+}
+
 div.scratch h1.nivaa1:before
 {
   content: "Nivå 1";
@@ -183,6 +205,7 @@ Merk: Gjengivelse av kodeblokker gjøres med egne elementer (se span.styring, sp
 
 div.scratch span.systemvalg {
   text-decoration: underline;
+    font-weight: bold;
 }
 
 div.scratch span.styring {
@@ -240,6 +263,7 @@ div.scratch span.variabel {
   background-color: #FF7200;
   padding: 2px;
 }
+
 
 div.scratch li {
   padding: 2px;

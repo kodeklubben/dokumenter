@@ -1,4 +1,4 @@
-h1(nivaa1). Nivå 1: Tryll bort heksa
+h1(nivaa1). Tryll bort heksa
 
 h2. Introduksjon
 
@@ -108,18 +108,19 @@ h4(utfordring). En ekstra utfordring: Flere hekser!
 (avhuking)# Hvis én heks er bra, må vel flere være bedre! La oss ha 3 hekser flyvende rundt! %(instruksjon)Lag flere hekser% ved å %(systemvalg)høyreklikke% på den du allerede har, og så %(systemvalg)kopiere% denne:<br>!(systemutsnitt). lag-kopi.png!
 # %(instruksjon)La heksene få ulik størrelse%. Dette gjør du ved først å klikke på %(systemvalg)Drakter% og deretter %(systemvalg)Rediger%. Velg så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:!(systemdetalj). endre-storrelse.png!
 # Du kan også %(instruksjon)endre heksenes flyvefart%. Dette gjøres i  %(variabel)hastighet% -variabelen i %(systemvalg)det øverste skriptet% for hver enkelt figur.
+# For at nedtellingen skal gå i riktig tempo må det nederste skriptet som teller ned sekunder slettes fra to av figurene.
 # Til slutt kan du %(instruksjon)spre heksene% litt bedre ut på scenen. Dette gjør du ved å %(systemvalg)klikke og dra figurene% rundt i selve skjermbildet.
 
 %(test)Test prosjektet%
 
-(avhuking)#5 Klikk på det grønne flagget. Har du nå tre hekser som: <br>1. flyr fra side til side?<br>2. plutselig forsvinner og dukker opp igjen?<br>3. forsvinner når du klikker på dem?
+(avhuking)#6 Klikk på det grønne flagget. Har du nå tre hekser som: <br>1. flyr fra side til side?<br>2. plutselig forsvinner og dukker opp igjen?<br>3. forsvinner når du klikker på dem?
 Gratulerer! Da har du gjort alt riktig!
 
 %(lagre)Lagre prosjektet%
 
 %(prove)Ting du kan prøve%
 
-(avhuking)#6 Hvor mange hekser synes du spillet fungerer best med? 
+(avhuking)#7 Hvor mange hekser synes du spillet fungerer best med? 
 # Klarer du å få heksene til å se forskjellige ut? Klikk på %(systemvalg)Drakter% og prøv deg frem. Du kan også velge noen av blokkene under %(systemvalg)Utseende%.
 # Kan du få heksene til å bli verdt forskjellige poenger? Hva med å få den minste og raskeste til å gi 10 poeng?
 

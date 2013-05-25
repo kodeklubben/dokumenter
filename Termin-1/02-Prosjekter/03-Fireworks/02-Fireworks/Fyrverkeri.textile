@@ -1,4 +1,4 @@
-h1(nivaa1). 
+h1(nivaa1). Fyrverkeri
 
 h2. Introduksjon
 
