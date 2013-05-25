@@ -12,7 +12,7 @@ h3. Ferdigheter
 * Lagring og setting av poengsum
 
 h3. Ressurser
-* Prosjektet bruker ressurser fra Bakgrunner og Drakter.
+p. Prosjektet benytter ressurser fra drakter- og bakgrunnsfolderne til Scratch.
 
 h3. Nødvendige Scratch-kort
 * Keep score

@@ -2,7 +2,7 @@ h1(nivaa1). Hva er det?
 
 h2. Introduksjon
 
-p(intro). Et bilde av et tilfeldig ting vises på tavla. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på en av tingene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
+p(intro). Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
 
 
 !(skjermbilde). skjermbilde.png!
@@ -13,16 +13,16 @@ table(oversikt).
 | %(test)Test%| Klikk på det grønne flagget for å teste koden.|
 | %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
 
-h4(steg). Steg 1: Få flere ting til å vise seg på tavla
+h4(steg). Steg 1: Få flere ting til å vise seg på tavlen
 
-p(intro). Vi vil at noen forskjellige bilder skal komme opp på tavla.
+p(intro). Vi vil at noen forskjellige bilder skal komme opp på tavlen.
 
 %(sjekkliste)Sjekkliste%
 
 (avhuking)# %(systemvalg)Start et nytt Scratch-prosjekt% og %(systemvalg)slett kattefiguren%.
 # Klikk på %(systemvalg)Stage% og deretter på %(systemvalg)Bakgrunner%-fanen. %(systemvalg)Importer Indoors/chalkboard%-bakgrunnen.
 # %(instruksjon)Importer en valgfri figur%.
-# %(instruksjon)Plasser den i midten av tavla%, og endre størrelsen hvis ikke den passer.!(systemdetalj). endre-storrelse.png!
+# %(instruksjon)Plasser den i midten av tavlen%, og endre størrelsen hvis ikke den passer.!(systemdetalj). endre-storrelse.png!
 # %(instruksjon)Legg til fire nye drakter% fra %(systemvalg)Things%-mappen.
 
 !(systemutsnitt). drakter.png!
@@ -41,7 +41,7 @@ h4(steg). Steg 2: Forvreng bildet
 
 %(sjekkliste)Sjekkliste%
 
-p(intro). La oss nå forvrenge figuren når den dukker opp på tavla, så det blir vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den tydeligere igjen.
+p(intro). La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den tydeligere igjen.
 
 p(intro). Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Når antallet poeng synker, vil også graden av forvrenging synke. Poengvariabelen fungerer dermed som en tidteller.
 
@@ -57,7 +57,7 @@ Kommer det opp et tilfeldig og forvrengt bilde?<br>
 Blir bildet gradvis tydeligere?<br>
 Går poengsummen ned i takt med at bildet blir tydeligere?<br>
 Blir bildet fullstendig tydelig når poengsummen er 0?
-Får du fremdeles nye ting på tavla når du klikker på det grønne flagget?
+Får du fremdeles nye ting på tavlen når du klikker på det grønne flagget?
 
 %(lagre)Lagre prosjektet%
 
