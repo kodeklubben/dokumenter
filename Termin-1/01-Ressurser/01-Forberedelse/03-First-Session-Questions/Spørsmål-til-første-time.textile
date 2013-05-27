@@ -7,10 +7,10 @@ p. Vi har utarbeidet en kort spørsmålsliste som du bør gå gjennom den først
 h3. Opp med hendene!
 # Tell barna
 # Hvor mange er gutter/jenter?
-# Hvor mane har PC hjemme?
+# Hvor mange har datamaskin hjemme?
 # Hvor mange har Internett-tilgang hjemme (smarttelefoner og nettbrett inkludert)?
 # Hvor mange har programmert før?
 # Hvor mange har brukt Scratch før?
 
-p. Dersom kurset kjøres i skolesammenheng kan du også spørre klasseforstanderen hvor mange som generelt yter lavt, middels og høyt.  
+p. Dersom kurset kjøres i skolesammenheng kan du også spørre lærer hvor mange som generelt yter på lavt, middels og høyt nivå.  
 
