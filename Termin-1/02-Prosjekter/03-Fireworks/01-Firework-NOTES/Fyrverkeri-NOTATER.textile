@@ -7,8 +7,6 @@ h3. Introduksjon
 p. Dette interaktive leketøyet viser hvordan fyrverkeri går av og smeller på alle stedene man klikker på himmelen.
 
 h3. Ferdigheter
-
-p. Oppgaven omhandler:<br>
 * Respons ved klikk
 * Endring av fyrverkeriets utseende
 * Avspilling av lyd
