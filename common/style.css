@@ -1,18 +1,4 @@
-/* MON: ELEMENTER SOM MANGLER
 
-BILDER: (merket slik i textile: !(elementnavn)bildeurl!)
-skjermbilde - i originalversjonen hadde denne avrunda hjørner og gul ramme.
-img.
-systemdetalj - disse bildene er så små at de kanskje kan vises på samme linje som teksten.
-systemutsnitt - disse er såpass store at de bør ha linjeskift først. I originalversjonen har de avrunda hjørner og gul ramme.
-sjekkrute - bare aktuell for sjekkrutene hvor man skal huke av underveis. Denne kan kanskje legges inn på en slik måte at man slipper å oppgi bilde-URL-en hele tida?
-
-
-TEKST
-p.intro - introduksjonnssnuttene (brukt bl.a. etter hvert steg i veiledningene).  
-p.utro - avslutningskommentarer.
-
-*/
 
  body { margin: 80px; width: 700px;}
 
@@ -26,7 +12,7 @@ div.scratch img.topp-logo {   display: block;   margin-left: auto;   margin-righ
 
 div.scratch h1.nivaa1
 {
-  background-color: #BBE6FB;
+  background-color: #A9DAF9;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -37,7 +23,7 @@ div.scratch h1.nivaa1
 
 div.scratch h1.nivaa2
 {
-  background-color: #BBE6FB;
+  background-color: #A9DAF9;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -48,7 +34,7 @@ div.scratch h1.nivaa2
 
 div.scratch h1.nivaa3
 {
-  background-color: #BBE6FB;
+  background-color: #A9DAF9;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -126,6 +112,7 @@ div.scratch h1.nivaa3:before
   height: 0;
 }
 
+/*MON: hvordan i all verden kan man få venstrejustert denne? float funker ikke*/
 table.oversikt
 {
   margin: 1em auto;
@@ -134,12 +121,22 @@ table.oversikt
   padding: 1em;
   border-radius: 5px; 
   -moz-border-radius: 5px; 
-  -webkit-border-radius: 5px; 
+  -webkit-border-radius: 5px;
 }
 
 table td
 {
-  padding: 1em;
+  padding: 0em;
+}
+
+/*Til innledningstekstene på veiledningene*/
+p.intro {
+	font-weight: bold;
+}
+
+/*Til avslutningskommentarene på veiledningene.*/
+p.utro {
+	font-weight: bold;
 }
 
 div.scratch .sjekkliste {
@@ -189,73 +186,63 @@ div.scratch .prove {
 }
 
 
-
-/* MON: Brukes for de abstrakte beskrivelsene av hva som skal gjøres. F.eks. "Legg til flere figurer" */
-div.scratch span.instruksjon {
-  font-weight: bold;
-}
-
-/* MON: Brukes for de konkrete beskrivelsene av hva som skal gjøres i Scratch. F.eks. "
-Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)woods%, som ligger i %(systemvalg)Nature% -mappen.
+/* MON: Brukes alle referanser til ting som skal klikkes på i Scratch. F.eks. "
+Riktig bakgrunn får du ved å velge %(klikk)Scene%, trykke på %(klikk)Bakgrunner% og deretter %(klikk)Importere% bakgrunnen %(klikk)woods%, som ligger i %(klikk)Nature% -mappen.
 
 Merk: Gjengivelse av kodeblokker gjøres med egne elementer (se span.styring, span.bevegelse, etc)*/
 
-div.scratch span.systemvalg {
-  text-decoration: underline;
-    font-weight: bold;
+div.scratch span.klikk {
+  font-weight: normal;
+  color: white;
+  background-color: #989898;
+  padding: 2px;
+/*  text-decoration: underline;*/
 }
 
+/*MON: De følgende åtte klassene er til gjengivelse av de ulike kodeblokkene i Scratch. Det hadde vært fint om det kunne legges inn at disse ikke skal avbrytes av linjeskift, hvis det går an. Et annet problem er at   */
 div.scratch span.styring {
-  font-weight: bold;
   color: white;
   background-color: #F9A600;
   padding: 2px;
 }
 
 div.scratch span.bevegelse {
-  font-weight: bold;
   color: white;
   background-color: #2973D7;
   padding: 2px;
 }
 
 div.scratch span.lyd {
-  font-weight: bold;
   color: white;
   background-color: #E950D8;
   padding: 2px;
 }
 
 div.scratch span.penn {
-  font-weight: bold;
   color: white;
   background-color: #00A37A;
   padding: 2px;
 }
 
 div.scratch span.utseende {
-  font-weight: bold;
   color: white;
   background-color: #9b5FE6;
   padding: 2px;
 }
 
 div.scratch span.sansning {
-  font-weight: bold;
   color: white;
   background-color: #009ADF;
   padding: 2px;
 }
 
 div.scratch span.operator {
-  font-weight: bold;
   color: white;
   background-color: #00C200;
   padding: 2px;
 }
 
 div.scratch span.variabel {
-  font-weight: bold;
   color: white;
   background-color: #FF7200;
   padding: 2px;
@@ -267,7 +254,8 @@ div.scratch li {
   margin-bottom: 2px;
 }
 
-div.scratch .avhuking li:after
+/*MON: for lister med avhukingsbokser. Et problem som må løses er at rutene ikke legger seg likt fra punkt til punkt (de blir dyttet rundt av teksten, virker det som) */
+div.scratch .x li:after
 {
   float: right;
   content: url('../images/sjekkrute.png');
@@ -277,7 +265,7 @@ div.scratch h2 {
   font-style: bold;
 }
 
-/*denne skal være litt mindre enn h2*/
+/*MON: denne skal være litt mindre enn h2*/
 div.scratch h3 {
   font-style: bold;
 }
@@ -319,7 +307,7 @@ div.scratch h4 {
 } */
 
 
-/* MON: De følgende tre elementene (tab, knapp og palett)er erstattet av elementet span.systemvalg */
+/* MON: De følgende tre elementene (tab, knapp og palett)er erstattet av elementet span.klikk */
 div.scratch span.tab {
   font-weight: bold;
   color: #4D5353;
@@ -341,11 +329,31 @@ div.scratch span.palett {
 }
 
 div.scratch img.skript {
-  display: block;
-  margin: 1em auto;
-  padding: 2em;
+margin: 1em auto;
+  padding: 1em;
   border: solid 1px #ccc;
   background-color: #eee;
 }
 
 
+/*MON: i originalversjonen hadde disse bildene avrunda hjørner og gul ramme.*/
+div.scratch img.skjermbilde {
+  margin: 1em auto;
+  padding: 1em;
+  border: solid 1px #ccc;
+  background-color: #eee;
+}
+
+/*MON: disse bildene er såpass store at de bør ha linjeskift først. I originalversjonen har de avrunda hjørner og gul ramme.*/
+
+div.scratch img.systemutsnitt {
+  margin: 1em auto;
+  padding: 1em;
+  border: solid 1px #ccc;
+  background-color: #eee;
+}
+
+/*MON: disse bildene er så små at de kanskje kan vises på samme linje som teksten, men når man bruker float: right kommer det i konflikt med avhukingsrutene*/
+div.scratch img.systemdetalj {
+
+}

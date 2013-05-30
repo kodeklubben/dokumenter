@@ -1,165 +1,198 @@
-h5. Nivå 2
+h1(nivaa2). JafseFisk
 
-h1. JafseFisk
+h2. Introduksjon
 
-h2. Introduksjon:
+p(intro). Vi skal lage et JafseFisk-spill! MÃ¥let i spillet er Ã¥ hjelpe JafseFisk med Ã¥ spise alle byttedyrene som svÃ¸mmer rundt i havet.
 
-Vi skal lage et JafseFisk-spill! Hjelp Sultne Fisk å prøve å spise alle byttedyrene som svømmer i havet.
-!images/JafseFisk1.png!
-
-%(checklist)Sjekkliste% - følg instruksjonene en etter en
+!(skjermbilde). JafseFisk1.png!
 
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet% - klikk på det grønne flagget for å teste koden din
+table(oversikt).
+| %(sjekkliste)Sjekkliste%| FÃ¸lg instruksjonene pÃ¥ lista. Huk av etter hvert.|
+| %(test)Test%| Klikk pÃ¥ det grÃ¸nne flagget for Ã¥ teste koden.|
+| %(lagre)Lagre%| Husk Ã¥ lagre koden nÃ¥r du har lagt til noe nytt.|
+
+h4(steg). JafseFisk fÃ¸lger musepekeren
+
+p(intro). FÃ¸rst skal vi lage JafseFisk som svÃ¸mmer rundt i havet.
+
+%(sjekkliste)Sjekkliste%
+
+(x)# *Start et nytt Scratch prosjekt*.
+# *Riktig bakgrunn* fÃ¥r du ved Ã¥ velge %(klikk)Scene% og %(klikk)bakgrunn%. SÃ¥ %(klikk)importerer% du bakgrunnen %(klikk)underwater% fra mappen %(klikk)Nature%. Slett _background1_.
+# *Endre figur1s navn* til _JafseFisk_.
+# *Gi figuren en fiskedrakt* ved Ã¥ %(klikk)importere% %(klikk)fish1-b% fra mappen %(klikk)Animals%. Gi denne navnet _Ã¥pen munn_. Deretter fjerner du _drakt1_ og _drakt2_ som lÃ¥ der fra fÃ¸r.
+# *Figuren skal bare bevege seg fra side til side*. Det fikser du ved Ã¥ klikke pÃ¥ sideveisknappen som ser slik ut: !(systemdetalj). kun-mot-venstre-eller-hoyre.png! 
+# *FÃ¥ fisken til Ã¥ fÃ¸lge musepekeren* rundt i sjÃ¸en ved Ã¥ lage dette skriptet:
+
+!(systemutsnitt). Steg1_fig1.png!
+
+%(test)Test prosjektet%
+
+(x)#7 *Flytt musepekeren rundt i sjÃ¸en*. FÃ¸lger fisken med?<br>
+Hva skjer hvis du ikke flytter musepekeren, og fisken nÃ¥r den igjen?<br>
+Hvordan ser den ut? Hvorfor gjÃ¸r den dette?
+
+(x)#8 *Du kan stoppe JafseFisks maniske flipping* hvis du sÃ¸rger for at den bare flytter seg nÃ¥r den ikke er for nÃ¦r musepekeren ( %(sansning)avstand til%-blokken ligger under %(sansning)Sansning%-paletten).
+
+!(systemutsnitt)Steg1_fig3.png!
+
+%(test)Test prosjektet%
+
+%(lagre)Lagre prosjektet%. 
+
+%(prove)Ting Ã¥ prÃ¸ve%
+
+(x)#9 Hvis du vil kan du *forandre tallene i skriptet*, og se hvordan det forandrer bevegelsene:?<br>
+Sett avstandensgrensen til et stort tall (f.eks. 100), eller et lite tall (f.eks. 1).<br>
+Sett antall steg fisken flytter seg til et stort tall (f.eks. 20) eller et lite tall (f.eks. 1, eller 0).
 
 
-%(save)Lagre prosjektet% - klikk på denne for å lagre koden din !images/lagresymbol.png!
+h4(steg). Steg 2: Legg til byttedyr
+
+p(intro). Det er pÃ¥ tide Ã¥ gi JafseFisk noe Ã¥ spise!
+
+%(sjekkliste)Sjekkliste%
+
+(x)# *Importer en ny figur* ved fÃ¸rst Ã¥ velge %(klikk)Animals%-mappen og deretter %(klikk)lobster1%.
+# *GjÃ¸r figuren mindre* med %(klikk)krympeknappen%, som ligger over _Scene_.
+# *FÃ¥ byttedyrene til Ã¥ bevege seg i tilfeldige retninger*. FÃ¸rst skal vi la dem bevege seg litt framover, og sÃ¥ snu en tilfeldig valgt vinkel med eller mot klokka, og deretter gjenta.  
+
+!(skript). Steg2_fig1.png!
+
+%(test)Test prosjektet%
+
+(x)#4 *Klikk pÃ¥ det grÃ¸nne flagget* og se hvordan byttedyret svÃ¸mmer rundt. 
+SvÃ¸mmer det slik du forventet?  Ser bevegelsene naturlige ut?<br>
+For Ã¸yeblikket samspiller ikke JafseFisk og byttedyret med hverandre. Det skal vi gjÃ¸re noe med i neste steg.
+
+%(lagre)Lagre prosjektet%. 
+
+%(prove)Ting Ã¥ prÃ¸ve%
+
+(x)#5 *PrÃ¸v Ã¥ forandre tallene* som bestemmer bevegelsene %(bevegelse)gÃ¥% og %(bevegelse)vend%. Hvordan forandrer det byttedyrenes bevegelser?
+# Hva gjÃ¸r %(styring)sprett tilbake ved kanten%? Fjern blokken fra programmet og se hva som skjer.
 
 
-h3. Steg 1: Sultne Fisk følger musepekeren
 
-*Først skal vi lage Sultne Fisk som svømmer rundt i havet!*
-%(checklist)Sjekkliste%
-# *Start et nytt Scratch prosjekt.*
-# Velg *Scene*, deretter scenens %(tab)bakgrunn%. %(button)Last inn% bakgrunnen *Natur/underwater* og fjern *background1*.
-# Forandre navnet til *figur1* til *Sultne Fisk*.
-# %(tab)Last inn%  Sultne Fisks drakt, for eksempel *Animals/fish1-b*, deretter fjerner du de eksisterende *drakt 1* og  *drakt2*.
-# Bruk knappen i midten til venstre over %(tab)drakt%-fanen for å passe på at figuren bare kan flippe mellom venstre og høyre.  !images/Steg1_fig2.png!
-# *Lag et skript slik at Sultne Fisk skal følge musepekeren rundt i sjøen, slik:*
-!images/Steg1_fig1.png!
-
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-*Flytt musepekeren rundt i sjøen.* Følger fisken med?
-Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen? 
-Hvordan ser den ut? Hvorfor gjør den dette?
-
-# Du kan stoppe Sultne Fisks maniske flipping hvis du sørger for at den bare flytter seg når den ikke er for nær musepekeren (%(control)avstand til% - blokken ligger under %(palette)Sansing%-paletten).
-!images/Steg1_fig3.png!
+h4(steg). Steg 3: JafseFisk spiser byttet
 
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
+p(intro). NÃ¥ skal vi la JafseFisk spise byttet! NÃ¥r den har fanget byttet i munnen skal to ting skje: <br>
+* Den mÃ¥ lukke munnen og lage en gomlelyd. 
+* Byttet mÃ¥ forsvinne, og sÃ¥ komme igjen en liten stund senere.
 
-h4. Prøv ut!
+%(sjekkliste)Sjekkliste%
 
-Hvis du vil kan du forandre tallene i skriptet. Hvordan forandrer det bevegelsene til SultneFisk? *Sett distanseterskelen til et stort tall* (f.eks. 100), eller et *lite tall* (f.eks. 1). *Sett antall steg fisken flytter seg til et stort tall* (f.eks. 20) eller et *lite tall* (f.eks. 1, eller 0)
+(x)# Vi starter med Ã¥ *la byttet forsvinne hvis den berÃ¸rer JafseFisk*, og sÃ¥ *komme tilbake etter 3 sekunder*. Bruk %(sansning)berÃ¸rer%-blokken for Ã¥ sjekke om byttet kommer borti JafseFisk.
 
-h3. Steg 2: Legg til byttedyr
+!(skript). Steg3_fig1.png!
 
-*Det er på tide å legge inn noe SultneFisk kan prøve å spise!*
-%(checklist)Sjekkliste%
-# %(button)Importèr% en *ny figur* fra filen *Animals/lobster1*.
-# Bruk *krympeverktøyet* (over Scene) for å gjøre denne figuren mindre.
-# *Lag et skript som beveger byttedyret*. Vi vil at byttedyrene skal bevege seg i tilfeldige retninger, så vi skal la dem bevege seg litt framover og så snu en tilfeldig valgt vinkel med eller mot klokka, og deretter gjenta.  
-!images/Steg2_fig1.png!
+%(test)Test prosjektet%
+(x)#2 *PrÃ¸v spillet ditt igjen*. Ser du noen problemer? Legg merke til at byttet forsvinner uansett hvor det berÃ¸rer JafseFisk. Dessuten kan fisken bare vente 3 sekunder og sÃ¥ spise byttet i samme Ã¸yeblikk som det dukker opp igjen,Â– det er ikke sÃ¦rlig rettferdig!
+#  *Hvordan kan vi sikre at byttet bare forsvinner hvis det berÃ¸rer JafseFisks munn*? Tja, vi kunne bruke %(sansning)berÃ¸rer fargen%-blokken  og se om den berÃ¸rer fiskens blÃ¥ tenner. For Ã¥ gjÃ¸re dette, bytt ut blokken %(sansning)berÃ¸rer% med %(sansning)berÃ¸rer fargen%. Klikk pÃ¥ fargen i blokken og klikk deretter pÃ¥ fiskens tenner.
+#  *NÃ¥ kan vi la byttet flytte seg til et tilfeldig punkt* pÃ¥ skjermen fÃ¸r den dukker opp igjen ved Ã¥ bruke en %(bevegelse)gÃ¥ til x:  y:%-blokk og gi den en tilfeldig verdi for x og y.
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-*Klikk på det grønne flagget* og se hvordan byttedyret svømmer rundt. 
-Svømmer det slik du forventet?  Ser bevegelsene naturlige ut?
-*I øyeblikket samspiller ikke Sultne Fisk og byttedyret med hverandre.  Det skal vi gjøre noe med i neste steg.*
+!(skript). Steg3_fig2.png!
 
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
+%(test)Test prosjektet%
 
-h4. Prøv ut!
+(x)#5 *PrÃ¸v spillet igjen*. Â–Forsvinner byttet bare nÃ¥r det berÃ¸rer fiskens tenner? Og kommer det igjen i et tilfeldig punkt pÃ¥ skjermen - altsÃ¥ ikke samme sted som det ble spist?
+#  *Fisken mÃ¥ vite nÃ¥r den har spist noe* slik at den kan gi fra seg en lyd og bytte farge. For Ã¥ gjÃ¸re dette kan vi la byttet  %(styring)send melding%  om at det er spist, fÃ¸r det forsvinner. 
 
-# Prøv å forandre tallene som bestemmer bevegelsene, «gå» og «vend...». Hvordan forandrer det byttedyrenes bevegelser?
-# Hva gjør %(contron)sprett tilbake ved kanten% ? Fjern den fra programmet og se hva som skjer.
+!(skript). Steg3_fig3.png!
 
-h3. Steg 3: Sultne Fisk spiser byttet
+%(sjekkliste)Sjekkliste%
 
-*Nå skal vi la Sultne Fisk spise byttet!*  Når Sultne Fisk har fanget byttet i munnen skal to ting skje:
-# Sultne Fisk må lukke munnen og lage en «gomle»-lyd.
-# Byttet må forsvinne, og så komme igjen en liten stund senere.
+p(intro). NÃ¥ vil vi at fiskens respons pÃ¥ denne meldingen er Ã¥ lage en gomlelyd og klikke med kjevene.
 
-%(checklist)Sjekkliste%
-# Først lar vi byttet forsvinne hvis den berører Sultne Fisk, og så komme tilbake etter 3 sekunder. Bruk %(control)berører%- blokken for å sjekke om byttet kommer borti Sultne Fisk.
-!images/Steg3_fig1.png!
+(x)#7 *Legg til en ny drakt* for JafseFisk ved Ã¥ %(klikk)importere% filen %fish1-a% fra mappen %(klikk)Animals%. Kall denne _lukket munn_. Legg ogsÃ¥ til lyden %(klikk)Pop% fra %(klikk)Effects%-mappen.
+# For Ã¥ *reagere pÃ¥ meldingen fra byttedyret* legger du til et nytt skript under JafseFisk. Dette skriptet gjÃ¸r at fisken spiller gomlelyden og skifter drakt til _lukket munn_, venter litt og sÃ¥ bytter tilbake til _Ã¥pen munn_.
 
+!(skript). Steg3_fig4.png!
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-*Prøv spillet ditt igjen – ser du noen problemer?* Legg merke til at byttet forsvinner uansett hvor det berører Sultne Fisk. Dessuten kan fisken bare vente 3 sekunder og spise byttet i samme øyeblikk som det dukker opp igjen – det er ikke særlig rettferdig!
-#  Hvordan kan vi sikre at byttet bare forsvinner hvis det berører Sultne Fisks munn? Tja, vi kunne bruke %(control)berører fargen%-blokken  og se om den berører fiskens blå tenner. For å gjøre dette, bytt %(control)berører% -blokken med %(control)berører fargen%  i skriptet ditt. Klikk på fargen i blokken og klikk deretter på fiskens tenner.
-#  Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen før den dukker opp igjen ved å bruke en %(control)gå til x:  Y:  % -blokk og gi den en tilfeldig verdi for x og y.
-!images/Steg3_fig2.png!
+(x)#9 NÃ¥ er JafseFisk klar til Ã¥ spise, sÃ¥ *la oss fylle havet med byttedyr*. HÃ¸yreklikk pÃ¥ byttefiguren og velg %(klikk)lag kopi%. Gjenta dette til du synes du har mange nok.
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-*Prøv spillet igjen* – forsvinner byttet bare når det berører fiskens tenner? Og kommer det igjen i et tilfeldig punkt på skjermen istedet for samme sted som det ble spist?
-#  Fisken må vite når den har spist noe slik at den kan gi fra seg en lyd og bytte farge. For å gjøre dette kan vi la byttet  %(control)send melding%  om at det er spist før det forsvinner. 
-!images/Steg3_fig3.png!
+%(test)Test prosjektet%
 
-*Nå vil vi at fiskens respons på denne meldingen er å lage en «gomle»-lyd og klikke med kjevene.*
-# Legg til en ny %(tab)drakt% for Sultne Fisk ved å %(button)importere% filen* Animals/fish1-a* (fisk med lukket munn), og %(tab)lyden% fra *Effects/Pop*.
-#  Legg til *et nytt skript* for Sultne Fisk for å reagere på meldingen fra byttedyret. Dette skriptet gjør at fisken spiller «gomle»-lyden, %(control)skift til drakt%  med *lukket munn*, venter litt og så bytter tilbake til åpen munn.
-!images/Steg3_fig4.png!
+(x)#10 *Klikk pÃ¥ det grÃ¸nne flagget.* Spiser JafseFisk byttet? Spiser den alle byttedyrene? Glimrende!
 
-*Nå er Sultne Fisk klar til å spise, la oss fylle havet med byttedyr. Høyreklikk på bytte-figurn og klikk «lag kopi» flere ganger.*
+%(lagre)Lagre prosjektet% 
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
-*Klikk på det grønne flagget.* Spiser Sultne Fisk byttet? Spiser den alle byttedyrene?
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
-h4. *Noe å tenke på..*
-Hvorfor bør vi legge til en «vis»-blokk i begynnelsen av bytteskriptet? Tenk på hva som vil skje om byttet blir spist og spillet stoppes før det dukker opp igjen. Hva vil skje om spillet startes igjen?
+%(prove)Noe Ã¥ tenke pÃ¥%
 
-*Godt gjort! Du har fullført basisspillet! Men det er flere muligheter for å utvide spillet; er du klar for en utfordring?*
-h4. Utfordring 1: Forandre bevegelsene til byttedyrene
-I øyeblikket beveger alle byttedyrene seg likt. *Kan du få en av dem til å bevege seg annerledes?*
-*Hint:* Ikke bruk for lang tid på denne delen uten å se på de andre aktivitetene i dette prosjektet. 
-*Velg deg ut et byttedyr å eksperimentere med*. Hvis de har samme drakt, bytt farge med %(control)sett farge effekt%-blokken. Slik kan du se forskjell fra resten av byttedyrene.
-*Gjør slik at dette byttedyret beveger seg saktere enn de andre. *
-*Hint:* Se på blokken %(control)gå (2) steg%.
+*Hvorfor bÃ¸r vi legge til en* %(utseende)vis%- *blokk i begynnelsen av bytteskriptet?* Tenk pÃ¥ hva som ville skje om byttet blir spist og spillet stoppes fÃ¸r det dukker opp igjen. Og hva ville skje om spillet ble startet igjen?
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-Beveger byttet seg saktere? Gjør dette spillet bedre? Hvis du klarte dette, *prøv å gjøre en av byttedyrene kjappere enn de andre.*
+p(utro). Godt gjort! Du har igrunn fullfÃ¸rt spillet! Men fins flere muligheter for utvidelse av spillet. Er du klar for en utfordring?
 
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
+h4(utfordring). Utfordring 1: Forandre bevegelsene til byttedyrene
 
-Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene spillet bedre?
+(x)# For Ã¸yeblikket beveger alle byttedyrene seg likt. *Kan du fÃ¥ ett av dem til Ã¥ bevege seg annerledes?*<br>
+*Hint1:* Velg deg ut et byttedyr Ã¥ eksperimentere med. Hvis de har samme drakt, bytt farge med %(utseende)sett farge effekt%-blokken. Slik kan du se forskjell fra resten av byttedyrene. PrÃ¸v nÃ¥ Ã¥ fÃ¥ dette byttedyret til Ã¥ bevege seg saktere enn de andre.
+*Hint 2:* Se pÃ¥ blokken %(styring)gÃ¥ [ 2 ] steg%.
 
-*Hint:* Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i %(control)tilfeldig tall% -blokken i  %(control)vend%-blokken.
-*Hva om du lar alle byttedyrene bevege seg forskjellig* ved å bruke forskjellige kombinasjoner av disse bevegelsene?
-*Gjør noen av disse forandringene spillet bedre?* Gjør de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette «bedre»?
+%(test)Test prosjektet%
 
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
+(x)#2 Beveger byttet seg saktere? GjÃ¸r dette spillet bedre? Hvis du klarte dette, *prÃ¸v Ã¥ gjÃ¸re et av byttedyrene kjappere enn de andre*.
 
-h4. Utfordring 2: Hjelp byttet å unngå den sultne fisken
+%(test)Test prosjektet igjen%
 
-Byttedyrene i dette spillet er skikkelig dumme! De svømmer bare tilfeldig rundt til de blir spist. Ekte fisk svømmer vekk fra rovfisker. *Nå vil vi la et av byttedyrene svømme vekk fra Sultne Fisk.*
-Det fins ingen blokk i Scratch som gir retningen til en annen figur. Men, du kan få en figur til å snu seg i retningen av en annen, og deretter la den snu seg i motsatt retning. Blokkene du trenger fins i *Bevegelse*-paletten.
-Ved å bruke denne ideen, *hjelp et av byttedyrene å snu seg vekk fra Sultne Fisk*. Du vil kanskje også la den virre mens den svømmer bort?
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-Gjør dette at fisken er vanskeligere å ta? Gjør det spillet bedre?
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
+(x)#3 Beveger byttedyrene seg pÃ¥ en fornuftig mÃ¥te? GjÃ¸r disse forandringene spillet bedre?<br>
+*Hint:* Hvis byttet ditt svÃ¸mmer rundt i sirkler, sjekk verdiene i %(operator)tilfeldig tall% -blokken i  %(bevegelse)vend%-blokken.<br>
+*Hva om du lar alle byttedyrene bevege seg forskjellig* ved Ã¥ bruke forskjellige kombinasjoner av disse bevegelsene?
+GjÃ¸r noen av disse forandringene spillet bedre? GjÃ¸r de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette bedre, syns du?
 
-h4. Utfordring 3: Legg til poeng
+%(lagre)Lagre prosjektet% 
 
-Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? *Du må kunne samle poeng, så la oss legge til en poengtavle.*
-Se på * «Keep Score scratch card»*  for å få noen hint om hvordan det kan gjøres.
+h4(utfordring). Utfordring 2: Hjelp byttet Ã¥ unngÃ¥ den JafseFisken
+
+(x)# Byttedyrene i dette spillet er skikkelig dumme! De svÃ¸mmer bare tilfeldig rundt til de blir spist. Ekte fisk svÃ¸mmer vekk fra rovfisker. NÃ¥ vil vi *la ett av byttedyrene svÃ¸mme vekk fra JafseFisk*.
+Det fins ingen blokk i Scratch som kan gi oss retningen til en annen figur. Men du kan fÃ¥ en figur til Ã¥ snu seg i retningen av en annen, og deretter la den snu seg i motsatt retning. Blokkene du trenger fins i %(bevegelse)Bevegelse%-paletten.
+PrÃ¸v nÃ¥ Ã¥ hjelpe et av byttedyrene med Ã¥ snu seg vekk fra JafseFisk. Du vil kanskje ogsÃ¥ la den virre mens den svÃ¸mmer bort?
+
+%(test)Test prosjektet%
+
+(x)#2 GjÃ¸r dette at fisken er vanskeligere Ã¥ ta? GjÃ¸r det spillet bedre?
+
+%(lagre)Lagre prosjektet% 
+
+h4(utfordring). Utfordring 3: Legg til poeng
+
+(x)# Det er ikke nok bare Ã¥ spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? *Du mÃ¥ kunne samle poeng, sÃ¥ la oss legge til en poengtavle.*
+Se pÃ¥ _*Keep Score scratch card*_ for Ã¥ fÃ¥ noen hint om hvordan det kan gjÃ¸res.
 *Hvor vil du legge inn blokken som forandrer poengsummen?*
-*Pass på at poengene går tilbake til null ved begynnelsen av spillet.* Hvor skal du legge inn denne blokken?
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt%
-Går poengsummen til null når spillet starter? Går den opp hver gang du spiser byttedyr?
-%(save)Lagre prosjektet%. !images/lagresymbol.png!
+*Pass pÃ¥ at poengene gÃ¥r tilbake til null ved begynnelsen av spillet.* Hvor skal du legge inn denne blokken?
 
-h4. Utfordring 4: Legg til nedtelling
+%(test)Test prosjektet%
+(x)# 2 GÃ¥r poengsummen tilbake til null nÃ¥r spillet starter? GÃ¥r den opp hver gang du spiser byttedyr?
 
-*Gi deg selv en tidsfrist.* Hvor mange fisk kan du spise på 30 sekunder?
-Se på *«Timer scratch card»* for å se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders spill.
-!images/GrontFlagg.png! %(greenflag)Test prosjektet ditt.%
-Begynner tidtakeren på 30? Teller den ned med rett hastighet? Kan du fange fisk mens tiden telles ned? Stopper spillet når telleren når null?
-%(save)Lagre prosjektet% . !images/lagresymbol.png!
+%(lagre)Lagre prosjektet%
 
-h4. Utfordring 5: Legg til bonuspoeng
+h4(utfordring). Utfordring 4: Legg til nedtelling
 
-Legg til en belønning med høy bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
-*Hint:* En måte å gjøre dette på er å bruke en *variabel for å telle hvor mange byttedyr som svømmer i havet.*
-%(save)Lagre prosjektet% . !images/lagresymbol.png!
+(x)# *Gi deg selv en tidsfrist.* Hvor mange fisk kan du spise pÃ¥ 30 sekunder?
+Se pÃ¥ _*Timer scratch card*_ for Ã¥ se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders-spill.
+
+%(test)Test prosjektet%
+
+(x)#2 Begynner tidtakeren pÃ¥ 30? Teller den ned med rett hastighet? Kan du fange fisk mens tiden telles ned? Stopper spillet nÃ¥r telleren nÃ¥r null?
+
+%(lagre)Lagre prosjektet% 
+
+h4(utfordring). Utfordring 5: Legg til bonuspoeng
+
+(x)# Legg til en belÃ¸nning med hÃ¸y bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
+*Hint:* En mÃ¥te Ã¥ gjÃ¸re dette pÃ¥ er Ã¥ bruke en variabel for *Ã¥ telle hvor mange byttedyr som svÃ¸mmer i havet.*
+
+%(lagre)Lagre prosjektet% 
 
 
-h4. Utfordring 6: Forandre spillet: Hold byttedyrene i live!
+h4(utfordring). Utfordring 6: Forandre spillet: Hold byttedyrene i live!
 
-Av og til kan man få glimrende nye idèer ved å gjøre det motsatte av en eksisterende idè. 
-*Modifiser spillet slik at du isteden kontrollerer et byttedyr i et hav av mange Sultne Fisk.* Hvor lenge kan du holde det gående før du blir spist?
-%(save)Lagre prosjektet% . !images/lagresymbol.png!
-*Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!*
-Ikke glem at du kan dele spillet med alle vennene og familien din ved å klikke på *Legg ut* i topp-menyen.
+(x)# Av og til kan man fÃ¥ glimrende nye idÃ¨er ved Ã¥ gjÃ¸re det motsatte av det man allerede har gjort. 
+*Endre spillet slik at du isteden kontrollerer et byttedyr i et hav av mange JafseFisk.* Hvor lenge kan du holde det gÃ¥ende fÃ¸r du blir spist?
 
+%(lagre)Lagre prosjektet%
+ 
+p(utro). Godt gjort, du er ferdig! NÃ¥ kan du nyte spillet ditt!
+Ikke glem at du kan dele spillet med alle vennene og familien din ved Ã¥ klikke pÃ¥ %(klikk)Legg ut% i topp-menyen.

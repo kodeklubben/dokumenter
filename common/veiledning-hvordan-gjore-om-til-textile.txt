@@ -119,15 +119,20 @@ p(utro). = sluttkommentarene som brukes i noen av stegene i veiledningene.
 
 Tekstmarkering ----------------
 
+Generelt:
 _kursiv_
 *fet*
 ??sitat??
 
-%(instruksjon)instruksjon% - Brukes for de abstrakte beskrivelsene av hva som skal gjøres. F.eks. "Nå er det klart for å %(instruksjon)legge til flere figurer%".
+Spesielt:
 
-%(systemvalg)systemvalg% - Brukes for de konkrete beskrivelsene av hva som skal gjøres i Scratch. 
-F.eks. "Riktig bakgrunn får du ved å velge %(systemvalg)Scene%, trykke på %(systemvalg)Bakgrunner% og deretter %(systemvalg)Importere% bakgrunnen %(systemvalg)woods%, som ligger i %(systemvalg)Nature% -mappen. 
-MERK: i originalen er det brukt mange forskjellige bakgrunner og skrifter i grånyanser for ulike typer systemreferanser/valg.
+%(klikk)klikk% - Brukes for alle referansene til knapper og valg man skal klikke på i Scratch - også for knappene i kodeblokk-paletten (men ikke for gjengivelse av kodeblokker - se eget punkt).
+F.eks. "Riktig bakgrunn får du ved å velge %(klikk)Scene%, trykke på %(klikk)Bakgrunner% og deretter %(klikk)Importere% bakgrunnen %(klikk)woods%, som ligger i %(klikk)Nature% -mappen. 
+MERK: i originalen er det brukt mange forskjellige bakgrunner og skrifter i grånyanser for ulike typer systemreferanser/valg. Vi har altså valgt å forenkle dette litt. 
+
+*fet* - Brukes for stikkord og formuleringer som på mer abstrakt nivå instruerer brukeren om hva som skal gjøres. F.eks. "Nå er det klart for å *legge til flere figurer*". 
+
+_kursiv_ - Brukes for henvisninger til figurnavn, scratch-kort o.l. F.eks.: Kall figuren _kattepus_. Dette kan du lese mer om i _Scratch-kort ditt og datt_
 
 Kodeblokker ---------------
 
@@ -149,6 +154,8 @@ De følgende åtte er ment for å gjengi kodeblokker i teksten. Navn og bagrunns
 
 %(variabel)variabel%
 
+MERK: Noen av blokkene inneholder hvite felt for tekst eller tallverdier. Dette er ikke så lett å få til en fin løsning på, så derfor bruker vi bare klammer med to mellomrom i, isteden. Eks: %(operator)tilfeldig tall [  ] fra [  ]%
+
 Lister ----------------
 
 Unummerert liste 
@@ -162,17 +169,19 @@ Nummerert liste - ordinær
 # = Tredje linje i lista - avhukingsruta kommer automagisk på
 
 
-Nummerert liste  for bruk i alle sjekklistene + testing og prøving
-(avhuking)# = Første linje i lista - avhukingsruta kommer automagisk på
+Nummerert liste som gir sjekkboks for avhuking. For bruk i alle sjekklistene + testing, prøving og utfordring*)
+(x)# = Første linje i lista - avhukingsruta kommer automagisk på
 # = Andre linje i lista - avhukingsruta kommer fortsatt automagisk på
 etc
 
+*) I de engelske originalene er det litt tilfeldig hva som er nummererte punkt med sjekkbokser. I den norske utgaven prøver vi å gjøre dette mer konsekvent. Regelen er at alle punkter som innebærer at brukeren må gjøre noe eller tenke på noe får sjekkboks.
+
 NB! For å få punktnumrene til å fortsette å løpe i overgangen mellom de ulike listene (f.eks: sjekklisten har punkt 1-3, test har pkt 4-5, lagre pkt 6 og prøve pkt 8-9) gjør slik:
-(avhuking)# Sjekklistens første pkt
+(x)# Sjekklistens første pkt
 # sjekklistens andre pkt
 # sjekklistens tredje pkt
 
-(avhuking)#4 testlistens første pkt (men det står nr 4 til venstre for punktet)
+(x)#4 testlistens første pkt (men det står nr 4 til venstre for punktet)
 # testlistens andre pkt (men det står nr 5 til venstre for punktet)
 
 
@@ -213,3 +222,7 @@ Lenker --------------
 
 
 For flere notasjoner, se http://redcloth.org/textile
+
+
+ELLERS ---------------
+
