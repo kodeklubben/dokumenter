@@ -129,6 +129,20 @@ table td
   padding: 0em;
 }
 
+/*MON: Til bruk som tom tegnerute i Lag ditt eget spill  */
+table.tom
+{
+	width: 100%;
+  margin: 1em auto;
+  border: solid 2px #19A347;
+  padding: 1em;
+  border-radius: 8px; 
+  -moz-border-radius: 8px; 
+  -webkit-border-radius: 8px;
+}
+
+
+
 /*Til innledningstekstene på veiledningene*/
 p.intro {
 	font-weight: bold;
