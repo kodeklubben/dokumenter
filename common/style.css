@@ -12,18 +12,19 @@ div.scratch img.topp-logo {   display: block;   margin-left: auto;   margin-righ
 
 div.scratch h1.nivaa1
 {
-  background-color: #A9DAF9;
+  background-color: #71BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
   height: 2.2em;
   padding-top: 0.8em;
+
 }
 
 
 div.scratch h1.nivaa2
 {
-  background-color: #A9DAF9;
+  background-color: #71BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -34,7 +35,7 @@ div.scratch h1.nivaa2
 
 div.scratch h1.nivaa3
 {
-  background-color: #A9DAF9;
+  background-color: #71BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -44,9 +45,10 @@ div.scratch h1.nivaa3
 
 div.scratch h1.nivaa1:before
 {
-  content: "Nivå 1";
+  background-image: url(../images/nivaa1.png);
+  content: "";
   float: left;
-  background-color: #19A347;
+  background-color: #000000;
   color: white;
   margin-top: -2em;
   margin-left: 1em;
@@ -62,9 +64,12 @@ div.scratch h1.nivaa1:before
   border: 3px solid white;
 }
 
+
+
 div.scratch h1.nivaa2:before
 {
-  content: "Nivå 2";
+  background-image: url(../images/nivaa2.png);
+  content: "";
   float: left;
   background-color: #19A347;
   color: white;
@@ -84,7 +89,8 @@ div.scratch h1.nivaa2:before
 
 div.scratch h1.nivaa3:before
 {
-  content: "Nivå 3";
+  background-image: url(../images/nivaa3.png);
+  content: "";
   float: left;
   background-color: #19A347;
   color: white;
@@ -173,7 +179,7 @@ line-height:100px;
   padding-left: 60px;
   font-weight: bold;
   font-size: 1.5em;
-  color: #36A037;
+  color: #71BF44;
 }
 
 div.scratch .lagre {
@@ -252,7 +258,7 @@ div.scratch span.sansning {
 
 div.scratch span.operator {
   color: white;
-  background-color: #00C200;
+  background-color: #71BF44;
   padding: 2px;
 }
 
@@ -288,7 +294,7 @@ div.scratch h3 {
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
 div.scratch .steg {
   /*line-height:100px;*/
-  background-color: #19A347;
+  background-color: #71BF44;
   color: white;
   font-size: 1.5em;
   padding: 10px;
@@ -299,7 +305,7 @@ div.scratch .steg {
 
 
 div.scratch .utfordring {
-  background-color: #19A347;
+  background-color: #71BF44;
   color: white;
   font-size: 1.5em;
   padding: 10px;
