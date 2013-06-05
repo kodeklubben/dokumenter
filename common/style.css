@@ -12,7 +12,7 @@ div.scratch img.topp-logo {   display: block;   margin-left: auto;   margin-righ
 
 div.scratch h1.nivaa1
 {
-  background-color: #71BF44;
+  background-color: #72BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -24,7 +24,7 @@ div.scratch h1.nivaa1
 
 div.scratch h1.nivaa2
 {
-  background-color: #71BF44;
+  background-color: #72BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -35,7 +35,7 @@ div.scratch h1.nivaa2
 
 div.scratch h1.nivaa3
 {
-  background-color: #71BF44;
+  background-color: #72BF44;
   color: white;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -179,7 +179,7 @@ line-height:100px;
   padding-left: 60px;
   font-weight: bold;
   font-size: 1.5em;
-  color: #71BF44;
+  color: #72BF44;
 }
 
 div.scratch .lagre {
@@ -258,7 +258,7 @@ div.scratch span.sansning {
 
 div.scratch span.operator {
   color: white;
-  background-color: #71BF44;
+  background-color: #72BF44;
   padding: 2px;
 }
 
@@ -294,7 +294,7 @@ div.scratch h3 {
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
 div.scratch .steg {
   /*line-height:100px;*/
-  background-color: #71BF44;
+  background-color: #72BF44;
   color: white;
   font-size: 1.5em;
   padding: 10px;
@@ -305,7 +305,7 @@ div.scratch .steg {
 
 
 div.scratch .utfordring {
-  background-color: #71BF44;
+  background-color: #72BF44;
   color: white;
   font-size: 1.5em;
   padding: 10px;

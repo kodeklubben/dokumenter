@@ -4,7 +4,9 @@ h2. Notater for klubbledere
 
 h3. Introduksjon
 
-p. Dette interaktive leketøyet viser hvordan fyrverkeri går av og smeller på alle stedene man klikker på himmelen.
+p. I dette prosjektet skal vi lage et fyrverkeri som skytes opp over en by. Rakettene vil eksplodere alle stedene på himmelen spilleren klikker.
+
+ 
 
 h3. Ferdigheter
 * Respons ved klikk

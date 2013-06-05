@@ -2,7 +2,7 @@ h1(nivaa1). Fyrverkeri
 
 h2. Introduksjon
 
-p. I dette prosjektet skal vi lage et fyrverkeri som skytes opp over en storby. 
+p.(intro) I dette prosjektet skal vi lage et fyrverkeri som skytes opp over en by. Rakettene vil eksplodere alle stedene på himmelen spilleren klikker.
 
 !(skjermbilde). bilde01.png!
 

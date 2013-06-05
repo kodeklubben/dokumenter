@@ -1,0 +1,30 @@
+h1(nivaa2). Fruktrulett
+
+h2. Notater for klubbledere
+
+h3. Introduksjon
+
+p. _Fruktrulett_ er et enkelt spill med tre figurer som endrer utseende. Spillerens oppgave er å stoppe ruletten, når alle ser likedan ut - akkurat som med en enarmet banditt.
+
+h3. Ferdigheter
+* Skifte drakt
+* Kjøring av en loop
+* Stoppe en loop ved å klikke
+
+h3. Ressurser
+
+p. Prosjektet benytter ressurser fra figur, drakt og bakgrunnsfolderne til Scratch.
+
+h3. Scratch kort som involvert
+* Broadcast
+
+h3. Grunnleggende øvelser
+p. Steg 1: Lag en figur som endrer drakt
+Steg 2: Få bildet til å endre seg
+Steg 3: Frys ruletten!
+Steg 4: Lag andre figurer
+
+h3. Utfordringer
+# Gjør spillet vanskeligere
+# Gjør at spillet blir vanskeligere og så enklere over tid
+# Oppdag når alle sprites har stoppet på samme drakt
