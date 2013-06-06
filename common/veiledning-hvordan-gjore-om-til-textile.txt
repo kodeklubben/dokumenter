@@ -21,7 +21,7 @@ Før du går i gang med textile-dokumentene må du opprette forbindelse til gith
 
 6. Åpne fila og velg "Edit" oppe til høyre. Kopier over tekstinnholdet ditt, og start formatering (se pkt 4. Formatering). 
 
-7. Ønsker du å se hvordan dokumentet ser ut underveis, klikk på "Preview" oppe til venstre. Det er vel og merke ikke endelig design du ser på da. Noen detaljer (slik som overskriftsymbolene, fargebakgrunnen på kodeblokkene, etc) vil først komme på når fila gjøres om til html. Men hvis du ser tegn eller tekst som tilhører formateringen (f.eks. %(sjekkliste) er det noe som ikke er helt riktig. Dette skal være helt usynlig i preview-modus.
+7. Ønsker du å se hvordan dokumentet ser ut underveis, klikk på "Preview" oppe til venstre. Det er vel og merke ikke endelig design du ser på da. Noen detaljer (slik som overskriftsymbolene, fargebakgrunnen på kodeblokkene, etc) vil først komme på når fila gjøres om til html. Men hvis du ser tegn eller tekst som tilhører formateringen (f.eks. %(sjekkliste) er det noe som ikke er helt riktig. Dette skal være helt usynlig i preview-modus. Ønsker du å se hvordan den endelige html-siden vil se ut, kan du gå til http://teecee.raspberryip.com/kodeklubben/ og finne fram til html-fila med samme navn. Denne oppdateres én gang i minuttet (eller ble det bare hvert femte minutt?)
 
 8. Når du er ferdig - eller skal ta en pause i arbeidet - må endringene lagres. Det gjøres ved å gå nederst på siden og velge "Commit Changes". Legg inn en kommentar à la "Lagt inn innhold" "Rettet noen småfeil", etc.
 
