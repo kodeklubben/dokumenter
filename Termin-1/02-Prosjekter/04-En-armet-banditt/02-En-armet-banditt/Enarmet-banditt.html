@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="../../../../common/style.css">
+    <script src="script.js"></script>
+	<link href="Termin-1/02-Prosjekter/04-En-armet-banditt/02-En-armet-banditt/Enarmet-banditt.textile/common/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="scratch">
+<h1 class="nivaa1">Enarmet banditt</h1>
+<p class="intro">Dette er et spill med tre figurer som endrer utseende. Spillerens oppgave er å stoppe figurene slik at alle blir like.</p>
+<table class="oversikt">
+	<tr>
+		<td> <span class="sjekkliste">Sjekkliste</span></td>
+		<td> Følg instruksjonene på lista. Huk av etter hvert.</td>
+	</tr>
+	<tr>
+		<td> <span class="test">Test</span></td>
+		<td> Klikk på det grønne flagget for å teste koden.</td>
+	</tr>
+	<tr>
+		<td> <span class="lagre">Lagre</span></td>
+		<td> Husk å lagre koden når du har lagt til noe nytt.</td>
+	</tr>
+</table>
+<h4 class="steg">Steg 1: Lag en figur som bytter drakt</h4>
+<p><span class="sjekkliste">Sjekkliste</span></p>
+<p>p(intro).La oss importere de bildene vi trenger for spillet</p>
+<ol class="x">
+	<li><strong>Start et nytt scratch prosjekt</strong>. <strong>Slett katten</strong> ved å høyreklikke og velge <span class="klikk">slett</span>.</li>
+	<li><span class="klikk">Importer</span> <strong>en ny figur</strong>. Velg den du vil.</li>
+	<li>Gå til <span class="klikk">Drakter</span>, og <span class="klikk">importer</span> <strong>to ekstra drakter</strong>, så figuren har tre drakter totalt.</li>
+</ol>
+<p class="utro">Nå at vi har draktene &#8211; må vi få dem til å endre seg.</p>
+<h4 class="steg">Steg 2 Få bildet til å endre seg</h4>
+<ol class="x">
+	<li>Velg Skript-fanen.</li>
+	<li>Velg Styring og dra ut en når flagg klikkes til skriptet. Dette vil kjøres hver gang vi klikke den grønne flagget.</li>
+	<li>Legg til en for altid slik at den fester seg til bunnen.</li>
+	<li>Klikk den grønne flagg topp til høyre. Du ser at du får en hvit linje rundt skriptet. Den kjører fordi vi klikket på den grønne flagget.</li>
+	<li>Velg nå  Utseende og dra inn en neste drakt</li>
+	<li>Hvordan får vi den til å gå treigere? Velg Styring og dra inn en vent 1 sekunder</li>
+</ol>
+<p><img src="Skript-1.png" class="systemutsnitt" alt="" /></p>
+<ol class="x" start="7">
+	<li>Endre hastigheten slik at den bytter drakten litt oftere (ca 0.1s ser bra ut). Hva hadde skjedd hvis vi ikke hadde vent blokken?</li>
+</ol>
+<p><span class="test">Test prosjektet</span><br />
+Klikk den grønne flagget. Endres drakten på en bra hastighet?</p>
+<p><span class="lagre">Lagre prosjektet</span></p>
+<p>Muligheter<br />
+•	Endre tiden i vent blokken. Hva slags verdier tror du ville gjort spillet for vanskelig eller for lett?</p>
+<h4 class="steg">Steg 3: Frys ruletten!</h4>
+<p><span class="sjekkliste">Sjekkliste</span></p>
+<p>Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi den til å stoppe når vi klikker på den?</p>
+<p>1.	Lag en ny variabel &#8211; klikk Variabler så Lag en ny variabel Gi den navn stoppet og gjør den for alle figurer (<span class="caps">OBS</span>!!! &#8211; dette virker feil &#8211; fungere bedre med for denne figure alene &#8211; og siste utfordring trenger dette). Fjern krysset ved siden av slik at den ikke vises i bildet.<br />
+2.	Sett stoppet til 1 når noen klikker på bildet ved å bruke Når Figure1 klikkes, og sett stoppet til 0 &#8211; vær sikker på at du endre verdiet fra 0 til 1.             <br />
+<img src="Skript-2.png" class="systemutsnitt" alt="" />       <br />
+3.	Nå trenger vi å få endring av bildet til å stoppe npr variabel stoppet er 1. Velg Styring og endre for alltid loop til en for alltid hvis &#8211; så bruk en likhets operatør for å sjekke hvis stoppet er lik 0:</p>
+<p><img src="Skript-3.png" class="systemutsnitt" alt="" /></p>
+<p>Til slutt &#8211; legg til en set stoppet to 0 rett under når flagget klikkes</p>
+<p><span class="test">Test prosjektet</span></p>
+<p>Klikk den grønne flagget, vent et øyeblikk så klikk på figuren.</p>
+<p>Endres drakten før du klikke på den?<br />
+Stopper den når du klikker på den?</p>
+<p>Start skriptet igjen. Stopper den når du setter pekeren over den uten å klikke? Stopper den når du klikke andre steder i stagen? Andre steder i scratch? På utsiden av scratch?</p>
+<p><span class="lagre">Lagre prosjektet</span></p>
+<h4 class="steg">Steg 4: Lag de andre bildene</h4>
+<p><span class="sjekkliste">Sjekkliste</span></p>
+<p>Nå trenger vi to bilder til for at vi kan spille spillet!</p>
+<p>1.	Dupliser bildet (Figur 1) &#8211; høyreklikke den nederst til høyre og velg Lag kopi<br />
+2.	Gjør det en gang til &#8211; slik at vi får tre figurer på skjermen.<br />
+3.	Flytt figurene slik at de er en linje. Gjør dem mindre med krympeknappen hvis det trengs: <br />
+4.	<br />
+<img src="Krympeknapp.png" class="systemdetalj" alt="" /></p>
+<p><span class="test">Test prosjektet</span></p>
+<p>Klikk det grønne flagget. Alle figurer burde endre seg.</p>
+<p>Prøv å stoppe dem på samme bildet.</p>
+<p><span class="lagre">Lagre prosjektet</span></p>
+<p>Muligheter<br />
+•	Når du starter spillet rett etter du har lastet den inn har alle figurer samme drakt og de endre i takt. Hva hvis du endre figurene til å endre drakten i tilfeldig rekkefølge?<br />
+•	Tips: prøv å velge en tilfeldig frakt for hver figur hver gang du starter spillet</p>
+<p>Bra jobbet &#8211; du er ferdig med spillet! Men &#8211; prøv disse utfordringer:</p>
+<p>Utfordring 1: Gjør spillet vanskeligere</p>
+<p>Endre vanskelighetsgraden på et eller annet vis. Å få draktene til å bytte fortere er enkelt. Prøv å gjøre noe litt mer oppfinnsom. Noen muligheter du kan tenke på er:<br />
+•	Endre antall drakter hver figur har<br />
+•	Gir figurerene noen unike drakter<br />
+•	Endre tid mellom draktbytte<br />
+•	Får hver figur å velge en tilfeldig drakt som neste drakt ved hvert bytte<br />
+Ha det gøy med å finne på eget idéer!<br />
+Hver gang du endre noe, tenk på om den vil gjør spillet lettere eller vanskeligere. Er spillet for lett eller for vanskelig? Hvordan kan du justere den slik at det er akkurat passe?</p>
+<p>Utfordring 2: Endre vanskelighetsgrad over tid</p>
+<p>Folk vil ha forskjellige kunnskaper ved å spille. Hvordan kan du få spillet til å justere vanskelighetsgrad avh. av spilleren?</p>
+<p>En måte er å justere hastigheten som draktene byttes på. Du kan bruke en variabel, som heter forsinkelsen, for å sette venteblokken for hver figure. Hvis spilleren vinner en runde, så kan forsinkelsen nedjusteres litt (for å gjøre spillet vanskeligere). Hvis spilleren taper en runde, så kan den oppjusteres litt (for å gjøre spillet lettere).</p>
+<p>Utfordring 3: Oppdag når alle figurer er stoppet på samme drakt</p>
+<p>Spillets mål er å klikke på figurene slik at de stopper når alle har på seg samme drakt. Det hadde vært kjekt hvis spillet oppdaget når du var ferdig og fortalt du om du hadde vunnet eller tapt ved å sjekke draktene til alle figurene.</p>
+<p>Først så må stagen vite når en spiller er ferdig. Vi kan gjøre dette ved å ha en sjekk som teste hvis alle sprites har sluttet å bevege seg når vi klikke på en av dem. Gå tilbake og endre hver figure klikket blokke til å send melding &#8211; et nytt melding som heter sjekkHvisSlutt</p>
+<p>Scenen kan svare på dette melding og sjekker hvis spillet e ferdie ved å sjekke alle tre figurers stoppet variabler er satt til 1, ved å bruke x-posisjon av figure blokk og endre “x-posisjon” til stoppet. Hvis alle figurer har en stoppet verdi av 1 så vet vi at spillet er ferdig og vi kan sjekke om spilleren har vunnet.</p>
+<p>For å gjøre dette kan vi bruke samme x-posisjon av figur men istedenfor å sjekke stoppet variabel så kan vi sjekke draktnummeret og se om Figur1, Figur2 of Figur3 har samme drakt.</p>
+<p>For å gjøre dette vil du trenger en hvis blokk for å sjekke hver stoppet variabel og inn i den en hvis..ellers blokk for å se om spilleren har vunnet ved å sammenligne draktnummerne.<br />
+<img src="Skript-3.png" class="systemutsnitt" alt="" /></p>
+
+<p>Derfra kan du si ifra om resultatet ved å bruke enda en melding og en ny figure. Kanskje får Felix tilbake for å gratulere eller kondolere med spilleren?</p>
+<p>Bra jobbet! Nå kan du spille spillet!</p>
+<p>Ikke glem at du kan dele spillet med vennene dine ved å velge Legg ut dette prosjektet fra menybaren.</p>
+	</div>
+  </body>
+</html>

@@ -1,1 +1,168 @@
-!skript-1.png!
+h1(nivaa1). Enarmet banditt
+
+p(intro). Dette er et spill med tre figurer som endrer utseende. Spillerens oppgave er å stoppe figurene slik at alle blir like.
+
+table(oversikt).
+| %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
+| %(test)Test%| Klikk på det grønne flagget for å teste koden.|
+| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
+
+h4(steg). Steg 1: Lag en figur som bytter drakt
+
+%(sjekkliste)Sjekkliste%
+
+p(intro).La oss importere de bildene vi trenger for spillet
+
+
+(x)# *Start et nytt scratch prosjekt*. *Slett katten* ved å høyreklikke og velge %(klikk)slett%.
+# %(klikk)Importer% *en ny figur*. Velg den du vil.
+# Gå til %(klikk)Drakter%, og %(klikk)importer% *to ekstra drakter*, så figuren har tre drakter totalt.
+
+
+p(utro). Nå at vi har draktene - må vi få dem til å endre seg.
+
+
+h4(steg). Steg 2 Få bildet til å endre seg
+
+
+(x)# Velg Skript-fanen.
+# Velg Styring og dra ut en når flagg klikkes til skriptet. Dette vil kjøres hver gang vi klikke den grønne flagget.
+# Legg til en for altid slik at den fester seg til bunnen.
+# Klikk den grønne flagg topp til høyre. Du ser at du får en hvit linje rundt skriptet. Den kjører fordi vi klikket på den grønne flagget.
+# Velg nå  Utseende og dra inn en neste drakt
+# Hvordan får vi den til å gå treigere? Velg Styring og dra inn en vent 1 sekunder
+ 
+
+!(systemutsnitt). Skript-1.png!
+
+(x)#7 Endre hastigheten slik at den bytter drakten litt oftere (ca 0.1s ser bra ut). Hva hadde skjedd hvis vi ikke hadde vent blokken?
+
+
+%(test)Test prosjektet%
+Klikk den grønne flagget. Endres drakten på en bra hastighet?
+
+
+%(lagre)Lagre prosjektet%
+
+
+Muligheter
+•	Endre tiden i vent blokken. Hva slags verdier tror du ville gjort spillet for vanskelig eller for lett?
+
+h4(steg). Steg 3: Frys ruletten!
+
+%(sjekkliste)Sjekkliste%
+
+
+Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi den til å stoppe når vi klikker på den?
+
+
+1.	Lag en ny variabel - klikk Variabler så Lag en ny variabel Gi den navn stoppet og gjør den for alle figurer (OBS!!! - dette virker feil - fungere bedre med for denne figure alene - og siste utfordring trenger dette). Fjern krysset ved siden av slik at den ikke vises i bildet.
+2.	Sett stoppet til 1 når noen klikker på bildet ved å bruke Når Figure1 klikkes, og sett stoppet til 0 - vær sikker på at du endre verdiet fra 0 til 1.             
+!(systemutsnitt). Skript-2.png!       
+3.	Nå trenger vi å få endring av bildet til å stoppe npr variabel stoppet er 1. Velg Styring og endre for alltid loop til en for alltid hvis - så bruk en likhets operatør for å sjekke hvis stoppet er lik 0:
+
+!(systemutsnitt). Skript-3.png!
+                                                                    
+Til slutt - legg til en set stoppet to 0 rett under når flagget klikkes
+
+
+%(test)Test prosjektet%
+
+Klikk den grønne flagget, vent et øyeblikk så klikk på figuren.
+
+
+Endres drakten før du klikke på den?
+Stopper den når du klikker på den?
+
+
+Start skriptet igjen. Stopper den når du setter pekeren over den uten å klikke? Stopper den når du klikke andre steder i stagen? Andre steder i scratch? På utsiden av scratch?
+
+%(lagre)Lagre prosjektet%
+
+h4(steg). Steg 4: Lag de andre bildene
+
+%(sjekkliste)Sjekkliste%
+
+Nå trenger vi to bilder til for at vi kan spille spillet!
+
+
+1.	Dupliser bildet (Figur 1) - høyreklikke den nederst til høyre og velg Lag kopi
+2.	Gjør det en gang til - slik at vi får tre figurer på skjermen.
+3.	Flytt figurene slik at de er en linje. Gjør dem mindre med krympeknappen hvis det trengs: 
+4.	
+!(systemdetalj). Krympeknapp.png!
+
+%(test)Test prosjektet%
+
+
+Klikk det grønne flagget. Alle figurer burde endre seg.
+
+
+Prøv å stoppe dem på samme bildet.
+
+%(lagre)Lagre prosjektet%
+
+Muligheter
+•	Når du starter spillet rett etter du har lastet den inn har alle figurer samme drakt og de endre i takt. Hva hvis du endre figurene til å endre drakten i tilfeldig rekkefølge?
+•	Tips: prøv å velge en tilfeldig frakt for hver figur hver gang du starter spillet
+
+
+Bra jobbet - du er ferdig med spillet! Men - prøv disse utfordringer:
+
+
+Utfordring 1: Gjør spillet vanskeligere
+
+
+Endre vanskelighetsgraden på et eller annet vis. Å få draktene til å bytte fortere er enkelt. Prøv å gjøre noe litt mer oppfinnsom. Noen muligheter du kan tenke på er:
+•	Endre antall drakter hver figur har
+•	Gir figurerene noen unike drakter
+•	Endre tid mellom draktbytte
+•	Får hver figur å velge en tilfeldig drakt som neste drakt ved hvert bytte
+Ha det gøy med å finne på eget idéer!
+Hver gang du endre noe, tenk på om den vil gjør spillet lettere eller vanskeligere. Er spillet for lett eller for vanskelig? Hvordan kan du justere den slik at det er akkurat passe?
+
+
+Utfordring 2: Endre vanskelighetsgrad over tid
+
+
+Folk vil ha forskjellige kunnskaper ved å spille. Hvordan kan du få spillet til å justere vanskelighetsgrad avh. av spilleren?
+
+
+En måte er å justere hastigheten som draktene byttes på. Du kan bruke en variabel, som heter forsinkelsen, for å sette venteblokken for hver figure. Hvis spilleren vinner en runde, så kan forsinkelsen nedjusteres litt (for å gjøre spillet vanskeligere). Hvis spilleren taper en runde, så kan den oppjusteres litt (for å gjøre spillet lettere).
+
+
+Utfordring 3: Oppdag når alle figurer er stoppet på samme drakt
+
+
+Spillets mål er å klikke på figurene slik at de stopper når alle har på seg samme drakt. Det hadde vært kjekt hvis spillet oppdaget når du var ferdig og fortalt du om du hadde vunnet eller tapt ved å sjekke draktene til alle figurene.
+
+
+Først så må stagen vite når en spiller er ferdig. Vi kan gjøre dette ved å ha en sjekk som teste hvis alle sprites har sluttet å bevege seg når vi klikke på en av dem. Gå tilbake og endre hver figure klikket blokke til å send melding - et nytt melding som heter sjekkHvisSlutt
+
+
+Scenen kan svare på dette melding og sjekker hvis spillet e ferdie ved å sjekke alle tre figurers stoppet variabler er satt til 1, ved å bruke x-posisjon av figure blokk og endre “x-posisjon” til stoppet. Hvis alle figurer har en stoppet verdi av 1 så vet vi at spillet er ferdig og vi kan sjekke om spilleren har vunnet.
+
+
+For å gjøre dette kan vi bruke samme x-posisjon av figur men istedenfor å sjekke stoppet variabel så kan vi sjekke draktnummeret og se om Figur1, Figur2 of Figur3 har samme drakt.
+  
+
+For å gjøre dette vil du trenger en hvis blokk for å sjekke hver stoppet variabel og inn i den en hvis..ellers blokk for å se om spilleren har vunnet ved å sammenligne draktnummerne.
+!(systemutsnitt). Skript-3.png!
+
+
+ 
+
+Derfra kan du si ifra om resultatet ved å bruke enda en melding og en ny figure. Kanskje får Felix tilbake for å gratulere eller kondolere med spilleren?
+
+
+Bra jobbet! Nå kan du spille spillet!
+
+
+Ikke glem at du kan dele spillet med vennene dine ved å velge Legg ut dette prosjektet fra menybaren.
+
+
+
+
+
+
