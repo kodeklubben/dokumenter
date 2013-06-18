@@ -18,7 +18,7 @@ h3. Ressurser
 
 p. Prosjektet benytter ressurser fra bakgrunnsfolderne til Scratch, samt fra ressursfolderen for Fyrverkeri, som er inkludert i denne pakken.
 
-h3. Scratch-kort involvert
+h3. Scratch-kort i bruk
 
 * Change Color  
 * Glide

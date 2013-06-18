@@ -17,7 +17,7 @@ h3. Ressurser
 
 p. Prosjektet benytter ressurser fra drakter- og bakgrunnsfolderne til Scratch, samt fra ressursfolderen, som er inkludert i denne pakken..
 
-h3. Nødvendige Scratch-kort
+h3. Scratch-kort i bruk
 * Timer
 
 h3. Grunnleggende øvelser

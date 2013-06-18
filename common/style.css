@@ -269,17 +269,16 @@ div.scratch span.variabel {
 }
 
 
-div.scratch li {
+
+
+div.scratch .x li {
   padding: 2px;
   margin-bottom: 2px;
+  background: url('../images/sjekkrute.png') no-repeat right top;
+    padding-right: 50px;
+    min-height: 30px;
 }
 
-/*MON: for lister med avhukingsbokser. Et problem som må løses er at rutene ikke legger seg likt fra punkt til punkt (de blir dyttet rundt av teksten, virker det som) */
-div.scratch .x li:after
-{
-  float: right;
-  content: url('../images/sjekkrute.png');
-}
 
 div.scratch h2 {
   font-style: bold;

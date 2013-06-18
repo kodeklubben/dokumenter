@@ -1,0 +1,34 @@
+h1(nivaa3). Tegneprogram
+
+h2. Notater for klubbledere
+
+h3. Introduksjon
+
+p. Dette prosjektet gjør spilleren til en kunstner som kan tegne med forskjellige farger, lage stempelavtrykk og viske ut. 
+
+h3. Ferdigheter
+* Figurer i bevegelse
+* Tegning med pennen
+* Sending og mottak av meldinger
+* Skifte drakter
+* Sette begrensninger
+* Bygge og bruke boolske uttrykk
+
+
+h3. Ressurser
+
+p. Prosjektet benytter figurer/drakter fra egen ressursfolder. Sjekk at denne er tilgjengelig på alle maskinene.
+
+
+h3. Grunnleggende øvelser
+p. Steg 1: Dra og tegn!
+Steg 2: Viske ut
+Steg 3: Forandre farge
+Steg 4: Bare tegne på tavla
+Steg 5: Viskelær
+Steg 6: Stempel
+
+h3. Utfordringer
+# Regnbueblyant
+# Snarveier
+# Større og mindre

@@ -15,7 +15,7 @@ h3. Ressurser
 
 p. Prosjektet benytter ressurser fra draktfolderne til Scratch.
 
-h3. Scratch kort involvert
+h3. Scratch-kort i bruk
 * Broadcast
 
 h3. Grunnleggende øvelser

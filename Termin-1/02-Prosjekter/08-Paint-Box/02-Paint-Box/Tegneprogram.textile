@@ -1,0 +1,302 @@
+h1(nivaa3). Tegneprogram
+
+h2. Introduksjon
+
+p(intro). Dette prosjektet gjør spilleren til en kunstner som kan tegne med forskjellige farger, lage stempelavtrykk og viske ut.
+
+
+!(skjermbilde). skjermbilde.png!
+
+
+table(oversikt).
+| %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
+| %(test)Test%| Klikk på det grønne flagget for å teste koden.|
+| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
+h4(steg). Steg 1: Dra og tegn!
+
+%(sjekkliste)Sjekkliste%
+
+# sdfsdf
+# sdfdsf
+
+p(intro). Vi starter med en blyant som tegner der hvor den dras rundt på scenen.
+
+(x)# *Start et nytt Scratch-prosjekt*. 
+*Slett katten* ved å høyreklikke og velge %(klikk)slett%.
+# Klikk på %(klikk)scenen% og deretter %(klikk)Bakgrunner%. %(klikk)Importer% så *bakgrunnen* %(klikk)indoors/chalkboard%.
+# *Lag en ny figur* som du kaller *_blyant_*. Den henter du fra %(klikk)resources/green-pencil%.
+# Klikk på %(klikk)Drakter% og velg %(klikk)Rediger%. Klikk deretter på %(klikk)Velg midtpunkt%. *Dra midtpunktet* (der hvor linjene krysser), slik at det kommer rett under blyantspissen.
+
+!(systemutsnitt). bilderedigering.png!
+
+(x)#5 Lag et skript som får *blyanten til å følge musa* rundt på scenen. Blokkene som brukes er en %(styring)for alltid% og en %(bevegelse)gå til 'musepeker'%:
+
+!(systemutsnitt). skript1.png!
+
+(x)#6 Så må vi få blyanten til å tegne. Vi vil at *pennen skal tegne når museknappen er trykt ned* og at den skal *slutte å tegne når knappen sleppes*. Åpner du %(klikk)Penn%-paletten, vil du finne en blokk som heter %(penn)senk pennen% og en som heter %(penn)løft pennen%. Disse vil gjøre susen. Utvid skriptet ditt slik:
+
+!(systemutsnitt). skript2.png!
+
+
+%(test)Test prosjektet%
+
+(x)#7 *Klikk på det grønne flagget*.
+Følger blyanten musa rundt? 
+Hva skjer når du holder museknappen nede?
+
+
+
+%(lagre)Lagre prosjektet%
+
+h3(steg). Steg 2: Viske ut
+
+(x)# Nå har tavla di sikkert blitt full av skribbel. Legg inn en %(penn)slett%-funksjon som *visker ut tavla* hver gang flagget klikkes. 
+
+!(systemutsnitt). skript3.png!
+
+%(test)Test prosjektet%
+
+(x)#2 *Klikk det grønne flagget* og sjekk at tavla blir ren og pen.
+
+%(sjekkliste)Sjekkliste%
+
+p(intro). Men det er litt tungvint å restarte programmet hver gang vi må viske ut. Hva om vi heller lagde *en egen viskeknapp*? 
+
+(x)#3 *Hent en ny figur* fra %(klikk)Ressurser/cancel-button% 
+# Kall den *_visk ut_* og *flytt den ned i høyre hjørne*.
+# Legg til følgende skript:
+
+!(systemutsnitt). skript4.png!
+
+%(test)Test prosjektet%
+
+(x)#6 *Klikk på det grønne flagget*. Blir tavla ren og pen?
+
+%(lagre)Lagre prosjektet%
+
+
+h3(steg). Steg 3: Forandre farge
+
+p(intro). Det er litt kjedelig å tegne med bare én farge. La oss legge til noen flere knapper som lar oss skifte farge!
+
+%(sjekkliste)Sjekkliste%
+
+(x)# *Hent en ny figur* fra %(klikk)Ressurser/red-selector%.
+# Kall den *_rød_* og *flytt den ned i venstre hjørne*.
+# Gi den et skript som *sender meldingen _rød_*:
+
+!(systemutsnitt). skript5.png!
+
+(x)#4 Nå må vi få blyanten til å gjøre resten. Klikk på den og %(klikk)Importer% drakten %(klikk)Ressurser/red-pencil%. 
+# Sett midtpunktet til blyantspissen for denne drakten også: %(klikk)Rediger% + %(klikk)Velg midtpunkt% + %(klikk)OK%
+# Legg til et nytt skript. *Når blyanten får meldingen _rød_, skal den også forandre drakt til rød* (_red-pencil_). Og så skal den selvsagt også begynne å *tegne rødt*. Slik bygger du skriptet:
+
+!(systemutsnitt). skript6.png!
+
+p. *Tips*: Når du skal velge farge kan du flytte dråpeplukkeren bort til fargeblyanten og velge rødfargen derifra også.
+
+%(test)Test prosjektet%
+
+(x)#7 *Klikk på det grønne flagget.* 
+Begynn å tegne en strek. Bytt til rødt, og se om fargen forandres.
+Kommer streken fra blyantspissen nå også?
+
+%(lagre)Lagre prosjektet%
+
+(x)#8 *Lag nå knapper for fargene blå, gul og grønn*. Det gjør du ved å gjenta punkt 1 til 7, for hver farge.
+
+
+%(test)Test prosjektet%
+
+(x)#9 *Klikk på det grønne flagget*
+Bytt farge i vildensky! Virker alt som det skal? Supert!
+
+%(lagre)Lagre prosjektet%
+
+h3(steg). Steg 4: Bare tegne på tavla
+
+p(intro). Du har sikkert lagt merke til at man kan tegne over hele scenen, og det blir jo litt rotete. Skal vi begrense skriblingen til bare den lysegrå tavla må vi sette grenser for hvor blyanten kan gå.
+
+p. Du husker kanskje at Scratch definerer punkter på scenen ved hjelp av en *x*- og en *y-akse*. Når du flytter musepekeren rundt omkring vil du se disse verdiene nede i det venstre hjørnet. 
+
+p. For å finne ut hvor grensene for tavla går kan vi begynne nede i det venstre hjørnet. Da står det x: -230 og y: 120. Flytter vi pekeren rett bort til det høyre hjørnet ser vi at y er uforandret, mens x har blitt til 230. Da vet vi at *x-aksen er -230 til 230*. y-aksen finner vi ved å flytte pekeren opp i toppen av tavla. Da finner vi ut at *y-aksen er 170 til -120*. 
+
+Disse verdiene kan vi bruke i en %(styring)hvis%-blokk, og si at når musepekeren er utenfor tavlas x- og y-akse, så virker ikke blyanten. 
+
+(x)# Finn tilbake til %(bevegelse)gå til 'musepeker'%-blokken, og legg til %(styring)hvis%-blokken der. <br><br>
+*NB!* For å få plass til alle sjekkene må du først legge inn en %(operator)[ ] og [ ]%-blokk, og så legge to nye  %(operator)[ ] og [ ]%-blokker inni denne. Slik som dette:<br>&nbsp;
+!skriptdetalj-operatorer.png!<br><br>
+Så fyller du inn sjekkene som sier at *blyanten får følge musepekeren bare hvis*:
+%(operator)x er større enn -230 og mindre enn 230% og
+%(operator)y er større enn -120 og mindre enn 170%
+
+!(systemutsnitt). skript7.png!
+
+(x)#2 Siden vi ikke kan tegne utenfor tavla er det like greit at blyanten bare blir borte når musepekeren går utenfor. For å gjøre dette må vi erstatte %(styring)hvis%-blokka ovenfor med en %(styring)hvis.. ellers..%-blokk. Reglene blir nå:
+%(styring)hvis% *musepekeren er innenfor tavlas x- og y-akse følger blyanten pekeren*. 
+%(styring)ellers% skjules blyanten.<br><br>
+*NB!* Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få den til å vise igjen når den går innenfor igjen. Pass derfor på at du får lagt inn en %(utseende)vis%-kommando i %(styring)hvis%-blokka.
+
+!(systemutsnitt). skript8.png!
+
+%(test)Test prosjektet%
+
+(x)#3 *Klikk på det grønne flagget.* 
+Kan du fremdeles tegne på tavla? Kan du tegne utenfor tavla?
+Hva skjer med blyanten når musepekeren går ut og inn av tavla?
+
+%(lagre)Lagre prosjektet%
+
+
+h3(steg). Steg 5: Viskelær
+
+p(intro). Nå kan vi tegne hva vi vil. Men hva om vi trenger et viskelær? Hmm… da kan vi jo bare får blyanten til å tegne med samme farge som tavla! Og så gir vi blyanten en viskelærdrakt!
+
+%(sjekkliste)Sjekkliste%
+
+(x)# *Lag en ny figur*. Gi den *viskelærdrakten* som du finner i %(klikk)Ressurser/eraser% og kall den *_viskelær_*
+# *Gjør figuren litt mindre* med %(klikk)krympeknappen%, og så drar du den ned i *høyre hjørne*, ved siden av krysset.
+# Gi den så et skript som *sender meldingen _viskelær_*:
+# For å få blyanten til å gjøre resten av magien, *gjenta stegene fra 3.4 til 3.6*. Husk å plukke fargen rett fra tavla, og sett midtpunktet rett foran viskelæret - ikke på midten.
+
+%(test)Test prosjektet%
+
+(x)#5 *Klikk på det grønne flagget*
+Klarer viskelæret å viske? Fungerer det helt ut til kantene av tavla? 
+Går det greit å veksle mellom blyant og viskelær?
+
+%(lagre)Lagre prosjektet%
+
+
+h3(steg). Steg 6: Stempel
+
+p(intro). Nå skal vi lage et stempel som kan lage små avtrykk på tavla.
+  
+%(sjekkliste)Sjekkliste%
+
+(x)# *Legg til en ny figur* med *valgfri drakt* og kall den *_stempel_*.
+# *Krymp figuren* litt ned, så den passer ved siden av fargene i venstre hjørne.
+# Legg til et skript som sørger for at figuren %(styring)sender melding 'stempel'% når den blir klikket.
+# *Legg til en ny drakt for blyantfiguren*. Det skal være *samme drakt* som du nettopp ga stempelet.
+# *Legg til en ny %(styring)variabel%* som du kaller %(variabel)stempelmodus%. Denne skal bare gjelde for blyanten, og ikke vises på scenen. Oppgaven til denne variabelen er å holde styr på *om vi skal tegne eller stemple*.
+# *Legg til et skript* for blyanten som responderer på meldingen. Skriptet skal *skifte drakt* til den samme drakten du valgte for stempelet. Og så skal det *sette verdien til stempelmodus til _på_*. 
+# Legg nå inn blokken %(variabel)sett 'stempelmodus' til [ av ]% på alle de andre %(styring)når jeg mottar…%-skriptene. Slik skal småskriptene nå se ut:
+
+!(systemutsnitt). skript8.png!
+
+(x)#8 Til slutt må vi få stempelet til å lage avtrykk. Da må vi legge til en ny %(styring)hvis.. ellers..%-blokk under %(styring)hvis% %(sansning)museknappen er nede% i det store skriptet. Her sier vi at
+*hvis stempelmodusen er på så skal vi stemple avtrykk*
+*ellers skal pennen senkes*
+
+!(systemutsnitt). skript9.png!
+
+%(test)Test prosjektet%
+
+(x)#9 *Klikk på det grønne flagget*.
+Klarer du å lage avtrykk?
+Hva skjer når du skifter tilbake til en av blyantene?
+
+%(lagre)Lagre prosjektet%
+
+p(utro). Veldig bra jobba! Du er nå ferdig med programmet og hele 1. trinn! Mens du venter på diplomet kan du jo prøve deg på noen flere utfordringer!
+<br>
+
+h3(utfordring). Utfordring 1: Regnbueblyant
+
+p(intro). I denne utfordringen skal du legge til en blyant som kan forandrer farge mens du tegner. Kult, ikke sant?
+
+%(sjekkliste)Sjekkliste%
+
+(x)# *Hent en ny figur* fra %(klikk)Ressurser/rainbow-pencil%.
+# Få figuren til å %(styring)sende meldingen 'regnbue'%, når noen klikker på den. 
+# Klikk på %(klikk)blyantfiguren% og *legg til regnbuedrakten* her også. Husk også å *justere midtpunktet*.
+# Men hva nå, da? Jo, nå må du lage et skript som får blyantfargen til å skifte mange ganger i sekundet. 
+<br>
+*Hint 1*: Scratch-kortet _Timer/Tid_ viser hvordan du kan få noe til å forandre seg med jevne mellomrom. Men i vårt tilfelle er det pennfarge, og ikke tid, som skal forandres.
+<br>
+*Hint 2*: Ta en titt på Penn-paletten, og se om du ser noen interessante blokker. 
+%(penn)endre pennfarge med […]% ser lovende ut, gjør den ikke?
+<br>
+Denne blokken må legges inn i en løkke. Men du trenger også noe å kontrollere løkken med, så den bare endrer farge når regnbueblyanten er valgt.
+<br>
+*Hint*: Du kan gjøre dette på en måte som ligner på hvordan _stempelmodus_ styrte når stempelet skulle skrus av og på. Prøv å lage en variabel som du kaller _regnbuemodus_. La denne skrus _på_ når regnbueblyanten klikkes, og _av_ når de andre velges.
+<br>
+Bruk nå det du lærte fra stempeleksempelet og se hva du får til!
+
+%(test)Test prosjektet%
+
+(x)#5 *Klikk på det grønne flagget*. Virker regnbueblyanten?
+Hva skjer når du skifter tilbake til en av de andre blyantene?
+
+%(lagre)Lagre prosjektet%
+
+h3(utfordring). Utfordring 2: Snarveier
+
+p(intro). Nå skal du få prøve å deg på å lage _snarveier_ på tastaturet. Det betyr at man istedenfor å klikke på knappene kan bruke tastene for å bytte farge, stemple eller viske ut. 
+
+Det er to måter du kan løse denne utfordringen på. Klarer du begge?
+
+(x)# Prøv først å lage en snarvei for *blå blyant* med blokken %(styring)når 'b' trykkes% . Men du trenger noe mer, ikke sant? Og hva er det?
+<br>
+*Hint*: Du har allerede laget skriptene som forteller hva som skal skje når de forskjellige fargene velges. Se på hva som må skje for at de skriptene skal kjøre.
+
+(x)#2 Prøv så å lage en snarvei for *grønn blyant* med %(sansning)tast 'g' trykket%. Hvis du legger denne inn i en løkke så kan du føye til samme blokk som over. Men hvor må løkken plasseres for at det skal virke?
+<br>
+*Hint*: Den må legges inn i et skript som finnes fra før. 
+<br>
+(x)#2 Velg en av løsningene ovenfor og lag snarveier for alle de andre valgene. Her er en oversikt:
+
+| *r* | =&nbsp; | rød blyant |
+| *b* | = | blå blyant |
+| *g* | = | grønn blyant |
+| *u* | = | gul blyant |
+| *w* | = | regnbueblyant|
+| *s* | = | stempel |
+| *v* | = | viskelær |
+| *a* | = | visk alt |
+
+
+
+%(test)Test prosjektet%
+
+(x)#4 *Klikk på det grønne flagget*. Virker alle snarveiene? 
+Virker knappene fremdeles også? 
+
+%(lagre)Lagre prosjektet%
+
+
+h3(utfordring). Utfordring 3: Større og mindre
+
+p(intro). En annen funksjon som tegneprogrammer gjerne har er å forandre størrelsen på blyantstreken. Prøv å se om du får til dette.
+
+(x)# Lag først én knapp for *større* og én for *mindre*. Bruk draktene %(klikk)Ressurser/bigger-selector% og %(klikk)Ressurser/smaller-selector%.
+<br>
+# La figurene sende ut meldingene *_større_* og *_mindre_*.
+<br>
+# Men hva nå? Hvordan skal du få blyantstørrelsen til å forandre seg? Og hvordan skal du få stempelet til å forandre seg? 
+<br>
+*Hint 1:* Du kan bruke en *endre-blokkene* under %(Utseende)Penn% og %(klikk)Utseende%. For å forminske setter du bare et minustegn foran tallet.
+<br>
+*Hint 2*: For å holde styr på om det er blyantstørrelse eller stempel som skal endres må du bruke en %(styring)hvis.. ellers..%-blokk
+# Glem ikke å lage snarveier for disse funksjonene også. For eksempel *pil opp* for større og *pil ned* for mindre.
+<br>
+# Har du lagt merke til at også blyantfiguren blir større når du forstørrer stempelet? For å unngå dette kan vi %(styring)Når 'blyant' klikkes% %(utseende)sette størrelse til [ 100&#37; ]%
+<br>
+# For å gjøre det enda mer avansert kan du få stempelet til å huske størrelsen sin fra gang til gang. Den enkleste måten å gjøre dette på er å opprette en *variabel* som du kaller *stempelstørrelse*. Denne må oppdateres for hver gang størrelsen på stempelet endres. Når man skifter fra blyant til stempel, bestemmes så størrelsen fra denne variabelen.
+
+
+%(test)Test prosjektet%
+
+(x)#7 *Klikk på det grønne flagget*. 
+Fungerer forstørrelsesknappen? Fungerer forminskingsknappen? 
+Hva skjer om du bytter til stempelet, endrer størrelsen og så forandrer tilbake til blyanten?
+
+
+%(lagre)Lagre prosjektet%
+
+
+p(utro). Veldig, veldig bra! Nå kan du tegne akkurat det du vil!
+
+p. Husk også at du kan dele spillet med vennene dine ved å klikke på %(klikk)Legg ut% i menyen.
+

@@ -14,7 +14,7 @@ h3. Ferdigheter
 h3. Ressurser
 p. Prosjektet benytter ressurser fra drakter- og bakgrunnsfolderne til Scratch.
 
-h3. Nødvendige Scratch-kort
+h3. Scratch-kort i bruk
 * Keep score
 * Timer
 * Animate It

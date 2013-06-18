@@ -1,6 +1,5 @@
 h1(nivaa2). Ørkenløp
 
-
 h2. Notater for klubbledere
 
 h3. Introduksjon
@@ -19,7 +18,7 @@ h3. Ressurser
 
 Prosjektet benytter ressurser fra drakt- og bakgrunnsfolderne til Scratch, samt en brukermanipulert Scratch-figur.
 
-h3. Scratch kort involvert
+h3. Scratch-kort i bruk
 * Say Something
 
 h3. Grunnleggende øvelser
