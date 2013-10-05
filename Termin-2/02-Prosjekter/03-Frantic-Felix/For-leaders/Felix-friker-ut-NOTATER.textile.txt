@@ -1,0 +1,75 @@
+h1(nivaa6). Felix friker ut
+
+h2. Notater for klubbledere
+
+h3. Introduksjon:
+
+p. I dette prosjektet skal elevene lage et plattformspill liknende Manic Miner eller Mario Bros. Dette vil være det vanskeligste prosjektet hittil, så vær godt forberedt! Prosjektet bør ta 3-4 uker.
+
+h3. Ressurser:
+
+p. Prosjektet bruker ressurser fra kodeklubben, så sjekk filfolderen. Barna vil lage andre ressurser selv.
+
+h3. Scratch-kort i bruk:
+
+* Ta opp en sekvens
+* Spill en sekvens
+
+h3. Notater om vanskelige oppgaver og kollisjonsdetektering:
+
+p. Plattformspill som Manic Miner og Mario Bros handler alle om at hovedpersonen beveger seg gjennom en verden og kolliderer med ting. Noen ting, som vegger og gulv, bare stopper deg fra å bevege deg. Noen ting, som skurker, dreper deg. Noen ting, som nøkler, ønsker du å samle på. Andre ting er kun omgivelser og påvirker ikke spillet i det hele tatt.
+
+p. Dette betyr at når du kolliderer med noe (kalt “kollisjonsdeteksjon” - du må kanskje forklare dette til elevene), er det viktig. Scratch gir deg noen blokker for kollisjonsdeteksjon: 
+%(sansning)berører [ ]?%, %(sansning)berører fargen [ ]?%, %(sansning)farge [ ] berører [ ]?%, og %(sansning)avstand til [ ] %. Men for å utvikle spillet trenger du å vite mer enn om du berører noe, du trenger å vite hvilken *side* som berører. Hvis du beveger deg langs en vegg til venstre, kan du ikke lenger gå mot venstre. Men du kan fortsatt gå mot høyre, eller hoppe, eller falle hvis det ikke er noe gulv.  
+
+p. Å berøre en skurk kan skade deg, men det kan hende du skader ham om om du berører ham med føttene dine. Ingen av de innebygde Scratch-blokkene forteller deg om *retning for kontakt*, så vi må bygge våre egne kollisjonsdetektorer.
+
+h3. Kollisjonsdetektorer: Kulekollisjonsproblemet
+
+p. Du har kanskje lagt merke til at Felix beveger seg ganske sakte. Dette er for å forhindre noe som kalles kulekollisjonsproblemet. Om du har et spill som involverer å skyte kuler på tynne mål, kan det hende at kulen beveger gjennom målet uten å treffe det. Dette skjer fordi datamaskinen beveger kulen i steg og sjekker for kollisjoner etter hvert steg. Hvis ett steg er før målet og neste etter, vil datamaskinen aldri oppdage at kulen har truffet noe (se illustrasjon under).
+
+!(systemutsnitt). kulekollisjonsproblemet.png!
+
+p. Siden kollisjonsdetektorene i dette spillet er ganske tynne, lider de under det samme problemet. Hvis du øker distansen Felix flytter seg per steg (prøv 20 eller mer) og deretter drar Felix til forskjellige steder, vil du se at han noen ganger kan falle gjennom guvet!
+
+p. Du kan forhindre at Felix begever seg gjennom tynne ting ved å gjøre kollisjonsdetektorene større, men men det løser ikke problemet med at han beveger seg inn i ting før Scratch oppdager at han har kollidert med noe. Det finnes måter for å unngå det (som å holde alt til et rutenett, bevege Felix litt tilbake hvis han har kræsjet i noe, eller anslå hvor han vil befinne seg og bevege seg sakte mot det), men disse metodene er kompliserte og/eller tidkrevende. Vi holder oss til en ganske rolig Felix i dette prosjektet. Du kan selvfølgelig utforske alternative metoder hvis du ønsker det! 
+
+
+h3. Tegne dine egne kollisjonsdetektorer
+
+p. Hvis barna ønsker å bruke sin egen drakt i stedet for Felix, må de lage sine egne kollisjonsdetektorer for den. Jeg lagde dem ved å importere drakten i GIMP og lage ett lag for hver sidelinje. Ved å velge hvilke lag som er synlige, kan du enkelt eksportere alle fire kollisjonsdetektorene (som .gif-filer).  Som når du lager nivåer (se lenger ned), sjekk at du får riktig farge når du konverterer bildet til en indeksert palett.  
+
+p. Legg også merke til at topp- og bunndetektorene ikke skal overlappe med sidedetektorene. Dette forhindrer at figuren blir hengende midt i luften hvis den kræsjer i en hindring under et hopp.
+
+h3. Oppgave 4: Nøkler og mål
+
+p. Du lurer kanskje på hvorfor vi setter eksplisitte startposisjoner for nøklene, rømningskapselen og Felix, og hvorfor vi sender beskjeder om seier? Når du lager dine egne nivåer, vil du ønske at disse tingene skal vises på forskjellige steder i forskjellige nivåer. Om vi setter inn krokene nå, vil det bli enklere å vise nivåene korrekt senere.
+
+h3. Uke 2: Designe nivåer
+
+p. Hvis du bruker en annen tegnepakke en den innebygde i Scratch for å utvikle nivåer, pass på når du konverterer det til gif-format. Å endre fra RGB-baserte til palett-baserte bilder kan endre fargene noe, men ikke nok til å se med det blotte øye. Det kan medføre at noen av blokkene for fargedetektering ikke lenger vil fungere i Scratch. I såfall må du endre fargepalettene manuelt for å beholde fargene du ønsker.
+
+p. Pass på at barna noterer all infomasjonen de trenger for å sette opp hvert nivå. De trenger: 
+* Felix sine startverdier for x og y
+* Rømningskapselens x- og y-verdier
+* x- og y-verdier for hver nøkkel
+* Om en nøkkel er synlig i et nivå
+* Hvor mange nøkler det er i et nivå
+* Nivåets bakgrunnsbilde
+
+p. For hver skurk trenger de å implementere:
+* Startverdier for x og y
+* Sluttverdier for x og y
+* Initiell retning
+* Om den er synlig
+* Om den beveger seg horisontalt eller vertikalt
+* Drakt
+
+
+h3. Uke 3
+
+h3. Oppgave 1: Vise et nytt nivå
+
+p. Advarsel: Dette er en lang oppgave, mange endringer skal gjøres! Så og si hver eneste figur må respondere til beskjeden på startnivået. Hver figur vil trenge flere lister som spesifiserer initielle verdier i hvert nivå.
+
+p. Oppmuntre barna til å lage en figur av gangen, og teste underveis, Vi har brukt noen skriptfragmenter på Stage for å sette nåværende nivå, deretter broadcast startnivået. Hvis de bruker flere nøkler eller skurker, oppmuntre dem til å slette alle utenom en av hver type figur, gjøre endringene, og derette duplisere figuren og endre på parametrene.
