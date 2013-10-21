@@ -27,7 +27,7 @@ table(oversikt).
 
 h4(steg). Oppgave 1: Kollisjonsdetektorer
 
-p. Du vil ha fire figurer som følger Felix. *Hver vil detektere kollisjoner i en retning og sette en variabel hvis den oppdager en kollisjon*. Felix-figuren vil bruke disse variablene til å kontrollere hvordan Felix kan bevege seg. Hver kollisjonsdetektor vil ha en fargelinje og bruke %(sansning)farge [] berører []?%-blokken til å detektere ting. Vi vil bruke *sort* for gulvet og *grønt* for hindringer. Vi vil bruke *rødt* for kollisjonsdetektorene.
+p. Du vil ha fire figurer som følger Felix. Hver vil detektere kollisjoner i en retning og sette en variabel hvis den oppdager en kollisjon. Felix-figuren vil bruke disse variablene til å kontrollere hvordan Felix kan bevege seg. Hver kollisjonsdetektor vil ha en fargelinje og bruke %(sansning)farge [] berører []?%-blokken til å detektere ting. Vi vil bruke *sort* for gulvet og *grønt* for hindringer. Vi vil bruke *rødt* for kollisjonsdetektorene.
 
 %(sjekkliste)Sjekkliste%
 
@@ -69,15 +69,15 @@ h4(steg). Oppgave 2: Bevegelse, gulv og fall
 
 %(test)Test prosjektet%
 
-(x)#5 Dra Felix med musen til et sted på scenen og trykk deretter på det grønne flagget.* Hvis Felix fortsetter å følge muspekeren, må du fjerne det skriptet! Du skal kunne bruke venstre- og høyretastene for å få Felix til å gå fra side til side. Hvis han ikke ikke står på gulvet, skal han falle forsiktig.
+(x)#5 Dra Felix med musen til et sted på scenen og trykk deretter på det grønne flagget. Hvis Felix fortsetter å følge muspekeren, må du fjerne det skriptet! Du skal kunne bruke venstre- og høyretastene for å få Felix til å gå fra side til side. Hvis han ikke ikke står på gulvet, skal han falle forsiktig.
 
 
-(x)#6 Vi vil også gjemme kollisjonsdetektorene. Vi kan ikke bruke en %(utseende)skjul%-blokk, for de vil ikke detektere noen kollisjoner. Sett i stedet en %(utseende)sett [gjennomsiktig] effekt til [100]% rett under *når grønt flagg klikkes*-hatten i hver kollosjonsdetektor. Det gjør figuren usynlig uten å gjemme den.
+(x)#6 Vi vil også gjemme kollisjonsdetektorene. Vi kan ikke bruke en %(utseende)skjul%-blokk, for de vil ikke detektere noen kollisjoner. Sett i stedet en %(utseende)sett [gjennomsiktig] effekt til 100% rett under *når grønt flagg klikkes*-hatten i hver kollosjonsdetektor. Det gjør figuren usynlig uten å gjemme den.
 
 
 %(test)Test prosjektet%
 
-(x)#7 Når du klikker på det grønne flagget*, skal kollisjonsdetektorene forsvinne. De vil vises igjen når du klikker på det røde stoppknappen.
+(x)#7 Når du klikker på det grønne flagget, skal kollisjonsdetektorene forsvinne. De vil vises igjen når du klikker på det røde stoppknappen.
 
 
 h4(steg). Oppgave 3: Hopp
@@ -93,8 +93,8 @@ h4(steg). Oppgave 3: Hopp
 * Vi vil at hoppet skal være *animert*, så vi vil ikke at han skal flytte seg for langt i ett steg.
 * Felix skal bare kunne hoppe når han *står på et gulv*. Spillet ville bli for enkelt hvis han kunne hoppe videre i luften.
 
-(x)#2 Vi skal kontrollere hopp med en ny %(styring)variabel%*, *høyde for hopp*. Hvis denne er større enn *null*, går Felix oppover. Hvis den er null, faller Felix (eller han har falt).
-# Vi skal få Felix til å hoppe opp *100 piksler*, all things being equal. Legg til en ny %(styring)hvis%-blokk inni %(styring)for alltid%-blokken som håndterer tastetrykk. Hvis vi trykker *mellomromstasten* og Felix står på et gulv (*blokkert bunn* er satt til *1*), sett *høyde for hopp til 100*.
+(x)#2 Vi skal kontrollere hopp med en ny %(styring)variabel%, *høyde for hopp*. Hvis denne er større enn *null*, går Felix oppover. Hvis den er null, faller Felix (eller han har falt).
+# Vi skal få Felix til å hoppe opp *100 piksler*. Legg til en ny %(styring)hvis%-blokk inni %(styring)for alltid%-blokken som håndterer tastetrykk. Hvis vi trykker *mellomromstasten* og Felix står på et gulv (*blokkert bunn* er satt til *1*), sett *høyde for hopp til 100*.
 # Vi vil endre skriptet for å falle. Inni %(styring)for alltid%-blokken vil vi ha en %(styring)hvis.. ellers..%-blokk som detekterer om Felix hopper eller ikke. Betingelsen for denne %(styring)hvis.. ellers..%-blokken er om *høyde for hopp* er *større enn null*. Den eksisterende %(styring)hvis%-blokken for fall legges i ellers-delen av den nye %(styring)hvis.. ellers..%-blokken. 
 # Når vi vet at Felix hopper oppover, må vi sjekke om han kræsjer hodet i noe. Hvis *blokkert topp* er *1*, sett *høyde for hopp* til *0*, så han ikke hopper videre inn i hindringer. *Ellers, beveg Felix opp med 10 og reduser høyde for hopp med 10.*
 # Du skal ende opp med dette (den nederste delen er den eksisterende %(styring)hvis%-blokken):
@@ -115,7 +115,7 @@ p(intro). Vi har fått Felix til å bevege seg rundt i spillet. Nå skal vi få 
 
 p. Vi vil nå legge ut tre nøkler som Felix kan samle ved å berøre dem. Når han har samlet alle tre, kan han klatre inn i en rømningskapsel og flykte.
 
-(x)# Vi vil ha en ny %(styring)variabel%*, *nøkler å samle*, som holder greie på hvor mange nøkler han mangler. Lag et nytt skript for scenen som setter denne til 3 når man trykker på *det grønne flagget*.
+(x)# Vi vil ha en ny %(styring)variabel%, *nøkler å samle*, som holder greie på hvor mange nøkler han mangler. Lag et nytt skript for scenen som setter denne til 3 når man trykker på *det grønne flagget*.
 # Nøklene og rømningskapselen skal begge være figurer. (Bruk frantic-felix/key1 for nøklene og frantic-felix/escape-pod for rømningskapselen.)
 # Hver nøkkel trenger *to skript*: et plasserer nøklene på rett posisjon (sjekk andre implementasjoner!), med størrelse og vinkel, og har deretter en %(styring)for alltid%-løkke for å endre fargen (som gjør det enklere å se den på skjermen). Det andre skritpet er en %(styring)for alltid% %(styring)hvis%-løkke som venter til Felix berører nøkkelen. Så fort det skjer, gjemmer skriptet nøkkelen og reduserer *nøkler å samle*.
 # Rømningskapselen har et noe mer komplisert skript. Den bruker en %(styring)for alltid% %(styring)hvis%-blokk for å vente på at *nøkler å samle* skal bli *null*. Så fort det skjer, skal rømningskapselen begynne å blinke, for å vise spilleren at de kan flykte. Da kan vi bruke en ny %(styring)hvis% til å detektere når Felix berører den blinkende rømningskapselen. Når han gjør det skal rømningskapselen %(styring)sende melding% om seier. Når Felix får seiersmeldingen skal han skjules.

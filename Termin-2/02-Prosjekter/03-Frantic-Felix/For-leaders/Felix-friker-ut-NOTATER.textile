@@ -20,7 +20,7 @@ h3. Notater om vanskelige oppgaver og kollisjonsdetektering:
 p. Plattformspill, som Manic Miner og Mario Bros, handler alle om at hovedpersonen beveger seg gjennom en verden og kolliderer med ting. Noen ting, som vegger og gulv, bare stopper deg fra å bevege deg. Noen ting, som skurker, dreper deg. Noen ting, som nøkler, ønsker du å samle på. Andre ting er kun omgivelser og påvirker ikke spillet i det hele tatt.
 
 p. Dette betyr at når du kolliderer med noe (kalt “kollisjonsdeteksjon” - du må kanskje forklare dette til elevene), er det viktig. Scratch gir deg noen blokker for kollisjonsdeteksjon: 
-%(sansning)berører [ ]?%, %(sansning)berører fargen [ ]?%, %(sansning)farge [ ] berører [ ]?%, og %(sansning)avstand til [ ] %. Men for å utvikle spillet trenger du å vite mer enn om du berører noe, du trenger å vite hvilken *side* som berører. Hvis du beveger deg langs en vegg til venstre, kan du ikke lenger gå mot venstre. Men du kan fortsatt gå mot høyre, eller hoppe, eller falle hvis det ikke er noe gulv.  
+%(sansning)berører [ ]?%, %(sansning)berører fargen [ ]?%, %(sansning)farge [ ] berører [ ]?%, og %(sansning)avstand til [ ]%. Men for å utvikle spillet trenger du å vite mer enn om du berører noe, du trenger å vite hvilken *side* som berører. Hvis du beveger deg langs en vegg til venstre, kan du ikke lenger gå mot venstre. Men du kan fortsatt gå mot høyre, eller hoppe, eller falle hvis det ikke er noe gulv.  
 
 p. Å berøre en skurk kan skade deg, men det kan hende du skader ham om om du berører ham med føttene dine. Ingen av de innebygde Scratch-blokkene forteller deg om *retning for kontakt*, så vi må bygge våre egne kollisjonsdetektorer.
 
