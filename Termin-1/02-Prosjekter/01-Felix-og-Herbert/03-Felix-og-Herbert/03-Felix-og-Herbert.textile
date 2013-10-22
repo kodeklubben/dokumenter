@@ -19,11 +19,11 @@ h3(sjekkliste). Sjekkliste
 
 # Start et nytt prosjekt.
 # Høyreklikk på !sprite1.png(Sprite1)! og velg slett.
-# Klikk på scenen ved siden av 'Dog2' i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på !velg-bakgrunn.png(Velg en ferdig bakgrunn)! for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'. Slett den gamle bakgrunnen som er helt hvit.
 # Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Dog2'.
 # Trykk på 'i' i hjørnet av !dog2.png(Dog2)! og bytt navn på figuren til 'Felix'.
 # Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til !rotasjonsmate-hv.png(Høyre/venstre)!.
 # Velg !ROOT/images/fane-drakter.png(drakter)!-fanen og slett den tredje drakten ved å trykke på X i hjørnet av drakten. !dog2-c.png!
+# Klikk på scenen ved siden av 'Felix' i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på !velg-bakgrunn.png(Velg en ferdig bakgrunn)! for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
 # Velg !ROOT/images/fane-skript.png(skript)!-fanen og lag dette skriptet:
 !(skript)skript1.png!
 
@@ -33,7 +33,7 @@ Klikk på det grønne flagget.
 
 * Følger Felix musepekeren?
 * Ser det ut som han går når han beveger seg?
-* Beveger han seg med
+* Beveger han seg med riktig hastighet?
 
 h3(lagre). Lagre prosjektet
 
@@ -45,7 +45,7 @@ h3(sjekkliste). Sjekkliste
 
 # Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Cat1'.
 # Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre !rotasjonsmate-hv.png(Høyre/venstre)!.
-# Gjør Herbert mindre enn Felix ved å trykke på !krymp.png(Krymp)!. Prøv seks klikk.
+# Gjør Herbert mindre enn Felix ved å trykke på !krymp.png(Krymp)! (øverst mot midten av vinduet). Prøv seks klikk.
 # Gi Herbert dette skriptet:
 !(skript)skript2.png!
 
