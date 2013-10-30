@@ -1,36 +1,34 @@
 h1(nivaa2). Ørkenløp
 
 p(intro). Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
-
 !(skjermbilde). images/OrkenKapplop1.png!
 
 table(oversikt).
 | %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
 | %(test)Test%| Klikk på det grønne flagget for å teste koden.|
-| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
-
-
+| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt. Dette gjøres fra menyen: %(klikk)Fil% og %(klikk)Lagre nå%|
 
 h4(steg). Steg 1: Lag en scene og legg til figurer
 
 %(sjekkliste)Sjekkliste%
-(x)# *Legg til en ny figur*: velg %(klikk)lion1-a% fra %(klikk)Animals%-mappen.
-# Legg så til *enda en ny figur*: velg %(klikk)Animals/parrot1-a%.
-# Klikk på %(klikk)Scene% og hent *riktig bakgrunn* fra %(klikk)Nature/desert%.
+(x)# *Legg til en ny figur*: velg %(klikk)lionness% fra %(klikk)Dyr%-mappen.
+# Legg så til *enda en ny figur*: velg %(klikk)Dyr/Parrot%.
+# Klikk på %(klikk)Scene% og hent *riktig bakgrunn* fra %(klikk)Flyvende/desert%.
 
 
 h4(steg). Steg 2: La løven og papegøyen bevege seg
 
 
 %(sjekkliste)Sjekkliste%
-(x)# *Få dyrene til å bevege seg*. 
-Velg først løvefiguren og få den til å %(bevegelse)gå [ 4 ] steg% når du trykker *L-tasten*.
-Velg så papegøyefiguren og la den %(bevegelse)gå [ 4 ] steg% når du trykker *A-tasten*
-!(systemutsnitt). images/OrkenKapplop_Steg2_fig1.png! !(systemutsnitt). images/OrkenKapplop_Steg2_fig2.png!
+*Få dyrene til å bevege seg*. 
+(x)# Velg først løvefiguren og få den til å %(bevegelse)gå [ 4 ] steg% når du trykker *L-tasten*.
+!(systemutsnitt). images/OrkenKapplop_Steg2_fig1.png! 
+(x)# Velg så papegøyefiguren og la den %(bevegelse)gå [ 4 ] steg% når du trykker *A-tasten*
+!(systemutsnitt). images/OrkenKapplop_Steg2_fig2.png!
 
 %(test)Test prosjektet%
 
-(x)#2 Trykk på det grønne flagget.
+Trykk på det grønne flagget.
 Beveger løven og papegøyen seg over skjermen når du trykker på *A* og *L*?
 
 %(lagre)Lagre prosjektet%
@@ -41,9 +39,9 @@ p(intro). Nå må vi kjøre i gang kappløpet og kåre en vinner. Vi begynner me
 
 %(sjekkliste)Sjekkliste%
 
-(x)# Legg til en *ny figur*. Velg %(klikk)Things/button%. Flytt den til midten av scenen.
-# Klikk %(klikk)Drakter% og %(klikk)Rediger%. 
-Klikk på %(klikk)T% og legg til teksten 'start'. Det er mulig du må endre bokstavtype og størrelse. Vi har her valgt _Arial 12_. Du kan flytte på teksten ved å holde nede den svarte firkanten og flytte på musa.
+(x)# Legg til en *ny figur*. Velg %(klikk)Ting/Button3. Flytt den til midten av scenen.
+# Klikk %(klikk)Drakter% og symbolet %(klikk)T% for å legge til tekst. 
+	Trykk på venstre kant av knappen for å legge til et tekstfelt og skriv inn teksten 'start'. Du kan flytte på teksten ved å trykke en gang på den, og endre innhold ved å dobbeltklikke.
 !(systemutsnitt). images/knapp.png!
 # Legg nå til et skript som *viser figuren når spillet starter:* 
 !(systemutsnitt). images/OrkenKapplop_Steg3_fig1.png!
@@ -85,16 +83,16 @@ p(intro). Nå vil vi vite hvem som vinner kappløpet, og i tillegg gjøre klart 
 
 (x)# Legg til en blokk i papegøyens skript som %(styring)setter 'kappløp' til [ 0 ]% hvis figuren %(bevegelse)berører kanten% av skjermen.
 !(systemutsnitt). images/OrkenKapplop_Steg4_fig1.png!
-# *Spill så inn en lyd* som skal avspilles *hvis papegøyen vinner*. Trykk %(klikk)Lyder% og %(klikk)Opptak% og spill inn en morsom trudelutt! Opptaket starter når du har klikket på den røde rundingen. Klikk %(klikk)OK% når du er ferdig, og gi den et navn - for eksempel _Polly_.
-# Så legger du til blokkene som vil %(lyd)spille lyden% og la papegøyen %(utseende)fortelle at den vant%:
+# *Spill så inn en lyd* som skal avspilles *hvis papegøyen vinner*. Trykk %(klikk)Lyd% og %(klikk)Mikrofonen% og spill inn en morsom trudelutt! Opptaket starter når du har klikket på den rundingen slik at den blir rød. Klikk %(klikk)Stopp% (firkanten) når du er ferdig, og gi den et navn - for eksempel _Polly_. Noen nettlesere kan spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker dette, bruk lydene som følger med figurene. 
+# Deretter legger du til blokkene som vil %(lyd)spille lyden% og la papegøyen %(utseende)fortelle at den vant%:
 !(systemutsnitt). images/OrkenKapplop_Steg4_fig2.png!
 # Gjenta steg 2 og 3 for løven.
 
 
-%(test)Test prosjektet%
+	%(test)Test prosjektet%
 
 (x)#5 *Trykk på det grønne flagget.*
-Kan du trykke på startknappen og deretter bevege dyrene med tastene *P* og *L*?
+Kan du trykke på startknappen og deretter bevege dyrene med tastene *A* og *L*?
 Kommer riktig vinnerlyd og melding opp på skjermen?
 
 %(lagre)Lagre prosjektet%
