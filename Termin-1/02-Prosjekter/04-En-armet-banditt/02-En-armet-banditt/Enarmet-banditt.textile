@@ -7,7 +7,7 @@ p(intro). Dette er et spill med tre figurer som endrer utseende. Spillerens oppg
 table(oversikt).
 | %(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
 | %(test)Test%| Klikk på det grønne flagget for å teste koden.|
-| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
 
 
 h4(steg). Steg 1: Lag en figur som bytter drakt
@@ -31,7 +31,8 @@ p(utro). Nå som vi har draktene må vi få figuren til å forandre seg.
 # Legg til en %(styring)for alltid%, slik at denne fester seg under den andre blokken.
 # *Klikk nå det grønne flagget* oppe i det høyre hjørnet. Du ser at du får en hvit linje rundt skriptet. Det betyr at skriptet kjører!
 # Velg nå %(klikk)Utseende% og dra inn en %(utseende)neste drakt%.
-# *Hvordan kan vi få draktbyttet til å gå saktere*? Velg %(klikk)Styring% og dra inn en %(styring)vent [1] sekunder%.
+# *Hvordan kan vi få draktbyttet til å gå saktere*? 
+Velg %(klikk)Styring% og dra inn en %(styring)vent [1] sekunder%.
  
 
 !(systemutsnitt). Skript-1.png!
@@ -46,7 +47,8 @@ p(utro). Nå som vi har draktene må vi få figuren til å forandre seg.
 %(lagre)Lagre prosjektet%
 
 %(prove)Ting å prøve%
-(x)#9	Endre tiden i vent blokken. Hva slags verdier tror du ville gjort spillet for vanskelig eller for lett?
+
+(x)#9	Endre tiden i vent-blokken. Hva slags verdier tror du ville gjort spillet for vanskelig eller for lett?
 
 
 h4(steg). Steg 3: Frys ruletten!
@@ -55,7 +57,7 @@ h4(steg). Steg 3: Frys ruletten!
 
 p(intro). Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi de til å stoppe når vi klikker på dem?
 
-(x)# Klikk på %(klikk)Variabler% og %(klikk)lag en ny variabel%. Gi den navnet _stoppet_ og la det stå huket av %(klikk)for alle figurer%. 
+(x)# Klikk på %(klikk)Data% og %(klikk)lag en ny variabel%. Gi den navnet _stoppet_ og la det stå huket av %(klikk)for alle figurer%. 
 # Når variabelen er opprettet *fjerner du avhukingen ved siden av* ,slik at den ikke vises på scenen.
 # Nå skal vi gi _stoppet_ verdien 1, når spilleren klikker på scenen. Det gjør vi med en %(styring)når Figur1 klikkes% og en %(variabel)sett stoppet til 1% - OBS! husk å endre verdien fra 0 til 1 i den siste blokken.
 
@@ -77,7 +79,6 @@ Stopper den _når_ du klikker på den?
 Stopper den når du setter pekeren over den uten å klikke? 
 Stopper den når du klikker andre steder på scenen eller andre steder i Scratch?
 
-%(lagre)Lagre prosjektet%
 
 
 h4(steg). Steg 4: Lag de andre figurene
@@ -105,7 +106,7 @@ p(intro). Nå trenger vi to figurer til for å gjøre spillet komplett!
 *Tips:* Prøv å gi en tilfeldig drakt til hver figur, hver gang spillet startes.
 
 
-p(utro). Bra jobba! Du er ferdig med spillet! Men prøv gjerne disse utfordringene:
+p(utro). Bra jobba! Du er ferdig med første del av spillet! Men prøv gjerne disse utfordringene:
 
 
 h4(utfordring). Utfordring 1: Gjør spillet vanskeligere
@@ -124,7 +125,7 @@ p. Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere eller van
 h4(utfordring). Utfordring 2: Endre vanskelighetsgrad over tid
 
 
-p. Noen spillere vil være gode og andre …ikke fullt så gode. Hvordan kan du få spillet til å *justere vanskelighetsgrad ut ifra hvor god spilleren er*?
+p. Noen spillere vil være gode og andre ikke fullt så gode. Hvordan kan du få spillet til å *justere vanskelighetsgrad ut ifra hvor god spilleren er*?
 
 (x)#  En måte er å *justere rulleringshastigheten for draktene*. Du kan bruke en variabel, som du kaller _forsinkelse_, som bestemmer varigheten til %(styring)vent%-blokken for hver figur. Hvis spilleren vinner en runde, kan verdien på _forsinkelse_-variabelen settes litt ned - for å gjøre spillet vanskeligere. Hvis spilleren taper en runde, så kan den justeres litt opp - for å gjøre det lettere.
 
