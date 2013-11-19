@@ -97,7 +97,6 @@ p(intro). Nå trenger vi to figurer til for å gjøre spillet komplett!
 (x)#5 *Klikk det grønne flagget* og kryss fingrene for at alle figurene nå endrer seg.
 # Prøv å stoppe dem, én for én.
 
-%(lagre)Lagre prosjektet%
 
 %(prove)Ting å prøve%
 
@@ -136,7 +135,7 @@ p(intro). Spillets mål er å klikke på figurene slik at de stopper når alle h
 For å sjekke om spillet er slutt lager vi et eget skript. Denne sjekken kan kjøres hver gang en figur er klikket. 
 
 
-(x)# Først må vi *gi scenen beskjed når en figur har blitt klikket på*. Finn tilbake til %(styring)når Figur1 klikkes% og legg til blokken %(styring)send melding 'SjekkOmSlutt'%. Gjør det samme for de andre figurene. 
+(x)# Først må vi *gi scenen beskjed når en figur har blitt klikket på*. Finn tilbake til %(styring)når Figur1 klikkes% og legg til blokken %(styring)send melding 'SjekkOmSlutt'%. Du må lage meldingen "SjekkOmSlutt" selv. Gjør det samme for de andre figurene. 
 # Når scenen får beskjeden _SjekkOmSlutt_, setter den i gang skriptet som kjører sjekken. Hvis alle figurenes _stoppet_-variabel har verdien 1, så vet vi at spillet er ferdig. 
 Bruk  blokken %(sansning)'x-posisjon' av Figur1'% og endre 'x-posisjon' til 'stoppet'. 
 # Neste punkt blir å sjekke om spilleren har vunnet. Det har hun eller han hvis alle tre figurene er frosset med samme drakt.
