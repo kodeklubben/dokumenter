@@ -30,7 +30,7 @@ Før du går i gang med textile-dokumentene må du opprette forbindelse til gith
 2. GITHUB
 
 2.1. Opprett bruker på github.
-2.2. Be om Anders om skrivetilgang for din bruker (f.eks. på G+)
+2.2. Be om Helge (helge@kodeklubben.no) om skrivetilgang for din bruker (f.eks. på G+)
 2.3. Last ned github-klient (Trykk på "Clone in Mac")
 2.4. Last ned repositoriet "dokumenter"
 2.5. Du vil nå få en kopi av filstrukturen som ligger lokalt på din maskin. 
