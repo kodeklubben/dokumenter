@@ -44,7 +44,6 @@ Velg %(klikk)Styring% og dra inn en %(styring)vent [1] sekunder%.
 
 (x)#8 *Klikk det grønne flagget*. Endres drakten i passe tempo? Hvis ikke kan du *justere* til du er fornøyd. Tanken er at det ikke skal være for lett å stoppe ruletten på riktig drakt - men det skal ikke være _for_ vanskelig heller!
 
-%(lagre)Lagre prosjektet%
 
 %(prove)Ting å prøve%
 
