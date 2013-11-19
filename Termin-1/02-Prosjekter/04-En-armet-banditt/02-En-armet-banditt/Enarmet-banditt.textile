@@ -35,7 +35,7 @@ p(utro). Nå som vi har draktene må vi få figuren til å forandre seg.
 Velg %(klikk)Styring% og dra inn en %(styring)vent [1] sekunder%.
  
 
-!(systemutsnitt). Skript-1.png!
+!(systemutsnitt). skript-1.png!
 
 (x)#7 Endre hastigheten slik at *drakten rullerer litt raskere* (ca 0.5 sekunder ser bra ut). Hva tror du hadde skjedd hvis ikke vi hadde tatt med %(styring)vent%-blokken?
 
@@ -61,11 +61,11 @@ p(intro). Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan få
 # Når variabelen er opprettet *fjerner du avhukingen ved siden av* ,slik at den ikke vises på scenen.
 # Nå skal vi gi _stoppet_ verdien 1, når spilleren klikker på scenen. Det gjør vi med en %(styring)når Figur1 klikkes% og en %(variabel)sett stoppet til 1% - OBS! husk å endre verdien fra 0 til 1 i den siste blokken.
 
-!(systemutsnitt). Skript-2.png!     
+!(systemutsnitt). skript-2.png!     
   
 (x)#4 Neste steg er å *få ruletten til å stoppe når _stoppet_ får verdien 1*. Velg %(klikk)Styring% og bytt ut %(styring)for alltid%-løkken med en %(styring)for alltid hvis%. Bruk så en %(klikk)operator% for å sjekke om %(variabel)stoppet% %(operator)= [ 0 ]%:
 
-!(systemutsnitt). Skript-3.png!
+!(systemutsnitt). skript-3.png!
                                                                     
 (x)#5 Til slutt må du huske å *nullstille _stoppet_ når spillet startes på nytt*. For da vil vi jo at ruletten skal begynne å gå rundt igjen. Legg til en %(variabel)sett 'stoppet' til [ 0 ]% rett under %(styring)når flagget klikkes%-blokken.
 
@@ -90,7 +90,7 @@ p(intro). Nå trenger vi to figurer til for å gjøre spillet komplett!
 (x)# *Dupliser figuren din* ved å høyreklikke og velge %(klikk)Lag kopi%.
 # Gjør det en gang til - slik at vi får tre figurer på skjermen.
 # Flytt figurene slik at de er en linje. Gjør dem mindre med krympeknappen hvis det trengs: 
-# !(systemdetalj). Krympeknapp.png!
+# !(systemdetalj). krympeknapp.png!
 
 %(test)Test prosjektet%
 
@@ -143,7 +143,7 @@ Bruk  blokken %(sansning)'x-posisjon' av Figur1'% og endre 'x-posisjon' til 'sto
 For å sjekke dette bruker vi nok en gang %(sansning)'x-posisjon' av Figur1'%. Men denne gangen er det draktnummeret vi sammenligner. 
 I tillegg trenger vi en %(styring)hvis%-blokk som sjekker hver _stoppet_-variabel og inn i den en %(styring)hvis..ellers%-blokk. Kanskje det er lettest å skjønne når du ser litt på skriptet?
 
-!(systemutsnitt). Skript-3.png! 
+!(systemutsnitt). skript-4.png! 
 
 (x)#4 Til slutt kan du annonsere resultatet ved å bruke en ny melding og en ny figur. Kanskje Felix kan komme tilbake for å gratulere spilleren?
 
