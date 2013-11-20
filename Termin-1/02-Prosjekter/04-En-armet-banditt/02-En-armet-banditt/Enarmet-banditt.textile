@@ -64,7 +64,7 @@ p(intro). Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan få
   
 (x)#4 Neste steg er å *få ruletten til å stoppe når _stoppet_ får verdien 1*. Velg %(klikk)Styring% og bytt ut %(styring)for alltid%-løkken med en %(styring)for alltid hvis%. Bruk så en %(klikk)operator% for å sjekke om %(variabel)stoppet% %(operator)= [ 0 ]%:
 
-!(systemutsnitt). skript-3.png!
+!(systemutsnitt). Bandittskript.PNG!
                                                                     
 (x)#5 Til slutt må du huske å *nullstille _stoppet_ når spillet startes på nytt*. For da vil vi jo at ruletten skal begynne å gå rundt igjen. Legg til en %(variabel)sett 'stoppet' til [ 0 ]% rett under %(styring)når flagget klikkes%-blokken.
 
@@ -142,7 +142,7 @@ Bruk  blokken %(sansning)'x-posisjon' av Figur1'% og endre 'x-posisjon' til 'sto
 For å sjekke dette bruker vi nok en gang %(sansning)'x-posisjon' av Figur1'%. Men denne gangen er det draktnummeret vi sammenligner. 
 I tillegg trenger vi en %(styring)hvis%-blokk som sjekker hver _stoppet_-variabel og inn i den en %(styring)hvis..ellers%-blokk. Kanskje det er lettest å skjønne når du ser litt på skriptet?
 
-!(systemutsnitt). skript-4.png! 
+!(systemutsnitt). Bandittskript2.PNG! 
 
 (x)#4 Til slutt kan du annonsere resultatet ved å bruke en ny melding og en ny figur. Kanskje Felix kan komme tilbake for å gratulere spilleren?
 
