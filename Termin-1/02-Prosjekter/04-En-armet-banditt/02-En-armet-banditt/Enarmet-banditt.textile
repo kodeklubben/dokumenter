@@ -10,7 +10,7 @@ table(oversikt).
 
 
 
-h4(steg). Steg 1: Lag en figur som bytter drakt
+h4(steg). Steg 1: Lag en figur som bytter drakt 
 
 %(sjekkliste)Sjekkliste%
 
