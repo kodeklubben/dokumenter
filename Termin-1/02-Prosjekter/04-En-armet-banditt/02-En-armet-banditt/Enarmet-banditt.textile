@@ -22,7 +22,7 @@ p(intro). La oss importere de bildene vi trenger for spillet
 # Gå til %(klikk)Drakter%, og %(klikk)importer% *to ekstra drakter*, så figuren til sammen har tre drakter.
 
 
-h4(steg). Steg 2 Få figuren til å rullere
+h4(steg). Steg 2 Få figuren til å rullere 
 
 p(utro). Nå som vi har draktene må vi få figuren til å forandre seg.
 
