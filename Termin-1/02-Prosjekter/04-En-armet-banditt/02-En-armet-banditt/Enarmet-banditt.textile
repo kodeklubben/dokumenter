@@ -27,7 +27,7 @@ h4(steg). Steg 2 Få figuren til å rullere
 p(utro). Nå som vi har draktene må vi få figuren til å forandre seg.
 
 (x)# Klikk på %(klikk)Skript%-fanen. 
-# Velg %(klikk)Styring% og hent en %(styring)når flagget klikkes%-blokk. Denne vil kjøre hver gang du klikker på det grønne flagget over scenen.
+# Velg %(klikk)Hendelser% og hent en %(styring)når flagget klikkes%-blokk. Denne vil kjøre hver gang du klikker på det grønne flagget over scenen.
 # Legg til en %(styring)for alltid%, slik at denne fester seg under den andre blokken.
 # *Klikk nå det grønne flagget* oppe i det høyre hjørnet. Du ser at du får en hvit linje rundt skriptet. Det betyr at skriptet kjører!
 # Velg nå %(klikk)Utseende% og dra inn en %(utseende)neste drakt%.
@@ -56,9 +56,9 @@ h4(steg). Steg 3: Frys ruletten!
 
 p(intro). Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi de til å stoppe når vi klikker på dem?
 
-(x)# Klikk på %(klikk)Data% og %(klikk)lag en ny variabel%. Gi den navnet _stoppet_ og la det stå huket av %(klikk)for alle figurer%. 
+(x)# Klikk på %(klikk)Data% og %(klikk)lag en ny variabel%. Gi den navnet _stoppet_ og la det stå huket av %(klikk)for denne figuren%. 
 # Når variabelen er opprettet *fjerner du avhukingen ved siden av* ,slik at den ikke vises på scenen.
-# Nå skal vi gi _stoppet_ verdien 1, når spilleren klikker på scenen. Det gjør vi med en %(styring)når Figur1 klikkes% og en %(variabel)sett stoppet til 1% - OBS! husk å endre verdien fra 0 til 1 i den siste blokken.
+# Nå skal vi gi _stoppet_ verdien 1, når spilleren klikker på scenen. Det gjør vi med en %(styring)når denne figuren klikkes% og en %(variabel)sett stoppet til 1% - OBS! husk å endre verdien fra 0 til 1 i den siste blokken.
 
 !(systemutsnitt). skript-2.png!     
   
@@ -89,7 +89,8 @@ p(intro). Nå trenger vi to figurer til for å gjøre spillet komplett!
 (x)# *Dupliser figuren din* ved å høyreklikke og velge %(klikk)Lag kopi%.
 # Gjør det en gang til - slik at vi får tre figurer på skjermen.
 # Flytt figurene slik at de er en linje. Gjør dem mindre med krympeknappen hvis det trengs: 
-# !(systemdetalj). krympeknapp.png!
+!(systemdetalj). krympeknapp.png!
+
 
 %(test)Test prosjektet%
 
