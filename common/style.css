@@ -1,26 +1,22 @@
-
-
- body { margin: 80px; width: 700px;}
-
+body { margin: 80px; width: 700px;}
 
 body div.scratch {
   font-family: sans-serif;
+  font-size: 14pt;
 }
 
-div.scratch img.topp-logo {   display: block;   margin-left: auto;   margin-right: auto; }
-
+div.scratch img.topp-logo { display: block; margin-left: auto; margin-right: auto; }
 
 div.scratch h1.nivaa1
 {
   background-color: #72BF44;
   color: white;
-  margin-top: 2em;
-  margin-bottom: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   height: 2.2em;
   padding-top: 0.8em;
 
 }
-
 
 div.scratch h1.nivaa2
 {
@@ -50,12 +46,12 @@ div.scratch h1.nivaa1:before
   float: left;
   background-color: #000000;
   color: white;
-  margin-top: -2em;
+  margin-top: -1.5em;
   margin-left: 1em;
   margin-right: 1em;
   padding-top: 1.8em;
-  height: 3.2em;
-  width: 5em;
+  height: 2.5em;
+  width: 4em;
   text-align: center;
   vertical-align: center;
   border-radius: 15px; 
@@ -63,8 +59,6 @@ div.scratch h1.nivaa1:before
   -webkit-border-radius: 15px; 
   border: 3px solid white;
 }
-
-
 
 div.scratch h1.nivaa2:before
 {
@@ -138,7 +132,7 @@ table td
 /*MON: Til bruk som tom tegnerute i Lag ditt eget spill  */
 table.tom
 {
-	width: 100%;
+  width: 100%;
   margin: 1em auto;
   border: solid 2px #19A347;
   padding: 1em;
@@ -160,7 +154,7 @@ p.utro {
 }
 
 div.scratch .sjekkliste {
-line-height:100px;
+  line-height:60px;
   background-image: url(../images/sjekkliste-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -168,11 +162,10 @@ line-height:100px;
   font-weight: bold;
   font-size: 1.5em;
   color: #ECA320;
-
 }
 
 div.scratch .test {
-line-height:100px;
+  line-height:60px;
   background-image: url(../images/test-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -183,7 +176,7 @@ line-height:100px;
 }
 
 div.scratch .lagre {
-	line-height:100px;
+  line-height:60px;
   background-image: url(../images/lagre-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -195,7 +188,7 @@ div.scratch .lagre {
 
 
 div.scratch .prove {
-	line-height:100px;
+  line-height:60px;
   background-image: url(../images/prove-symbol.png);
   background-repeat: no-repeat;
   padding: 10px;
@@ -216,56 +209,71 @@ div.scratch span.klikk {
   color: white;
   background-color: #989898;
   padding: 2px;
-/*  text-decoration: underline;*/
+  white-space: nowrap;
 }
 
 /*MON: De følgende åtte klassene er til gjengivelse av de ulike kodeblokkene i Scratch. Det hadde vært fint om det kunne legges inn at disse ikke skal avbrytes av linjeskift, hvis det går an. Et annet problem er at   */
+div.scratch span.plain {
+  color: white;
+  background-color: #FFF;
+  padding: 2px;
+  white-space: nowrap;
+}
+
 div.scratch span.styring {
   color: white;
   background-color: #F9A600;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.bevegelse {
   color: white;
   background-color: #2973D7;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.lyd {
   color: white;
   background-color: #E950D8;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.penn {
   color: white;
   background-color: #00A37A;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.utseende {
   color: white;
   background-color: #9b5FE6;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.sansning {
   color: white;
   background-color: #009ADF;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.operator {
   color: white;
   background-color: #72BF44;
   padding: 2px;
+  white-space: nowrap;
 }
 
 div.scratch span.variabel {
   color: white;
   background-color: #FF7200;
   padding: 2px;
+  white-space: nowrap;
 }
 
 
@@ -275,8 +283,8 @@ div.scratch .x li {
   padding: 2px;
   margin-bottom: 2px;
   background: url('../images/sjekkrute.png') no-repeat right top;
-    padding-right: 50px;
-    min-height: 30px;
+  padding-right: 50px;
+  min-height: 30px;
 }
 
 
@@ -292,7 +300,6 @@ div.scratch h3 {
 
 /* MON: Denne brukes til "Steg"-overskriftene i veiledningene. Burde kanskje hatt endel luft over seg for å markere overgangen til nytt "kapittel"? */
 div.scratch .steg {
-  /*line-height:100px;*/
   background-color: #72BF44;
   color: white;
   font-size: 1.5em;
@@ -304,7 +311,6 @@ div.scratch .steg {
 
 
 div.scratch .utfordring {
-  
   background-color: #72BF44;
   color: white;
   font-size: 1.5em;
@@ -350,7 +356,7 @@ div.scratch span.palett {
 }
 
 div.scratch img.skript {
-margin: 1em auto;
+  margin: 1em auto;
   padding: 1em;
   border: solid 1px #ccc;
   background-color: #eee;
@@ -359,9 +365,9 @@ margin: 1em auto;
 
 /*MON: i originalversjonen hadde disse bildene avrunda hjørner og gul ramme.*/
 div.scratch img.skjermbilde {
-  margin: 1em auto;
-  padding: 1em;
-  border: solid 1px #ccc;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  border: solid 1px #ddd;
   background-color: #eee;
 }
 
