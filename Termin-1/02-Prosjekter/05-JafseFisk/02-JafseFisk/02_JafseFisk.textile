@@ -19,9 +19,9 @@ p(intro). Først skal vi lage JafseFisk som svømmer rundt i havet.
 %(sjekkliste)Sjekkliste%
 
 (x)# *Start et nytt Scratch prosjekt*.
-# *Riktig bakgrunn* får du ved å velge %(klikk)Scene% og %(klikk)bakgrunn%. Så %(klikk)importerer% du bakgrunnen %(klikk)underwater% fra mappen %(klikk)Nature%. Slett _background1_.
+# *Riktig bakgrunn* får du ved å velge %(klikk)Scene% og %(klikk)bakgrunn%. Så %(klikk)importerer% du bakgrunnen %(klikk)underwater3% fra mappen %(klikk)Natur%. Slett _background1_.
 # *Endre figur1s navn* til _JafseFisk_.
-# *Gi figuren en fiskedrakt* ved å %(klikk)importere% %(klikk)fish1-b% fra mappen %(klikk)Animals%. Gi denne navnet _åpen munn_. Deretter fjerner du _drakt1_ og _drakt2_ som lå der fra før.
+# *Gi figuren en haidrakt* ved å %(klikk)Velg drakt fra biblioteket% %(klikk)shark-b% fra mappen %(klikk)Dyr%. Gi denne navnet _åpen munn_. Deretter fjerner du _drakt1_ og _drakt2_ som lå der fra før.
 # *Figuren skal bare bevege seg fra side til side*. Det fikser du ved å klikke på sideveisknappen som ser slik ut: !(systemdetalj). kun-mot-venstre-eller-hoyre.png! 
 # *Få fisken til å følge musepekeren* rundt i sjøen ved å lage dette skriptet:
 
@@ -54,8 +54,8 @@ p(intro). Det er på tide å gi JafseFisk noe å spise!
 
 %(sjekkliste)Sjekkliste%
 
-(x)# *Importer en ny figur* ved først å velge %(klikk)Animals%-mappen og deretter %(klikk)lobster1%.
-# *Gjør figuren mindre* med %(klikk)krympeknappen%, som ligger over _Scene_.
+(x)# *Importer en ny figur* ved først å velge %(klikk)Dyr%-mappen og deretter %(klikk)Fish2%.  Kall denne byttedyr1.
+# *Gjør figuren mindre* med %(klikk)krympeknappen%, som ligger over _den røde stopp-knappen_.
 # *Få byttedyrene til å bevege seg i tilfeldige retninger*. Først skal vi la dem bevege seg litt framover, og så snu en tilfeldig valgt vinkel med eller mot klokka, og deretter gjenta.  
 
 !(skript). Steg2_fig1.png!
@@ -71,7 +71,7 @@ For øyeblikket samspiller ikke JafseFisk og byttedyret med hverandre. Det skal 
 %(prove)Ting å prøve%
 
 (x)#5 *Prøv å forandre tallene* som bestemmer bevegelsene %(bevegelse)gå% og %(bevegelse)vend%. Hvordan forandrer det byttedyrenes bevegelser?
-# Hva gjør %(styring)sprett tilbake ved kanten%? Fjern blokken fra programmet og se hva som skjer.
+# Hva gjør %(bevegelse)sprett tilbake ved kanten%? Fjern blokken fra programmet og se hva som skjer.
 
 
 
@@ -90,7 +90,7 @@ p(intro). Nå skal vi la JafseFisk spise byttet! Når den har fanget byttet i mu
 
 %(test)Test prosjektet%
 (x)#2 *Prøv spillet ditt igjen*. Ser du noen problemer? Legg merke til at byttet forsvinner uansett hvor det berører JafseFisk. Dessuten kan fisken bare vente 3 sekunder og så spise byttet i samme øyeblikk som det dukker opp igjen, det er ikke særlig rettferdig!
-#  *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks munn*? Tja, vi kunne bruke %(sansning)berører fargen%-blokken  og se om den berører fiskens blå tenner. For å gjøre dette, bytt ut blokken %(sansning)berører% med %(sansning)berører fargen%. Klikk på fargen i blokken og klikk deretter på fiskens tenner.
+#  *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks munn*? Tja, vi kunne bruke %(sansning)berører fargen%-blokken  og se om den berører fiskens tenner. Men da må fargen på tennene være unik, så først gå til Drakter på Jafsefisk og fyll inn en unik farge på tennene, f.eks. rød.  Det kan være lettere å gjøre det hvis du først forstørrer den og så kan du forminske den igjen når du er ferdig.  Bytt så ut blokken %(sansning)berører% med %(sansning)berører fargen%. Klikk på fargen i blokken og klikk deretter på fiskens tenner.
 #  *Nå kan vi la byttet flytte seg til et tilfeldig punkt* på skjermen før den dukker opp igjen ved å bruke en %(bevegelse)gå til x:  y:%-blokk og gi den en tilfeldig verdi for x og y.
 
 !(skript). Steg3_fig2.png!
@@ -106,7 +106,7 @@ p(intro). Nå skal vi la JafseFisk spise byttet! Når den har fanget byttet i mu
 
 p(intro). Nå vil vi at fiskens respons på denne meldingen er å lage en gomlelyd og klikke med kjevene.
 
-(x)#7 *Legg til en ny drakt* for JafseFisk ved å %(klikk)importere% filen %fish1-a% fra mappen %(klikk)Animals%. Kall denne _lukket munn_. Legg også til lyden %(klikk)Pop% fra %(klikk)Effects%-mappen.
+(x)#7 *Legg til en ny drakt* for JafseFisk ved å %(klikk)Velg drakt fra biblioteket% og velge %shark-a% fra mappen %(klikk)Under vann%. Kall denne _lukket munn_. Fargelegg så tennene i samme fargen som du gjorde på drakten åpen munn.  Legg også til lyden %(klikk)Bubbles% fra %(klikk)Effekter%-mappen.
 # For å *reagere på meldingen fra byttedyret* legger du til et nytt skript under JafseFisk. Dette skriptet gjør at fisken spiller gomlelyden og skifter drakt til _lukket munn_, venter litt og så bytter tilbake til _åpen munn_.
 
 !(skript). Steg3_fig4.png!
