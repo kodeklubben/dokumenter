@@ -2,7 +2,7 @@ h1(nivaa1). Felix og Herbert
 
 h2. Introduksjon
 
-Vi skal lage et spill hvor hunden Felix skal fange katten Herbert. Du styrer Herbert med musen og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo fler poeng får du, men blir du tatt, går poengsummen din ned.
+Vi skal lage et spill hvor katten Felix skal fange katten Herbert. Du styrer Herbert med musen og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
 !ROOT/images/image.png!
 
@@ -13,13 +13,11 @@ table(oversikt).
 
 h2(steg). Steg 1: Felix følger musepekeren
 
-Vi ønsker at hunden Felix skal følge etter musepekeren.
+Vi ønsker at katten Felix skal følge etter musepekeren.
 
 h3(sjekkliste). Sjekkliste
 
 # Start et nytt prosjekt.
-# Høyreklikk på !sprite1.png(Sprite1)! og velg slett.
-# Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Dog2'.
 # Trykk på 'i' i hjørnet av !dog2.png(Dog2)! og bytt navn på figuren til 'Felix'.
 # Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til !rotasjonsmate-hv.png(Høyre/venstre)!.
 # Velg !ROOT/images/fane-drakter.png(drakter)!-fanen og slett den tredje drakten ved å trykke på X i hjørnet av drakten. !dog2-c.png!
@@ -39,11 +37,11 @@ h3(lagre). Lagre prosjektet
 
 h2(steg). Steg 2: Felix jager Herbert
 
-Nå ønsker vi at Felix skal jage katten Herbert i stedet for musepekeren.
+Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.
 
 h3(sjekkliste). Sjekkliste
 
-# Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Cat1'.
+# Lag en ny figur ved å trykke på !figur-fra-bibliotek.png(Velg figur fra biblioteket)! og velg figuren 'Dyr/Mouse1'.
 # Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre !rotasjonsmate-hv.png(Høyre/venstre)!.
 # Gjør Herbert mindre enn Felix ved å trykke på !krymp.png(Krymp)! (øverst mot midten av vinduet). Prøv seks klikk.
 # Gi Herbert dette skriptet:
@@ -84,7 +82,6 @@ h3(sjekkliste). Sjekkliste
 # Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 !(skript)skript4.png!
 # Velg Herbert og gå til !ROOT/images/fane-drakter.png(drakter)!-fanen.
-# Slett drakt nummer to ved å trykke på krysset ved siden av denne drakten.
 # Hent en ny drakt ved å trykke på !figur-fra-bibliotek.png(Velg drakt fra biblioteket)! og velg 'Fantasi/ghost2-a'
 # Gjør drakten mindre ved å velge !krymp.png(Krymp)! og trykke seks ganger på spøkelsesdrakten.
 # Endre navnene på Herbers drakter slik at kattedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
