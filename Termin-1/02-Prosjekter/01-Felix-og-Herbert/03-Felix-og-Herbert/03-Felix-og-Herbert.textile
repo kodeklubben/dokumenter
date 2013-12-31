@@ -4,7 +4,7 @@ h2. Introduksjon
 
 Vi skal lage et spill hvor katten Felix skal fange katten Herbert. Du styrer Herbert med musen og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-!ROOT/images/image.png!
+!Screengrab.png!
 
 table(oversikt).
 |%(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
