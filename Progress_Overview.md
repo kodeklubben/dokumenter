@@ -1,14 +1,17 @@
-{h1}Oversikt over framdrift i oversettinga{/h1}
+Oversikt over framdrift i oversettinga
+==================================
 
-{p} {h2}Termin 1 {/h2}
-{ul}
-{li}Oppgave 1. Felix & Herbert: OK {/li}
-{li}Oppgave 2. Tryll Bort Heksa: Ikke OK{/li}
-{li}Oppgave 3. Fyrverkeri: Ikke OK{/li}
-{li}Oppgave 4. En-armet banditt: Ikke OK{/li}
-{li}Oppgave 5. Jafsefisk: Ikke OK{/li}
-{li}Oppgave 6. Ørkenløp: Ikke OK{/li}
-{li}Oppgave 7. Hva er det? : Ikke OK{/li}
-{li}Oppgave 8. Tegneprogram: Ikke OK{/li}
-{li}Oppgave 9. Lag ditt eget spill: Ikke OK{/li}
-{/ul}
+Termin 1
+----------------
+
+
+1. Oppgave 1. *Felix & Herbert*: **OK**
+2. Oppgave 2. *Tryll Bort Heksa*: **Ikke OK**
+3. Oppgave 3. *Fyrverkeri*: **Ikke OK**
+4. Oppgave 4. *En-armet banditt*: **Ikke OK**
+5. Oppgave 5. *Jafsefisk*: **Ikke OK**
+6. Oppgave 6. *Ørkenløp*: **Ikke OK**
+7. Oppgave 7. *Hva er det?* : **Ikke OK**
+8. Oppgave 8. *Tegneprogram*: **Ikke OK**
+9. Oppgave 9. *Lag ditt eget spill*: **Ikke OK**
+
