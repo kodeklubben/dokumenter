@@ -21,7 +21,7 @@ pdfs: $(PDFS)
 
 %.html: %.textile Makefile
 	@echo Generating $@
-	$(eval ROOT=$(shell echo "$<" | sed -e "s,[^/]\+/,../,g" -e "s,/[^/]\+$$,,g"))
+	$(eval ROOT=$(shell echo "$<" | sed -e "s,[^/]*/,../,g" -e "s,/[^/]*$$,,g"))
 	@cat common/header.html | sed -e "s,ROOT,$(ROOT),g" > $@
 	@cat common/header.textile $< common/footer.textile | redcloth | sed -e "s,ROOT,$(ROOT),g" >> $@
 	@cat common/footer.html | sed -e "s,ROOT,$(ROOT),g" >> $@
