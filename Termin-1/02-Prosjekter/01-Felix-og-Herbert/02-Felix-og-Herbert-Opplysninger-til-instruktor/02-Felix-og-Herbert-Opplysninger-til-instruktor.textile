@@ -4,7 +4,7 @@ h2. Opplysninger til instruktør
 
 h3. Introduksjon
 
-Vi skal lage et spill hvor katten Felix skal fange musen Herbert. Du styrer Herbert med muspekeren og skal prøve å unngå å bli fanget av Felix. Jo lenger du unngår ham jo fler poeng får du, men pass på at du ikke blir fanget for da går poengsummen din ned. Dette er et enkelt prosjekt for å introdusere det grunnleggende i Scratch.
+Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du styrer Herbert med musepekeren og skal prøve å unngå å bli fanget av Felix. Jo lenger du unngår ham jo fler poeng får du, men pass på at du ikke blir fanget for da går poengsummen din ned. Dette er et enkelt prosjekt for å introdusere det grunnleggende i Scratch.
 
 h3. Ferdigheter
 
