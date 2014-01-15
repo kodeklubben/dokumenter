@@ -20,9 +20,9 @@ p(intro). Vi vil at noen forskjellige bilder skal komme opp på tavlen.
 %(sjekkliste)Sjekkliste%
 
 (x)# *Start et nytt Scratch-prosjekt* og %(klikk)slett% kattefiguren.
-# Klikk på %(klikk)Stage% og deretter på %(klikk)Bakgrunner%-fanen. %(klikk)Importer Indoors/chalkboard%-bakgrunnen.
+# Klikk på %(klikk)Scene% og deretter på %(klikk)Bakgrunner%-fanen. %(klikk)Importer Innendørs/chalkboard%-bakgrunnen.
 # *Importer en valgfri figur*.
-# *Plasser den i midten av tavlen*, og endre størrelsen hvis ikke den passer.!(systemdetalj). endre-storrelse.png!
+# *Plasser den i midten av tavlen*, og endre størrelsen hvis den ikke passer.!(systemdetalj). endre-storrelse.png!
 # *Legg til fire nye drakter* fra %(klikk)Things%-mappen.
 
 !(systemutsnitt). drakter.png!
