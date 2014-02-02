@@ -2,7 +2,7 @@
 
 ## Introduksjon { .intro}
 
-Dette prosjektet er inspirert av tivolispillet _whack-a-mole_, 	hvor man slår muldvarper ned igjen i hullene sine. I vårt spill er det spøkelsene som blir borte når vi klikker på dem. Målet er å klikke bort flest mulig i løpet av 30 sekunder.
+Dette prosjektet er inspirert av tivolispillet _Whack-a-mole_, 	hvor man slår muldvarper ned igjen i hullene sine. I vårt spill er det spøkelsene som blir borte når vi klikker på dem. Målet er å klikke bort flest mulig i løpet av 30 sekunder.
 
 
 ![skjermbilde](skjermbilde-tre-hekser.png)
@@ -20,7 +20,7 @@ Dette prosjektet er inspirert av tivolispillet _whack-a-mole_, 	hvor man slår m
 +. __Start et nytt Scratch-prosjekt__.
 + __Slett kattefiguren__ ved å høyreklikke på den og velge 'slett'
 + Endre bakgrunnen til __nature/woods__
-+ For å __legge til et spøkelse__ klikker du på 'legg til ny figur'. Hent en ny figur fra ![systemdetal](hent-en-ny-figur-fra-fil.png)-knappen. Velg __fantasy/ghost1__
++ For å __legge til et spøkelse__ klikker du på 'legg til ny figur'. Hent en ny figur fra ![systemdetal](hent-en-ny-figur-fra-fil.png)-knappen. Velg __Fantasi/Ghost1__.
 
  
 
