@@ -30,12 +30,12 @@ Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger seg. De
 + Fjern avhukingen ved siden av variabelen, slik at den ikke blir med på scenen: ![](hastighet.png)
 + Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi ved å lage følgende skript:
 
-  [scratchblocks]
-      når FLAG klikkes
+  ´´´blocks
+      Når grønt flagg klikkes
       sett [hastighet v] til (5)
       for alltid
         gå [hastighet] steg
-  [\scratchblocks]
+  ´´´
 
 ### Test Prosjektet { .flag}
 
@@ -45,13 +45,13 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
 
 + For å unngå at spøkelset sitter fast i veggen så må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken 'sprett tilbake ved kanten'. Skriptet ser da slik ut:
 
-  [scratchblocks]
-      når FLAG klikkes
+  ´´´blocks
+      Når grønt flagg klikkes
         sett [hastighet v] til (5)
         for alltid
           gå [hastighet] steg
           sprett tilbake ved kanten
-  [\scratchblocks]
+  ´´´
 
 + For å hindre at hun snur seg opp-ned, klikk på ![venstre/høyre](kun-mot-venstre-eller-hoyre.png)-knappen i figurens infoboks. 
 
@@ -74,14 +74,14 @@ __For å gjøre spillet morsommere vil vi få spøkelset til å dukke opp og for
 
 + Vi lager et nytt skript, som skal kjøre samtidig med skriptet som beveger på spøkelset. Det nye skriptet __gjemmer bort spøkelset en tilfeldig periode__ og __viser det deretter frem igjen i en tilfeldig periode__. Dette skal skje om og om igjen, frem til spillet er slutt. Slik lager du skriptet:
 
-  [scratchblocks]
-      når FLAG klikkes
+  ´´´blocks
+      Når grønt flagg klikkes
       for alltid
         skjul
         vent (tilfeldig tall fra (2) til (5)) sekunder
         vis
         vent (tilfeldig tall fra (3) til (5)) sekunder
-  [\scratchblocks]
+  ´´´
 
 ### Test prosjektet { .flag}
 
@@ -102,11 +102,11 @@ __For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre -
 + Fra 'Lyd'-boksen henter du lyden __Elektronisk/fairydust__.
 + Så lager du skriptet som får __spøkelset til å forsvinne__ når det blir klikket på:
 
-  [scratchblocks]
+  ´´´blocks
       når [spøkelse1 v] klikkes
       skjul
       spill lyden [fairydust v]
-  [\scratchblocks]
+  ´´´
   
 ### Test prosjektet { .flag}
 
@@ -126,12 +126,12 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 + Lag en ny variabel som heter __poeng__. Denne skal gjelde for alle figurer. Legg til en ny blokk som gjør at __poengvariabelen økes__ med 1 poeng for hver gang spilleren klikker på heksa.
 
-  [scratchblocks]
+  ´´´blocks
       når [spøkelse1 v] klikkes
       skjul
       spill lyden [fairydust v]
       endre [poeng v] med (1)
-  [\scratchblocks]
+  ´´´
 
 + Klikk på 'Scene' og lag en ny variabel som heter __tid__. La variablen vises på skjermen. 
 + Lag et nytt skript som kjører når det grønne flagget klikkes. Legg inn følgende blokker:<br> %(variabel)sett tid til% 30 (sekunder)<br> %(variabel)sett tid til%  0
