@@ -35,13 +35,13 @@ Gå gjennom ett og ett av disse stegene. Forsikre deg om at alle barna har utfø
 
 ### Frittstående blokker
 
-* Dobbeltklikk på blokken !bevegelse-ga-10-steg.png(Gå 10 steg)! i !ROOT/images/kategori-bevegelse.png(Bevegelse)!-kategorien. Forklar at Felix har flyttet seg.
+* Dobbeltklikk på blokken ![gå 10 steg](bevegelse-ga-10-steg.png) i ![bevegelse](ROOT/images/kategori-bevegelse.png)-kategorien. Forklar at Felix har flyttet seg.
 * Høyreklikk på blokken og vis hjelpen.
-* Dra blokken !bevegelse-ga-10-steg.png(Gå 10 steg)! inn i skript-området.
+* Dra blokken ![Gå 10 steg](bevegelse-ga-10-steg.png) inn i skript-området.
 * Dobbeltklikk på blokken i skript-området. Vis at Felix flytter seg igjen.
 * Dobbeltklikk på blokken noen ganger for å flytte Felix.
-* Vis hvordan man åpner !ROOT/images/kategori-lyd.png(Lyd)!-kategorien.
-* Dra !lyd-trommeslag-48-0-2.png(trommeslag)!-blokken inn i skript-området.
+* Vis hvordan man åpner ![Lyd](ROOT/images/kategori-lyd.png)-kategorien.
+* Dra ![trommeslag](lyd-trommeslag-48-0-2.png)-blokken inn i skript-området.
 * Dobbeltklikk på ‘trommeslag’-blokken i skript-området for å vise at den lager lyd.
 * Endre trommenummeret til 62 og varigheten til 0,3 takter.
 * Dobbeltklikk på ‘trommeslag’-blokken igjen for å vise at den har endret seg.
@@ -51,21 +51,21 @@ Gå gjennom ett og ett av disse stegene. Forsikre deg om at alle barna har utfø
 
 * Sett sammen de to blokkene i skript-området.
 * Dobbeltklikk på de sammensatte blokkene. Påpek at Felix beveger seg og lager en lyd.
-* Legg skriptet inn i en !for_alltid.png(for alltid)!-løkke.
+* Legg skriptet inn i en ![for alltid](for_alltid.png)-løkke.
 * Dobbeltklikk på skriptet og se at Felix marsjerer til kanten av scenen.
 * Dra Felix tilbake til midten av scenen.
 
 ### Drakter
 
 * Kommenter at vi ønsker at Felix beveger beina når han går.
-* Åpne !ROOT/images/fane-drakter.png(drakter)!-fanen.
+* Åpne ![drakter](ROOT/images/fane-drakter.png)-fanen.
 * Vis at Felix har to drakter.
-* Åpne !ROOT/images/fane-skript.png(skript)!-fanen
-* Legg til !utseende-neste-drakt.png(neste drakt)! fra !ROOT/images/kategori-utseende.png(utseende)!-kategorien inn i løkken.
+* Åpne ![script](ROOT/images/fane-skript.png)-fanen
+* Legg til ![neste drakt](utseende-neste-drakt.png) fra ![utseende](ROOT/images/kategori-utseende.png)-kategorien inn i løkken.
 * Dobbeltklikk på skriptet og se at Felix går til kanten av scenen.
 Du har nå et skript som ser slik ut:
 
-!(skript)skript1.png(Skript 1)!
+![skript1](skript1.png)
 
 ### Lagre og del prosjektet
 
