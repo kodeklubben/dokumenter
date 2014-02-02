@@ -23,9 +23,9 @@ Dette prosjektet bruker ressurser man finner i Scratch Backgrounds- og Costumes-
 
 ### Grunnleggende øvelser
 
-# Felix følger muspekeren
-# Felix jager Herbert
-# Felix sier fra når han har fanget Herbert
-# Herbert blir et spøkelse når han blir fanget
-# Telle poeng
+* Felix følger muspekeren
+* Felix jager Herbert
+* Felix sier fra når han har fanget Herbert
+* Herbert blir et spøkelse når han blir fanget
+* Telle poeng
 
