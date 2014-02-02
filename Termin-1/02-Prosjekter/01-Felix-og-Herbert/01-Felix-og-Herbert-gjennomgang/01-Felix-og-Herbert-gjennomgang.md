@@ -1,14 +1,14 @@
-#. Felix og Herbert
+# Felix og Herbert
 
-##. Komme i gang med Scratch
+## Komme i gang med Scratch
 
-###. Veiledning for instruktør
+### Veiledning for instruktør
 
 Formålet med denne første sesjonen er at barna skal bli kjent med Scratch-miljøet og grensesnittet, slik at de kan håndtere prosjektene på Kodeklubben med lite eller ingen hjelp. De trenger å forstå hva alle hovedelementene i Scratch-grensesnittet gjør og hva de heter. De må også kunne vite hvordan de utfører enkelte fundamentale oppgaver, som hvordan man lager en ny figur og å sette sammen blokker til skript.
 
 Det kan være en god idé å finne ut hvor mange av barna som har brukt Scratch tidligere. Dersom flesteparten har det, vil du kunne gå gjennom denne øvelsen ganske fort. Det tar omtrent 15-20 minutter å gå gjennom denne øvelsen før man kan begynne på det første spillprosjektet: ‘Felix og Herbert’.
 
-###. Fremgangsmåte
+### Fremgangsmåte
 
 Denne første sesjonen er i hovedsak drevet av instruktøren. Senere vil barna selvstendig følge oppgaveark og du er der for å hjelpe hvis noen setter seg fast og for å forklare kodekonsepter. Det beste er om du bruker en projektor e.l. slik at alle barna kan se ditt PC-bilde. Barna bør sitte ved sine egne PCer. Når du går gjennom sesjonen, bør fremgangsmåten være:
 
@@ -80,7 +80,7 @@ Du har nå et skript som ser slik ut:
 * Bruk en nettleser for å se spillet på nettsiden til Scratch.
 * Spill spillet på websiden.
 
-h3. Avslutning
+### Avslutning
 
 * Vis frem oppgavearket ‘Felix og Herbert’. Si at barna kan fortsette med dette prosjektet ved å følge oppgavearket. Barna er allerede nesten ferdige med hele den første delen.
 * Del ut illustrasjonen av Scratch-grensesnittet. Gjør dette på slutten slik at barna ikke blir distrahert av utdelingen i løpet av timen.
