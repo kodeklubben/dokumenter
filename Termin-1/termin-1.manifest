@@ -1,0 +1,16 @@
+{
+    "id": "example",
+    "title":"Example Term",
+    "description":"This is for example purposes",
+    "language": "en-GB",
+    "number": 0,
+
+    "projects": [
+        {
+            "filename": "02-Prosjekter/01-Felix-og-Herbert/03-Felix-og-Herbert/03-Felix-og-Herbert.md",
+            "number": 1
+        }
+    ],
+    "extras": [
+    ]
+}
