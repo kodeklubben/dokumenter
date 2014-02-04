@@ -6,9 +6,13 @@
     "number": 0,
 
     "projects": [
-        {
+		{
+        	"filename": "02-Prosjekter/02-Tryll-bort-heksa/02-Tryll-bort-heksa/02-Spøkelsesjakten.md",
+        	"number": 1
+    	},        
+		{
             "filename": "02-Prosjekter/01-Felix-og-Herbert/03-Felix-og-Herbert/03-Felix-og-Herbert.md",
-            "number": 1
+            "number": 2
         }
     ],
     "extras": [
