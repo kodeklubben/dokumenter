@@ -1,18 +1,18 @@
 {
-    "id": "Termin-1",
-    "title":"Termin 1",
-    "description":"Første termin i scratch-kurset",
+    "id": "scratch",
+    "title":"Scratch",
+    "description":"Lær programmering med Scratch",
     "language": "nb-NO",
-    "number": 0,
+    "number": 1,
 
     "projects": [
 		{
-        	"filename": "02-Prosjekter/02-Tryll-bort-heksa/02-Tryll-bort-heksa/02-Spøkelsesjakten.md",
-        	"number": 1
+            "filename": "02-Prosjekter/01-Felix-og-Herbert/03-Felix-og-Herbert/03-Felix-og-Herbert.md",
+            "number": 1
     	},        
 		{
-            "filename": "02-Prosjekter/01-Felix-og-Herbert/03-Felix-og-Herbert/03-Felix-og-Herbert.md",
-            "number": 2
+        	"filename": "02-Prosjekter/02-Tryll-bort-heksa/02-Tryll-bort-heksa/02-Spøkelsesjakten.md",
+        	"number": 2
         }
     ],
     "extras": [
