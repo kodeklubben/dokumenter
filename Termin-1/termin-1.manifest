@@ -2,7 +2,7 @@
     "id": "example",
     "title":"Example Term",
     "description":"This is for example purposes",
-    "language": "en-GB",
+    "language": "nb-NO",
     "number": 0,
 
     "projects": [
