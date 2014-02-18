@@ -1,11 +1,11 @@
-#Hello and welcome to term two of Code Club! 
+#Hei og velkommen til semester to av kodeklubben!
 
-##New model
-Term two uses Scratch again but this time it's much harder. The focus this term is on the students using new found coding skills to create their own projects. 
+##Ny modell
+Andre semester bruker fortsatt Scratch, men denne gangen er det større utfordringer. Fokus for dette semestret er at studentene skal bruke <<new found coding skills>> til å skape sine egne prosjekter.
 
-So for example the first project is a 'Design and animate your own monster project'. We provide the individual parts and some code (on Scratch cards) but it's up to the students to put all this together and be really creative. There is a worksheet for the students follow and notes for you the club leader for each project.
+For eksempel er det første prosjektet 'Design og animer ditt eget monster prosjekt'. Vi har gjort klar de individuelle delene og noe kode (på Scrach kort), men det er opp til studenten å sette alt dette sammen og bruke sin kreativitet. Det finnes en arbeidsbok som studentene kan følge, og notater for klubbleder for hver prosjekt.
 
-##Timeframes
-There are three projects this term and each project should take about 3-4 weeks to complete but you'll need to work at the pace your club goes at. Don't rush them.
+##Tidsrammer
+Det er tre prosjekter i dette semestret som hver bør ta 3-4 uker å fullføre, men du må tilpasse hastigheten for din kodeklubb. Hastverk er lastverk.
 
-__Good luck!__
+__Lykke til!__

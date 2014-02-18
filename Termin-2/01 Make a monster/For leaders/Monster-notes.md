@@ -1,25 +1,25 @@
-#NOTES FOR CLUB LEADERS
-##Design & animate your own monster (level 4)
+#NOTATER FOR KLUBBLEDERE
+##Design og lag ditt eget monster (nivå 4)
 
-__Introduction:__
-In this project your students will design and animate their very own monster! They’ll need to plan what their monster looks like, how they move, where they live and if they make any sounds.
+__Intorduksjon:__
+I dette prosjektet skal studentene designe og lage sitt helt eget monster! De må planlegge hvordan det skal se ut, hvordan de skal bevege seg, hvor de bor og om de lager noen lyder.
 
-##Project plan
-This project should take 3-4 weeks to complete
+##Prosjektplan
+Dette prosjektet bør ta 3-4 uker å fullføre
 
-* __Week 1:__ Planning what the monster looks like. You’ll need plenty of plain paper, colouring pencils and felt tips etc so the students can design their monster.
-* __Week 2:__ Create the parts of the monster in Scratch using the paint tool 
-* __Week 3-4:__ Animate the parts of the monster using the cards provided. There are cards for each part of a monster but the children can make up anything they like.
+* __Uke 1:__ Planlegge hvordan monstre skal se ut. Du trenger tilgang på blanke ark, fargestifter og tusjer etc slik at studentene kan designe sitt eget monster.
+* __Uke 2:__ Lag delene av monstret ved å bruke tegneprogrammet i Scratch.
+* __Uke 3-4:__ Animer delene ved å bruke vedlagte kort. Det finnes kort for hver del av monstret, men studentene kan finne opp det de selv vil.
 
-##Resources
-The children will be designing their own monster parts and can use sounds from the Scratch resources if no sound recording equipment is available at your school. Print one monster planning sheet per child and one set of monster parts cards can be shared between 2/3 children.
+##Ressurser
+Studentene skal desgine sine egne monster deler og kan bruke lyder fra Scrach hvis det ikke er mulighet til å ta opp lyder i kodeklubben. Skriv ut et monster planleggingsark per student og ett set med monsterdeler som kan deles mellom 2-3 studenter.
 
-##Monster part cards to be printed:
+##Monsterdeler skal skal skrives ut:
 
-* Legs
-* Jointed arm 
-* Mouths and talking 
-* Eyes
-* Wheels 
-* Movement 
-* Tentacles
+* Bein
+* Armer
+* Munn og snakking
+* Øyne
+* Hjul
+* Bevegelse
+* Tantakler

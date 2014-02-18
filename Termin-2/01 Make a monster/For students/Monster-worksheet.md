@@ -1,51 +1,49 @@
----
-title: Design & animate your own monster
-stylesheet: scratch
-level: 4
-language: en-GB
-...
+Nivå 4
 
-Introduction: {.intro}
-In this project you will design and animate your very own monster! There are a few steps before your monster is finished though. You’ll need to plan what your monster looks like, how they move, where they live and if they make any sounds.
+#Design og lag ditt eget monster
 
-##STEP 1: Designing your monster {.activity}
-What does your monster look like? First, try sketching out some monster designs on some blank paper.
+__Introduksjon:__
+I dette prosjektet skal du designe og animere ditt helt eget monster! Men før monsret ditt er ferdig er det et par ting som må gjøres først. Du må planlegge hvordan monsteret skal se ut, hvordan det beveger seg, hvor det bor og om det lager noen lyder.
 
-Think about what limbs it will have, how it will move? What sounds does it make? Can it talk?
+##STEG 1: Design monstret ditt
+Hvordan ser monstret ditt ut? Prøv å lag noen monsterskisser på noen blanke ark.
+
+Tenk på hvilke lemmer/kroppsdeler det skal ha, hvordan beveger det seg. Hvilke lyder lager det? Kan det snakke?
 What kind of environment does it live in?
 
-To give you some ideas, read through step 5. Animating your Monster.
+Hvis du trenger noen ideer, les igjennom steg 5. Animating ditt monster.
 
-This should take you a whole club session so no need to rush. Ask for more blank paper if you need it!
+Dette kan ta en hel kodeklubb, så du kan ta deg god tid. Spør om mere papir hvis du trenger det.
 
-##STEP 2: Splitting your monster up into parts {.activity}
-When you’re happy with the design, split your monster up into what will be individual sprites, such as arms, legs, head etc. Having your monster made up of separate sprites will give you better control over animation, and allow it to do several things at once.
-Draw the parts on a piece of paper and label them.
+##STEG 2: Del monstret ditt inn i deler
+Når du er fornøyd med desginet ditt, del monstret inn i det som blir de enkelte spritene, som armer, bein, hode etc. Ved å dele inn monstret i flere deler, vil du kunne få bedre kontroll over animasjonen og la monstret gjøre ulike ting samtidig.
+Tegn delene på et ark og gi dem navn.
 
-##STEP 3: Painting your monster parts in Scratch {.activity}
-Once your monster is designed and broken down into parts, it’s time to create it on the computer. You can either do this in Scratch’s sprite editor, or in some photo editing software such as MS Paint or Photoshop. If you’re creating it outside of Scratch, you will need to save your images and import them into Scratch as sprites (you might need to ask for help when doing this).
+##STEG 3: Tegn monsterdelene i Scratch
+Etter at monstret ditt er ferdig desginet og delt inn i deler, er det klart for å lage det på datamaskinen. Du kan enten gjøre dette i spirteredigering i Scratch, eller i et annet bildebehandlingsprogram, f eks MS Paint eller Photoshop. Hvis du lager delene utenfor Scrach, må du lagre bildefilene og laste dem inn i Scratch som sprites (det kan være at du må be om hjelp til dette).
 
-When importing the sprites into Scratch, be sure to set the centre point on each to be the point at which it will join on to another. I.e., for an arm that will attach to the main body, set the center point to be the shoulder, whereas for a wheel it would be the centre of the hub.
+Når du impoterer spritene inn i Scratch må du huske å sette senterpunktet på hver til å være punktet delen skal kobles til en annen del. For eksempel, for en arm som skal festes til kroppen, sett senterpunktet til å være skulderen. På et hjul bør senterpunktet være midt i navet.
 
-##STEP 4: Give your monster somewhere to live {.activity}
-Finally, create the world your monster lives in by drawing/importing a new background into the stage. Sketch the background on some paper.
+##STEG 4: Gi monstret et sted å leve
+Til slutt, lag verdenen hvor monstret ditt lever ved å tegne eller impotere en ny bakgrunn på scenen. Du kan lage en skisse av bakgrunnen på papir.
 
-##STEP 5: Animating your monster {.activity}
-Your Code Club leader will have sets of cards to help you do this. There are cards for all kinds of body parts and actions. Put them together to make your monster.
+##STEP 5: Animating monstret ditt
+Lederen av kodeklubben har et sett med kort som hjelper det med dette. Det finnes kort for alle typer kroppsdeler og handlinger. Sett dem sammen for å lage ditt eget monster.
 
-Have a look at these cards:
+Ta en titt på disse kortene:
 
-* Legs
-* Jointed arm Wheels
-* Tentacles
-* Eyes
-* Mouths and talking Movement
+* Bein
+* Armer
+* Hjul
+* Tentakler
+* Øyne
+* Munn og snakkebevegelser
 
-##STEP 6: More challenges {.challenge}
-Finished all that already? Wow! Try having a go at the ideas below.
+##STEG 7: Flere utfordringer
+Ferdig allerede? Wow! Se på noen av disse ideeene:
 
-* What else does your monster do?
-* What does your monster eat? Can your monster dance?
-* Does your monster have friends?
+* Kan monstret ditt gjøre noe mere?
+* Hva spiser monstret? Kan det danse?
+* Har monstret ditt noen venner?
 
-###Remember to keep saving your work so you can show your friends and family later! {.save}
+Husk å lagre endringer slik at du kan vise arbeidet ditt til venner og familier seinere!
