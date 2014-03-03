@@ -1,15 +1,15 @@
 ---
-title: Scratch Card - Eyes
-level: Level 4
-language: en-GB
+title: Scratchkort - Øyne
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ You can give your monster eyes that follow your mouse pointer all over the screen. Your monster can have as many eyes as you like, even eight like a spider! Because we always want our monster eyes to follow our mouse pointer we need to use the `forever`{.blockyellow} block. Once **green flag** scripts have started we `forever`{.blockyellow} want our eyes to point in the direction of the mouse and re-adjust every fraction of a second. 
++ Du kan gi monstret ditt øyne som følger musepekeren rundt på skjermen. Monstretditt kan ha så mange øyne som du vil, til og med åtte, som en edderkopp! Siden vi alltid vil at monsterøynene skal følge musepekeren må vi sette `forever`{.blockyellow} blokken. Når **green flag** skriptet har startet vil vi at øynene skal peke i retningen av muspekeren `forever`{.blockyellow} og flytte seg hvert brøkdelssekund.
 
 ```blocks
 when FLAG clicked
@@ -24,4 +24,4 @@ when I receive [moved left v]
 change x by ((move speed) * (-1))
 ```
 
-**Notice we also use broadcast to move our eyes along with our body and other parts. What else can you make the eyes do? If you move your mouse cursor between your monster’s eyes, it will go cross eyed!**
+**Merk at vi ogå bruker kringkasting for å flytte øynne sammen med koppen og andre kroppsdeler. Er det noe annet du kan få øynene til å gjøre? Hvis du flytter muspekeren mellom monstrets øyne, så går øynene i kryss!**
