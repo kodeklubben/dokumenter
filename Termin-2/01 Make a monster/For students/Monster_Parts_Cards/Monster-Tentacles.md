@@ -1,18 +1,18 @@
 ---
-title: Scratch Card - Tentacles
-level: Level 4
-language: en-GB
+title: Scratchkort - Tentakler
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ To make a tentacle wiggle, we could **rotate** it and **resize** it by a `random`{.blockgreen} small
-	 amount using a variable, and then
-	 wait a short period before reverting
-	back.
++ For å få en tentakkel til å bevege seg, kan vi **rotere** den og **endre størrelse** ved å bruke `random`{.blockgreen} med en
+	 lav verdi i en variabel, for så å
+	 vente en et øyeblikk før vi går gjenoppretter
+	den originale størrelsen.
 
 ```blocks
 set [tentacleRotation v] to (pick random (1) to (10))
@@ -24,4 +24,4 @@ change size by ((tentacleSize) * (-1))
 turn cw (tentacleRotation) degrees
 ```
 
-**(Notice how we multiply the tentacleSize by -1 to get the negative value?)**
+**(Merk at vi multipliserer tentacleSize med -1 for å få en negativ verdi?)**

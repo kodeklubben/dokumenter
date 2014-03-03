@@ -1,25 +1,25 @@
 ---
-title: Scratch Card - Legs
-level: Level 4
-language: en-GB
+title: Scratchkort - Bein
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Using two **legs sprites** we can make our monsters
-	 appear to walk. To do this we need to set up a
-	 **variable** that switches between two states, one for
-	 our leg swinging forward and another for
-	 backwards (we’ll reverse these states for the other
-	 leg). To do this we need to first set up a `step`{.blockorange}
-	 variable, then every time our moving broadcast is
-	received, **increase the variable by one**. If the
-	 variable goes higher than one (we can test this
-	 with the greater than operator `>`{.blockgreen}) we reset it back
-	to **zero**.
++ Ved å bruke to **bein sprites** kan gi få monstret vårt
+	 til å gå. For å gjøre dette lager vi en
+	 **variabel** som bytter mellom de to tilstandene, en for
+	 når beinet peker forover og en annen når beinet går
+	  bakover (vi bytter om på tilstandene for det andre
+	 beinet). For å gjøre dette må vi først laget `step`{.blockorange}
+	 variabel, så hver gang vår bevegelse medling
+	mottas, **øker vi variablen med en**. Hvis
+	 variablen går høyere enn én (vi kan teste dette
+	 med større enn operatøren `>`{.blockgreen}) nullstiller vi den
+	tilbake til **null**.
 
 ```blocks
 when FLAG clicked
@@ -39,15 +39,15 @@ if < (step) > [1] >
 end
 ```
 
-+	 Now we can set our legs to swing by checking
-	 against our `step`{.blockorange} variable. **When the variable
-	 is set to zero** we can change the direction of
-	 our leg (here we’ve used a fixed `direction`{.blockblue} to
-	 stop our legs going mad if our variable and
-	 angle don’t match up, but maybe you want
-	 your monster to do that!). Don’t forget to move
-	 you legs along with your body using your
-	 `move speed`{.blockorange} variable.
++	 Nå kan vi sette beina i bevegelse ved å sjekke
+	 vår `step`{.blockorange} variabel. **Når variablen
+	 blir satt til null** kan vi bytte retning på
+	 beinet (her at vi brukt en fast `direction`{.blockblue} for
+	 å hindre at beinet går amokk hvis variablen og
+	 graden på vinklen ikke stemmer, men kanskje vil
+	 du at monstret skal gjøre det!). Ikke glem å flytt
+	 beina dine langs kroppe ved å bruke
+	 `move speed`{.blockorange} variabel.
 
 ```blocks
 when I receive [moved right v]
@@ -67,5 +67,5 @@ else
 end
 ```
 
-**You could use the same sort of actions to make
-simple waving arms or even flapping bird wings.**
+**Du kan bruke samme type handling for å lage
+armer som vinker, eller fuglevinger som flakser.**

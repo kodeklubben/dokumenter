@@ -1,17 +1,17 @@
 ---
-title: Scratch Card - Wheels
-level: Level 4
-language: en-GB
+title: Scratchkortd - Hjul
+level: Nivå 4
+language: no-NB
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ To make a wheel appear to move, we want to **rotate** it by a small amount and
-	 move it by a small amount when
-	 we receive a **movement broadcast**.
++ For å få et hjul til å bevege seg, kan vi **rotere** det litt av gangen og
+	 flytte det når vi mottar en
+	 **bevegelsesmelding**.
 
 ```blocks
 when I receive [moved left v]
@@ -23,8 +23,8 @@ change x by (move speed)
 turn cw (15) degrees
 ```
 
-+	 If you wanted, you could replace the
-	 values with variables like `move speed`{.blockorange}, so you could control the speed in all
-	 directions from one place.
++	 Hvis du vil, kan du erstatte
+	 verdiene med variabler som `move speed`{.blockorange}, slik at du kan kontrollere hastigheten i alle
+	 retninger fra ett sted.
 
-**(Notice how we have to multiply moveSpeed by -1 to get the negative value?)**
+**(Merk at vi har multiplisert moveSpeed med -1 for å få negativ verdi?)**

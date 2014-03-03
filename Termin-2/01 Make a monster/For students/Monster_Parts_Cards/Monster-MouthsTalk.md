@@ -1,27 +1,27 @@
 ---
-title: Scratch Card - Mouths and talking
-level: Level 4
-language: en-GB
+title: Scratchkort - Munn som prater
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ To make your monster talk, you can just use the
++ For å få monstret til å snakke, kan du bruke
 	 `Say`{.blockpurple} sprite.
 ```blocks
 when [space v] key pressed
 say [Hello!] for (2) secs
 ```
-+	 To make it a bit more impressive, you could
-	 make the monsters **mouth open** and **close**
-	 whilst it is talking. To do this, edit the sprite
-	 that contains the mouth - create a new
-	 `costume`{.blockpurple} that has a closed mouth.
-	 By switching between the two, you can animate
-	 the mouth opening and closing.
++	 For å gjøre det litt mere imponerende, kunne du
+	 få monstret til å **åpne** og **lukke munnen**
+	 mens det prater. For å gjøre dette, rediger spriten
+	 som inneholder munnen  - opprett et nytt
+	 `costume`{.blockpurple} som har lukket munn.
+	 Ved å bytte mellom de to, kan du animere
+	 at munnen åpner og lukker seg.
 ```blocks
 repeat (8)
 	wait (0.1) secs
@@ -30,7 +30,7 @@ repeat (8)
 	switch to costume [mouthOpen v]
 end
 ```
-+ To hook the two up, have the block that does the `say`{.blockpurple} broadcast a message that the other block can react to.
++ For å koble de to sammen, få `say`{.blockpurple} blokken til å sende en melding som den andre blokken kan reagere på.
 
 ```blocks
 when [space v] key pressed
@@ -46,11 +46,11 @@ repeat (8)
 end
 ```
 
-+	 To make this a bit more flexible, use a
-	 variable to control the `talkTime`{.blockorange} the monster
-	 says something for, and also to control
-	 how many times the animation loop is
-	repeated.
++	 For å gjøre det litt mere fleksibelt, bruk en
+	 variabel for å kontrollere `talkTime`{.blockorange} hvor lenge
+	 monstret sier noe, og for å kontrollere
+	 hvor mange gannger animasjonsløkken er
+	gjentatt.
 
 ```blocks
 when [space v] key pressed
@@ -71,19 +71,19 @@ repeat ((talkTime) * (4))
 	switch to costume [mouthOpen v]
 end
 ```
-**(Notice how we multiply talkTime by 4 to
-make sure the loop repeats enough
-times?)**
+**(Merk at vi multipliserer talkTime med 4 for
+å være sikke på at løkken gjentas nok
+ganger?)**
 
-+ You can also make your monster speak using
-	 sound by using one of the sound blocks. Just be
-	 sure to import the sounds first in the sounds tab.
++ Du kan også få monstret ditt til å si
+	 lyder ved å bruke en av lydklokkene. Husk å
+	 importer lydene i lydfanen.
 
 ```blocks
 when I receive [talking v]
 play sound [Screech v]
 ```
-**Why not try adding sounds to other events, you could use a spooky hovering
-sound for a ghost drifting around the screen! If you have a microphone on
-your computer you can even record your own sounds, surprise your classmates
-by recording a loud monster ROOOAAAAARRRRR!!!**
+**Prøv å legg til lyder til andre hendelser, du kan bruke en skummel svevende
+lyd for et spøkelse som flyer rundt på skjermen! Har du mikrofon på
+datamaskinen kan du ta opp dine egne lyder, overrask de andre ved å
+ta opp et høyt monster BRØØØØØØØØØL!!!**

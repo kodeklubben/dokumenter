@@ -1,24 +1,24 @@
 ---
-title: Scratch Card - Jointed Arm
-level: Level 4
-language: en-GB
+title: Scratchkort - Hengslede armer
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ A jointed arm is made from **two sprites**, they can be quite tricky to build as the
-two parts of the arm need to know where each other are in order not to separate
-and look strange. This is done using a mathematical calculation called
-**trigonometry** that is regularly used in the production of video games, robots and
-other cool technology. **Our first arms sprite is the upper arm**, this is not too tricky,
-as it will simply rotate at the shoulder and
-move along with the body and all our other
-body parts. One thing we will need to add
-however is setting our arm `direction`{.blockblue} to
-variable (more on this later).
++ En arm lages av **two sprites**, og de kan være ganske vanskelig å bygge siden de
+to delene av armen må vite om hverandre, slik at de ikke skilles
+og blir seende rart ut. Dette kan gjøres med matematiskeberegninger som kalles
+**trigonometri**, noe som regelmessig brukes i produksjon av dataspill, roboter og
+andre kule teknologier. **Vår første arms sprite er overarmen**, som ikke er så vanskelig,
+da den ganske enkelt vil rotere ved skulderen og
+flytte seg med kroppen og de andre
+kroppsdelene. En ting vi må legge til er
+å sette retningen `direction`{.blockblue} til armen i en
+variabel (mer om det seinere).
 ```blocks
 when [space v] key pressed
 turn cw (15) degrees
@@ -26,23 +26,24 @@ set [left arm v] to (direction)
 broadcast [moved v]
 change x by (move speed)
 ```
-+ This next calculation is used to control the
-	 **lower arm**. This is where we use trigonometry to calculate where the lower arm
-	 should be place (you might need to ask for help when doing this).
++ Den neste beregningen brukes for å kontrollere underarmen.
+	 **underarmen**. Her bruker vi trigonometri for å beregne hvor underarmen
+	 bør plasseres (Det kan godt være at du trenger å be om hjelp når du skal gjøre dette).
 ```blocks
 when I receive [moved v]
 go to [Sprite3 v]
 go to x: ((x position) + ((45) * ([sin v] of (left arm)))) y: ((y position) + ((45) * ([cos v] of (left arm))))
 ```
-+ First of all our arm will update when the broadcast `moved`{.blockbrown} is used but you can
-	 use any broadcast as long as your upper arm is broadcasting it or moving to
-	 the same broadcast as your lower arm.
-+	 Next our lower arm positions itself at the **center point** of the upper arm, this
-	 should be the point where the top of the upper arm meets the shoulder body.
-	 We then want to reposition the lower arm elbow to the other end of the upper
-	 arm. Imagine that as the upper arm rotates around the shoulder we draw a
-	 circle, first of all what is the radius of that circle? Well our arm in this example is
-	about **45 pixels** long.
-	 We then want to find out what point around that circle the other end of our arm
-	 is, and position our lower arm there. We use the trigonometry calculation above to
-	 reposition our lower arm and create an elbow.
++ Først oppdateren armen vår når meldingen `moved`{.blockbrown} blir brukt, men du kan
+	 bruke hvilken som helst melding, så lenge overarmen sender den eller flytter til samme
+	 medling som underarmen.
++	 Så flytter underarmen seg selv til **senterpunktet** av overarmen, dette
+     dette er punktet hvor toppen av overarmen er festet til skulderen.
+     Vi vil så flytte underarmen slik at den møter overarmen.
+	 Tenk deg at vi tegner en sirkel mens overarmen roterer rundt skulderen,
+	 hva er så radius på den sirkelen? Armen i dette eksemplet er
+	 circa **45 pixeler** lang.
+	 Vi trenger å finne ut hva punket i den andre enden av armen
+	 er, og posisjonerer underarmen vår der. Kan kan bruke trigonometri formelen over for å
+	 reposisjonere underarmen og lage en albue.
+

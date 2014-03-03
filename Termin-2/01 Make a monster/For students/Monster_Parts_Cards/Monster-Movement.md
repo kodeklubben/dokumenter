@@ -1,27 +1,27 @@
 ---
-title: Scratch Card - Movement
-level: Level 4
-language: en-GB
+title: Scratchkort - Bevegelse
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ As your monster will be made up of lots of **sprites** you will need to make sure that
-	 all sprites move together at once. Rather than adding move commands to all your
-	 sprites you can simply attach your controls to your body sprite and use `broadcast`{.blockbrown}
-	 to control any other sprite.
-	 When our **Tentacle sprite**
-	 (or any other sprite for that
-	 matter!) receives a
-	 `moved right`{.blockbrown} broadcast,
-	 we can move it to the right
-	too.
++ Etterhver vil monstret ditt bestå av en menge **sprites** og det vil bli nødvendig å sørge for at
+	 alle spritene flyttes sammen. Isteden for å legge til flyttkommandoer på alle
+	 spriter, kan du rett og slett legge til kontroller på kroppsspriten og bruke en `broadcast`{.blockbrown}
+	 for å kontroller andre spriter.
+	 Når vår **Tentakkelsprite**
+	 (eller en hvilken som helst annen
+	 sprite!) mottar en
+	 `moved right`{.blockbrown} melding,
+	 kan vi flytte den til høyre
+	også.
 
 ```blocks
-// on Ghost Body
+// på spøkelseskroppen
 when [right arrow v] key pressed
 change x by (moveSpeed)
 broadcast [moved right v]
@@ -32,7 +32,7 @@ broadcast [moved left v]
 ```
 
 ```blocks
-// on Tentacle
+// på tentaklen
 
 when I receive [moved right v]
 change x by (moveSpeed)
@@ -41,12 +41,12 @@ when I receive [moved left v]
 change x by ((moveSpeed) * (-1))
 ```
 
-+ Using `broadcast`{.blockbrown} also means if we want to change the way our movement
-	 commands work, we only have to change one set of
-	scripts. **Have a look at this example:**
++ Ved å bruke en `broadcast`{.blockbrown} kan vi også endre hvordan bevegelseskommandoen
+	 virker, ved å bare endre et
+	skript. **Ta en titt på dette eksemplet:**
 
 ```blocks
-// on Ghost Body
+// på spøkelseskroppen
 when [right arrow v] key pressed
 change x by (moveSpeed)
 point in direction (90 v)
@@ -66,23 +66,23 @@ if (not (touching [edge v]?))
 end
 ```
 
-+ Here we’re telling the body to face the direction it
-	 is moving (make sure your sprite orientation is set
-	to **“only face left-right”**) and to stop and turn around
-	 if it collides with the edge of our screen. You will have
-	 also noticed that we have wrapped our broadcast
-	 in an `if`{.blockyellow} block, we only want the other body parts
-	 to move if the body isn’t on the edge of the screen.
-	 **If you decide to add any animation to the
-	 movement, make sure that any associated
-	 movements take just as long. i.e. if moving a leg
-	 to the left takes 1 second due to an animation, all
-	 other left movements must take 1 second too
-	 (use a `wait`{.blockyellow} block to make sure they’re all in step).**
++ Her forteller vi at kroppen skal gå i den retningen det
+	 beveger seg i (husk å sette sprite orienteringen
+	til **“bare face venstre-høyre”**) og for å stoppe og snu
+	 hvis det kolliderer med skjermkanten. Kan kanskje også
+	 lagt merke til at vi har lagt meldingen
+	 i en `if`{.blockyellow} blokk, vil vil bare at de andre kroppsdelene
+	 skal bevege seg hvis kroppen ikke er i kanten av skjermen.
+	 **Hvis du bestemmer deg for å legge til animasjon på
+	 bevegelsen, må du huske på at tilhørende
+	 bevegelser vil ta like lang tid. f. eks hvis å bevege et bein
+	 til venstre tar 1 sekund, må
+	 alle andre venstebevegelser ta et sekund også
+	 (bruk en `wait`{.blockyellow} blokk for å sørge at de er i samme steg).**
 
-+ You can also animate your body sprite using
-	 `costume`{.blockpurple} changes, by triggering the change every
-	 time a movement broadcast is received.
++ Du kan også animere kroppspriten ved å bruke
+	 `costume`{.blockpurple} endringer, som kan aktiveres
+	 hver gang en bevegelesmelding mottas.
 
 ```blocks
 when I receive [moved right v]
