@@ -1,23 +1,23 @@
-#NOTES FOR CLUB LEADERS
-##Sound machine (level 5)
+#Notater for klubbleder
+##Lydmaskin (nivå 5)
 
-__Introduction:__
-In this project your students will design their own sound machine. Sorry guys but this is going to get noisy unless your students have headphones! They’ll need to think about the different parts of the machine, what sounds they make then record the sounds and build the machine in Scratch. Then when the machine is built they can write and record a tune! You’ll thank us later!
+__Introduksjon:__
+I dette prosjektet skal studentene desgine sin egen lydmaskin. Synd å si det, men det kommer til å bli høylytt dersom studentene ikke har hodetelefoner! De må tenke over de ulike delene av maskinen, hvilke lyder de lager, så ta opp lydene og bygge maskinen i Scratch. Etter at maskinen er ferdig bygget, kan de komponere og ta opp en sang! Du vil takke oss seinere!
 
-##Project plan
-This project should take 3-4 weeks to complete
+##Prosjektplan
+Dette prosjektet tar 3-4 uker å fullføre.
 
-* __Week 1:__ Planning what the machine looks like and the sounds it’ll make. 
-* __Week 2:__ Create the parts of the machine in Scratch using the paint tool and record the sounds.
-* __Week 3:__ Build the machine with sounds and sprite changes
-* __Week 4:__ Write and record a song using the sound recorder
+* __Uke 1:__ Planlegg hvordan maskinen skal se ut og hvilke lyder den skal lage.
+* __Uke 2:__ Lag deler av maskinen i Scratch ved å bruke tegneverktøyet og ta opp lyder.
+* __Uke 3:__ Sett sammen maskinen med lyder og figurendringer.
+* __Uke 4:__ Komponer og ta opp en sang med opptakeren
 
-##Resources
-The children will be designing their own sound machine parts and can use sounds from the Scratch resources if no sound recording equipment is avail- able at your school. Print one machine planning sheet per child and one set of machine parts cards can be shared between 2/3 children.
+##Ressurser
+Barna designer sine egne lydmaskindeler og kan bruke lyder fra Scratchressursene, hvis de ikke har mulighet for å ta opplyder ved skolen. Skriv ut en maskin planleggingsark per barn og ett sett med maskindelerkort som kan deles av to til tre barn.
 
-Machine part cards to be printed:
+Maskinkort som må skrives ut:
 
-* Drums
+* Trommer
 * Piano
-* Sound sample
-* Create a sound recorder
+* Lyd
+* Lag en lydmaskin

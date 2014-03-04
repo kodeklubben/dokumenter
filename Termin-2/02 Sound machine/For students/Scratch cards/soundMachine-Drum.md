@@ -1,17 +1,17 @@
 ---
-title: Scratch Card - Drum
-level: Level 5
-language: en-GB
+title: Scratchkort - Tromme
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Import a new sprite and choose Things -> Drum. Name the sprite “Drum”.
++ Importer en ny spirte og velg Ting -> Tromme. Gi den navnet “Tromme”.
 
-+ We want the drum to make a sound when we click it or press the 
++ Vi vil at trommen skal lage lyd når vi klikker på den eller trykker på
   `space`{.blockbrown} key.
 ```blocks
 when Drum clicked
@@ -21,14 +21,14 @@ when [space v] key pressed
 broadcast [drum v]
 ```
 
-+ Now we need to make a sound when it receives `drum`{.blockbrown}. You can 
-  change the number if you want to change the sound the drum makes.
++ Nå må vi lage lyd når den mottar `tromme`{.blockbrown}. Du kan
+  endre tallet hvis du vil endre lyden trommen skal lage.
 ```blocks
 when I receive [drum v]
 play drum (48 v) for (0.2) beats
 ```
 
-+ Try changing the appearance to make it obvious which instrument was played.
++ Prøv å endre utseende slik at det er innlysende hvliet instrument som spiller.
 ```blocks
 when I receive [drum v]
 play drum (48 v) for (0.2) beats

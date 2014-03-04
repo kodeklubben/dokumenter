@@ -1,18 +1,18 @@
 ---
-title: Scratch Card - Piano
-level: Level 5
-language: en-GB
+title: Scratchkort - Piano
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Draw a piano by creating black and white rectangles. 
++ Tegn et piano ved å lage svarte og hvite regktangler.
   ![costume1](piano-costume1.png)
 
-+ Now create a script which plays a note when the “a” key is pressed.
++ Lag så et skript som spiller en note når "a" trykkes.
 ```blocks
 when [a v] key pressed
 broadcast [piano-1 v]
@@ -20,7 +20,7 @@ broadcast [piano-1 v]
 when I receive [piano-1 v]
 play note (60 v) for (0.5) beats
 ```
-+ Create two more notes when you press “s” and “d” on the keyboard.
++ Lag to noter til når man trkker "s" eller "d" på tastaturet.
 ```blocks
 when [a v] key pressed
 broadcast [piano-1 v]
@@ -41,10 +41,10 @@ when I receive [piano-3 v]
 play note (67 v) for (0.5) beats
 ```
 
-+ Copy the costume 3 times. Fill in a different key on each one. 
++ Kopier kostymet 3 ganger. Fyll ut en annen tast for hver.
   ![costume3](piano-costume-3.png)
   ![all costumes](piano-costumes.png)
-+ Make each note switch to a different costume and then switch back to 
++ Sørg for at hver note bytter til et annet kostyme og tilake til
   `costume1`{.blockblue}.
 ```blocks
 when I receive [piano-1 v]
@@ -63,7 +63,7 @@ play note (67 v) for (0.5) beats
 switch to costume [costume1 v]
 ```
 
-# Challenge {.challenge} Create a way to change the instrument.
+# Utfordring {.challenge} En måte å endre instrumentet.
 ```blocks
 when [up-arrow v] key pressed
 set instrument to (pick random (1) to (99))

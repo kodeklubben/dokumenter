@@ -1,34 +1,34 @@
 ---
-title: Scratch Card - Sound Sample
-level: Level 5
-language: en-GB
+title: Scratchkort - Lyd
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Create a new sprite and make it resemble the sound you will be making.
++ Lag en ny figur og se om du klarer å få den til å se ut som den lyden du vil lage.
 
-+ In the `sounds`{.blocklightgrey} tab, create a new recording or import a sound.
++ I fanen `sounds`{.blocklightgrey} tab, lag en et nytt opptak eller importer en lydfil.
   ![cat sound sample](sound-sample.png)
 
-+ When the sprite is clicked, `broadcast`{.blockbrown} the same name as your 
-  sprite.
++ Etter at du har trykket på figuren, `broadcast`{.blockbrown} det samme navnet som figuren
+  din.
 ```blocks
 when Cat clicked
 broadcast [cat v]
 ```
-+ Now we need to play the `sound`{.blockpurple} when it receives the 
++ Nå må vi spille `sound`{.blockpurple} når den får meldingen
   `broadcast`{.blockbrown}.
 ```blocks
 when I receive [cat v]
 play sound [cat v]
 ```
 
-+ Finally, make the sprite change in appearance when the `sound`.{blockpurple} 
-  is played.
++ Til slutt, få figuren til å endre utseende når `sound`.{blockpurple}
+  spilles.
 ```blocks
 when I receive [cat v]
 play sound [cat v]

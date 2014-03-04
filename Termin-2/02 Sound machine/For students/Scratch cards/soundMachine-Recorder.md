@@ -1,28 +1,28 @@
 ---
-title: Scratch Card - Recorder
-level: Level 5
-language: en-GB
+title: Scratchkort - Opptaker
+level: Nivå 4
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Create two new lists (for all sprites). Call one of them 
-  `instrument`{.blockred} and the other `timing`{.blockred}.
++ Lag to nye lister (for alle figurer). Kall en av dem
+  `instrument`{.blockred} og den andre `timing`{.blockred}.
 
-+ Create a new variable (for all sprites) called `recording`{.blockorange}
++ Lag en ny variabel (for alle figurer) som heter `recording`{.blockorange}
 
-+ For each of your instruments (drum, piano, each sound sample etc.), you will 
-  need to add the following items to the `when I receive`{.blockbrown} block. 
++ For hvert at instrumentene (tromme, piano, hver lyd etc.), må du
+  legge til følgen i `when I receive`{.blockbrown} blokken.
 ```blocks
 if <(recording) = (1)>
   add (timer) to [timing v]
   add (cat) to [instrument v]
 ```
-  Change the word “cat” in `add [cat] to [instrument v]`{.blockred} to match 
-  the name of the message used to play this sound.
+  Endre ordet  “cat” in `add [cat] to [instrument v]`{.blockred} slik at det stemmer med
+  navnet til meldinger som brukes for å spille denne lyden.
 ```blocks
 when I receive [drum v]
 play drum (48 v) for (0.2) beats
@@ -35,22 +35,22 @@ wait (0.1) secs
 set size to (100) %
 ```
 
-+ Draw a new sprite and give it a red circle costume. Name this sprite “Record”.
++ Tegn en ny figur og gi den en rød sirkeldrakt. Gi denne figuren navnet “Record”.
   ![record costume](record-costume.png)
 
-+ Create a script that sets `recording`{.blockorange} to 1 and deletes all of 
-  `instrument`{.blockred} and `timing`{.blockred} when clicked. 
++ Lag et skript som setter `recording`{.blockorange} til 1 og sletter alle
+  `instrument`{.blockred} og `timing`{.blockred} når man trykker på det.
 
-## Test your project {.flag}
-  Try clicking the record button. What happens when you play instruments?
+## Test prosjektet {.flag}
+  Prøv å trykk på opptaksknappen. Hva skjer når du spiller på instrumentene?
 
-+ Create another sprite and give it a costume in the shape of a green arrow. 
-  Call this “Play”.
++ Lag en ny figur og lag en drak som ser ut som en grønn pil.
+  Kall denne “Play”.
   ![play costume](play-costume.png)
 
-+ Create a new variable called `index`{.blockorange} for Play only.
++ Lag en ny variabel som du kaller `index`{.blockorange} Play only.
 
-+ Now we need to make the playback actually do something. Add this script to 
++ Nå må vi få avspillingen til å gjøre noe. Legg dette skriptet til
   "Play"
 ```
 when Play clicked
@@ -68,11 +68,11 @@ forever
 end
 ```
 
-## Test your project {.flag}
-Press the green play button. what happens?
+## Test prosjektet {.flag}
+Trykk på den grønne play knappen. Hva skjer?
 
-Now click the red record button and play some instruments. When you're done, 
-press the green play button again. What happens?
+Trykk på den røde knappen og spill på noen intrumenter. Etter at du er ferdig,
+trykk på den grønne play knappen igjen. Hva skjer?
 
-Play some more instruments without pressing record. Then play the green play
-button again. What happens?
+Spill på flere instrumenter uten å trykke på record. Trykk så på den grønne play
+knappen igjen. Hva skjer?
