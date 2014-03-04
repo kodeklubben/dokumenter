@@ -30,7 +30,7 @@ Etter at monstret ditt er ferdig desginet og delt inn i deler, er det klart for 
 
 Når du impoterer spritene inn i Scratch må du huske å sette senterpunktet på hver til å være punktet delen skal kobles til en annen del. For eksempel, for en arm som skal festes til kroppen, sett senterpunktet til å være skulderen. På et hjul bør senterpunktet være midt i navet.
 
-##**Steg 4:** Gi monstret et sted å leve {.activity}
+#**Steg 4:** Gi monstret et sted å leve {.activity}
 Til slutt, lag verdenen hvor monstret ditt lever ved å tegne eller impotere en ny bakgrunn på scenen. Du kan lage en skisse av bakgrunnen på papir.
 
 #**Steg 5:** Animer monstret ditt {.activity}
