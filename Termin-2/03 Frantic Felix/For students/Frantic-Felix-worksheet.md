@@ -48,7 +48,7 @@ Den nederste sensoren trenger en __eller__ blokk slik at den setter blokkert ned
 __Tips__: Det er enklere å velge fargene i én figure, for så å kopiere skiptet over til de andre figurene og oppdatere variablene som blir satt. Da slipper du å finne de riktige fargene fire ganger.
 Inntil videre trenger Felix bare et skript for å følge muspekeren evig.
 
-### Test prosjektet
+### Test prosjektet {.flag}
 __Trykk på det grønne flagget.__
 
 Du burde se at Felix følger etter musepekeren, omringet av et rødt rektangel. Rektanglet er en berøringssenor. If you watch the variables, you should see them change as you drag Felix around and he touches different parts of the screen. At the moment, Felix moves through the platforms and the green obstacle. We’ll fix that in the next couple of steps.
@@ -96,14 +96,14 @@ forever
 end forever
 ```
 
-###Test Your Project
+###Test prosjektet ditt {.flag}
 
 __Bruk musen for å dra Fleix et sted på scenen og trykk så på det grønne flagget.__. Hvis Felix hopper til muspekeren, må du fjerne det skriptet!
 Du bør kunne bruke venstre og høyre knaper for å få Felix til å gå fra tide til side. Hvis han ikke står på gulvet, bør han falle sakte nedover.
 
 5. Vi vil også at berøringssensorene ikke skal vises. Det er ikke mulig å bruke en skjult blokk, for da vil ingen berøringer bli detektert. Isteden, legg til en `set [ghost] effect to 100` rett under den grønn flag hat'en i hver kollisjonssensor. Dette gjør figuren gjennomsiktig, uten å å skjule den.
 
-###Test Your Project
+###Test prosjektet ditt {.flag}
 __Nå du klikker på det grønne flagget__, skal kollisjonsdetektorene forsvinne. Det dukker opp igjen når du trykker på det røde stopskiltet.
 
 ## Lagre endringer {.save}
@@ -145,7 +145,7 @@ forever
 	end if
 end forever
 ```
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__. Kan Felix hoppe? Hopper han fra en platform til en annen? Faller han hvis han går over kanten? Hva om han oppver over kanten av en plattform? Hva om han prøver å hoppe under den grønne blokken til høyre? Hva skjer når du trykker på mellomromstasten mens Felix faller?
 
 ## Lagre endringer {.save}
@@ -176,7 +176,7 @@ forever if <key to get = 0>
 end forever if
 ```
 
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__.
 
 ## Lagre endringer {.save}
@@ -216,7 +216,7 @@ end forever
 3. Legg skript til både Felix og redningskapselen slik at de svarer på lose meldingen. Felix skal bare skjule seg selv.
 Kapsenen skal si [Du tapte!].
 
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__. Beveger vasen seg? Stopper den og snur ved kanten? Hva skjer når Felix går inn i den? Hva skjer hvis Felix hopper på den, fra oversiden eller undersiden? Forsvinner Felix? Sier kapselen ifra når du har tapt? Kan du forsatt vinne spillet?
 
 ## Lagre endringer {.save}
@@ -225,7 +225,7 @@ Husk å lagre endringer.
 4. __Neste, farlige ting!__ La oss si at alt som er lyseblå er dødlig for Felix. Last inn bakgrunnen __frantic-felix/level2__, som har en blå rose på det øverste nivået. Legg til enda et skipt på Felix, under et grønnt flagg hatt:
 `<forever if touching [blue] broadcast [lose]>`
 
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__. Dør Felix hvis han kommer borti den blå rosen? Hva skjer når han berører andre ting?
 
 ## Lagre endringer {.save}
@@ -262,17 +262,17 @@ __Test brettene dine__. Hvis du har tid, opprett brett i Scratch og spill dem. S
 
 Hvis du har laget et par brett og lagt dem inn i Scratch, prøv disse ekstraoppgavene:
 
-###Utvidelese: Tramping
+###Utvidelese: Tramping {.try}
 
 __Hva om slemmingene døde hvis de blir trampet på?__ Kanskje du kan legge til et skript på slemmingene som gjør noe hvis slemmingen berører den nederste kollisjonssensoren.
 
-###Extension: Kraftpiller
+###Utvidelse: Kraftpiller {.try}
 
 __Du kan lage en “kraftpille” som gjør at Felix kan ødelegge slemmingene__. Når Felix tar kraftpillen, ødelegger Felix slemmingene han berører. Effekten går over etterhvert
 
 Det er opp til deg hvordan du får dette til å fungere. Kanskje vil du at slemmingene skal endre utseende når Felix kan ta dem.
 
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__.
 
 ## Lagre endringer {.save}
@@ -295,7 +295,7 @@ De fleste figurene må svare på __start level melding__ isteden for det grønne
 ## Lagre endringer {.save}
 __Før du gjør noe må du lage__. Du kommer til å gjøre mange endriger i spillet, så husk å lagre regelmessig.
 
-### Test prosjektet ditt
+### Test prosjektet ditt {.flag}
 
 __Fortsett å teste spillet etter hver endring. Husk å test de delene som har allerede har endret, slik at de fortsatt virker som planlagt.__ Vi kommer ikke beskrive alle endringene, men vi skal vise hvordan Felixs oppdaterte skript for å vise hva som må gjøres.
 
@@ -353,7 +353,7 @@ end forever
 
 __Har har spill__. De andre i kodeklubben har spill. Spill de forskjellige spillene! Klarer du å runde deres spill? Kan de andre runde spillet ditt?
 
-###Utvidelse: Flere liv
+###Utvidelse: Flere liv {.challenge}
 
 Felix trenger kanskje et par sjanser, eller et par liv for å klare seg igjennom brettene. __Legg til en ny figur__ med tre drakter, som viser __ett__, __to__, og __tre hjerter__.
 Bruk frantic-felix/1-heart, frantic-felix/2-heart, and frantic-felix/3-heart draktene. Plasser figuren i hjørnet av scenen. Når det __grønne flagget__ blir trykket, skal det vises tre hjerter. Hver gang det mottar en lose melding, skal det vises et hjerte mindre. Isteden for å vise ingen hjerter, skal figuren skjules og sende en __game over__ melding.
@@ -364,6 +364,6 @@ Du må endre hvordan redningskapselen håndterer vinning og tap, da dette er ans
 
 Kanskje er slemmingen litt for kjappe på foten, de tar Felix før brettet er kommet igang. Hvis Felix taper mer enn et liv når han kommer borti en slemming, __skjul__ slemmingen så snart den sender __lose__ meldingen. Det gir resten av spillet (inkludert Felix) å nullstille før slemmingene oppdager en ny kollisjon med Felix.
 
-###Utvidelse: Tidsbegrensninger
+###Utvidelse: Tidsbegrensninger {.challenge}
 
 __Ta tiden på Felix!__ Bruk et __Timer Scratchkort__ for å legge til en tidsbegrensning. Hvis timeren løper ut, sender den __lose__ melding. Husk å __nullstille timeren__ når et nytt brett starter.

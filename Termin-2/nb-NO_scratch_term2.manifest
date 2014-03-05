@@ -1,0 +1,28 @@
+{
+    "id": "scratch",
+    "title":"Avansert Scratch",
+    "description":"",
+    "language": "nb-NO",
+    "number": 2,
+
+
+    "projects": [
+        {
+            "filename": "01 Make a monster/For students/Monster-worksheet.md",
+            "title": "Lag ditt eget monster",
+            "number": 1
+        },
+        {
+            "filename": "02 Sound machine/For students/SoundMachine-worksheet.md",
+            "title": "Sound Machine",
+            "number": 2
+        },
+        {
+            "title":"Frantic Felix",
+            "filename": "03 Frantic Felix/For students/Frantic-Felix-worksheet.md",
+            "title": "Frantic Felix",
+            "number": 3
+        }
+    ]
+}
+
