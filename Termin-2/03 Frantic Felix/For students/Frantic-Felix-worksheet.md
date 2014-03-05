@@ -7,9 +7,9 @@ embeds: "*.png"
 ...
 
 # Introduksjon: {.intro}
-I dette prosjektet skal du lage et komplett spill. Det er et plattformspill, hvor Felix the Cat hopper rundt, unslipper slemminger og samler nøkler for å slippe ut av hulen. Når han kommer seg ut av en, går han til neste hule og fortsetter spillet.
+I dette prosjektet skal du lage et komplett spill. Det er et plattformspill, hvor Felix the Cat hopper rundt, unnslipper slemminger og samler nøkler for å slippe ut av hulen. Når han kommer seg ut av en, går han til neste hule og fortsetter spillet.
 
-I første uken av dette prosjektet, kommer du til å lære hvordan vi får Felix til å flytte seg og samhandle med forskjellige ting. I uke to, skal du designe egne brett og nivåer. Til slutt sakl du sette brettene sammen til et ferdig spill.
+I første uken av dette prosjektet, kommer du til å lære hvordan vi får Felix til å flytte seg og samhandle med forskjellige ting. I uke to, skal du designe egne brett og nivåer. Til slutt skal du sette brettene sammen til et ferdig spill.
 
 ##Uke 1: Lag byggeklossene
 
@@ -21,13 +21,13 @@ Det betyr at det å vite når du har kommet bort i noe (kalles __collision detec
 
 Hvis du berører en slemming, kan dette skade deg; men hvis du berører slemmingen med beina, kan du skade den. Ingen av de innebygde Scratchblokkene kan si noe om __retningen av berøringen__. Så vi må bygge våre egne berøringssensor.
 
-##Opgave 1: Berøringssensor {.activity}
+##Oppgave 1: Berøringssensor {.activity}
 
 Vi skal ha fire figurer som følger etter Frantic Felix. __Hver figur oppdager kollisjoner i én retning og setter en variabel hvis det oppstår en kollisjon__. Hovedfiguren Felix bruker disse variablene for å kontrollere hvordan Felix kan bevege seg. Hver berøringssensor har en farget linje og bruker `<color [] is touching [] ?>` blokken for å oppdage ting. Vi bruker  __svart__ for gulvet og  __grønn__ for hinder. Vi bruker __rød__ for berøringssensorene.
 
 ### Sjekkliste { .check}
 1. __Åpne et nytt prosjekt__. Legg til __frantic-felix/testlevel__ bakgrunnen og slett den hvite __background1__.
-2. __Endre navn på figur Sprite1 til Felix__. Kontroller at draken bare kan flippe ventre-høyre.
+2. __Endre navn på figur Sprite1 til Felix__. Kontroller at draken bare kan flippe venstre-høyre.
 3. Lag fire nye figurer fra bildene __frantic-felix/top__, __frantic-felix/bottom__, __frantic-felix/left__, and __frantic-felix/right__. Disse figurene skal bli berøringssensor. Gi de nye figurene navnene _Top__, __Bottom__, __Left__, og __Right__. Kontroller at draktene deres ikke kan flippes eller roteres.
 4. Lag fire `variabler` (for hver av figurene): __blocked top__, __blocked bottom__, __blocked right__, and __blocked left__.
 5. Lag dette skriptet for hver av sensorene:
@@ -45,21 +45,21 @@ end forever
 6. Endre variablene for hver at sensorene.
 Den nederste sensoren trenger en __eller__ blokk slik at den setter blokkert nederst hvis den berører grønn eller svart.
 
-__Tips__: Det er enklere å velge fargene i én figure, for så å kopiere skiptet over til de andre figurene og oppdatere variablene som blir satt. Da slipper du å finne de riktige fargene fire ganger.
+__Tips__: Det er enklere å velge fargene i én figur, for så å kopiere skriptet over til de andre figurene og oppdatere variablene som blir satt. Da slipper du å finne de riktige fargene fire ganger.
 Inntil videre trenger Felix bare et skript for å følge muspekeren evig.
 
 ### Test prosjektet {.flag}
 __Trykk på det grønne flagget.__
 
-Du burde se at Felix følger etter musepekeren, omringet av et rødt rektangel. Rektanglet er en berøringssenor. If you watch the variables, you should see them change as you drag Felix around and he touches different parts of the screen. At the moment, Felix moves through the platforms and the green obstacle. We’ll fix that in the next couple of steps.
+Du burde se at Felix følger etter musepekeren, omringet av et rødt rektangel. Rektanglet er en berøringssenor. Hvis du følger med på variablene, ser du at de endrer seg når du drar Felix rundt og når han berører ulike deler av skjermen. For øyeblikket beveger Felix seg gjennom plattformene og grønne hindre. Det skal vi fikse nå.
 
 ## Lagre endringer {.save}
 Husk å lagre endringer.
 
-##Opgave 2: Bevegelse, gulv og falling {.activity}
+##Oppgave 2: Bevegelse, gulv og falling {.activity}
 
 ### Sjekkliste { .check}
-1. Neste steg er å få Felix til å gå. Vi bruker __venstre__ og __høre piltask__ for å flytte ham ventre og høyre. Hvis han ikke står på et gulv, faller han ned. (Vi fikser hopping etterpå) Vi vil at når man trykker på venstre piltast, så vil vi at Felix peker til venstre og flytter seg litt. Men vi vil ikke at han skal flytte seg hvis det er en hindring i veien.
+1. Neste steg er å få Felix til å gå. Vi bruker __venstre__ og __høre piltast__ for å flytte ham venstre og høyre. Hvis han ikke står på et gulv, faller han ned. (Vi fikser hopping etterpå) Vi vil at når man trykker på venstre piltast, så vil vi at Felix peker til venstre og flytter seg litt. Men vi vil ikke at han skal flytte seg hvis det er en hindring i veien.
 2. Vi kunne brukt `<when [key] pressed>` for å få flytte Felix, men det gir en hakkete bevegelse. Det blir en mykere bevegelse hvis du bruker
 `<if key [left arrow] pressed?>` blokker i en `forever` løkke. Berøringsensorer betyr at vi må teste  __blocked left__ variablen i `if`, og bruke en og blokk slik at Felix bare beveger seg til venstre når man trykker på en tast og
 left blocked er null. Vi må gjøre tilsvarende for bevegelse til høyre.
@@ -98,7 +98,7 @@ end forever
 
 ###Test prosjektet ditt {.flag}
 
-__Bruk musen for å dra Fleix et sted på scenen og trykk så på det grønne flagget.__. Hvis Felix hopper til muspekeren, må du fjerne det skriptet!
+__Bruk musen for å dra Felix et sted på scenen og trykk så på det grønne flagget.__. Hvis Felix hopper til muspekeren, må du fjerne det skriptet!
 Du bør kunne bruke venstre og høyre knaper for å få Felix til å gå fra tide til side. Hvis han ikke står på gulvet, bør han falle sakte nedover.
 
 5. Vi vil også at berøringssensorene ikke skal vises. Det er ikke mulig å bruke en skjult blokk, for da vil ingen berøringer bli detektert. Isteden, legg til en `set [ghost] effect to 100` rett under den grønn flag hat'en i hver kollisjonssensor. Dette gjør figuren gjennomsiktig, uten å å skjule den.
@@ -109,7 +109,7 @@ __Nå du klikker på det grønne flagget__, skal kollisjonsdetektorene forsvinne
 ## Lagre endringer {.save}
 Husk å lagre endringer.
 
-##Opgave 3: Hopping {.activity}
+##Oppgave 3: Hopping {.activity}
 
 ### Sjekkliste { .check}
 1. Det som gjenstår nå, er å få Felix til å hoppe. La oss bruke __mellomromstasten__ for å få Felix til å hoppe.
@@ -146,15 +146,15 @@ forever
 end forever
 ```
 ### Test prosjektet ditt {.flag}
-__Trykk på det grønne flagget__. Kan Felix hoppe? Hopper han fra en platform til en annen? Faller han hvis han går over kanten? Hva om han oppver over kanten av en plattform? Hva om han prøver å hoppe under den grønne blokken til høyre? Hva skjer når du trykker på mellomromstasten mens Felix faller?
+__Trykk på det grønne flagget__. Kan Felix hoppe? Hopper han fra en plattform til en annen? Faller han hvis han går over kanten? Hva om han oppover over kanten av en plattform? Hva om han prøver å hoppe under den grønne blokken til høyre? Hva skjer når du trykker på mellomromstasten mens Felix faller?
 
 ## Lagre endringer {.save}
 Husk å lagre endringer.
 
-##Opgave 4: Nøkler og mål {.activity}
+##Oppgave 4: Nøkler og mål {.activity}
 
 __Vi har klart å få Felix til å bevege seg rundt i verdenen. Nå må vi få han til å klare ett nivå__.
-Vi plasserer tre nøkkler rundt i hulen. Felix kan plukke dem opp ved å gå til dem. Når han har samlet alle tre, kan han klatre til en rediningskapsel og redde seg selv ut av hulen.
+Vi plasserer tre nøkler rundt i hulen. Felix kan plukke dem opp ved å gå til dem. Når han har samlet alle tre, kan han klatre til en rediningskapsel og redde seg selv ut av hulen.
 
 1. Vi lager en ny `variable`, __keys to get__, som holder orden på hvor mange nøkler som gjenstår. Et nytt skript på __scenen__ skal sette denne til __3__ når det __grønne flagget__ klikkes.
 2. Både nøklene og redningskapselen må være figurer. (Bruk __frantic-felix/key__ for nøklene og __frantic-felix/escape-pod__ for the kapselen.)
@@ -182,7 +182,7 @@ __Trykk på det grønne flagget__.
 ## Lagre endringer {.save}
 Husk å lagre endringer.
 
-##Opgave 5: Slemmnger og dødlige omgivelser {.activity}
+##Oppgave 5: Slemmnger og dødlige omgivelser {.activity}
 
 __Nå er det påtide med slemminger!__
 
@@ -237,7 +237,7 @@ __Det du har laget nå er et veldig enkelt plattformspill. Akkurat nå, er det e
 
 ##Uke 2: Brettdesign
 
-__Forrige gang bygde du alle delene et plattforspill består av. Denne uken skal du bruke disse
+__Forrige gang bygde du alle delene et plattformspill består av. Denne uken skal du bruke disse
 delene for å lage helt egne brett..__
 
 Kort oppsummert gjorde du:
@@ -247,9 +247,9 @@ Kort oppsummert gjorde du:
 * Felix kan ikke gå igjennom grønne hinder.
 * Blå ting i bakgrunnen og slemminger tar livet av Felix.
 * Slemminger beveger seg i faste ruter.
-* Smellinger kan ta livet av Felix hvis han kommer borti dem.
+* Slemminger kan ta livet av Felix hvis han kommer borti dem.
 * Felix kan samle nøkler ved å gå bor til dem.
-* Når Felix har samlet alle nøklene, kommer en redningskapsel tilsyne og han kan rømme i sikkerhet (eller til neste nivå).
+* Når Felix har samlet alle nøkklene, kommer en redningskapsel tilsyne og han kan rømme i sikkerhet (eller til neste nivå).
 
 Dette kan være byggeklossene dine. __Bruk dem til å lage egne brett.__
 
@@ -258,11 +258,11 @@ Brett kan ha store eller små plattformer, mange eller få plattformer. Det kan 
 
 Du kan endre de spesielle fargene (svart, grønn og blå), men da må du __oppdatere fargeberøringsblokkene__ i alle skriptene, men du må ha samme farge i alle brett. (Du kunne ha forskjellige farger i forksjellige brett, men det betyr at du må legge inn mange `or` blokker rundt fargeberøringsblokkene.)
 
-__Test brettene dine__. Hvis du har tid, opprett brett i Scratch og spill dem. Sjekk at de ikke er __for vanskelig__ og __ikke for enkle__. Hvis du programerer brettene, må du __lagre bakgrunnen du lager__ og noter __start posisjon__ for Felix, nøkler, og eventuelle smellinger. I tillegg må du huske retningen slemmingen beveger seg i og hvor langt de går.
+__Test brettene dine__. Hvis du har tid, opprett brett i Scratch og spill dem. Sjekk at de ikke er __for vanskelig__ og __ikke for enkle__. Hvis du programerer brettene, må du __lagre bakgrunnen du lager__ og noter __start posisjon__ for Felix, nøkler, og eventuelle slemminger. I tillegg må du huske retningen slemmingen beveger seg i og hvor langt de går.
 
 Hvis du har laget et par brett og lagt dem inn i Scratch, prøv disse ekstraoppgavene:
 
-###Utvidelese: Tramping {.try}
+###Utvidelse: Tramping {.try}
 
 __Hva om slemmingene døde hvis de blir trampet på?__ Kanskje du kan legge til et skript på slemmingene som gjør noe hvis slemmingen berører den nederste kollisjonssensoren.
 
