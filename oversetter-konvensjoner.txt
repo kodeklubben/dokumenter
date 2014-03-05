@@ -1,0 +1,26 @@
+Hei. Jeg tenkte det er lurt å ha et referansedokument for hvordan ting bør gjøres mhp oversetting. 
+Det er noen små variasjoner på hvordan ting er blitt gjort i de forskjellige dokumentene, så tror 
+et dokument som dette vil være fornuftig. Siden jeg er litt uerfaren og dårlig på å skrive (ifølge
+min mor) så lager jeg bare et skjelett her og håper andre kan bidra med litt innhold etterhvert. 
+Da blir det lettere å lage gode, konsistente oversettinger. 
+
+
+
++ En fane (Drakter, Skript, Lyder) lages slik:  `Drakter`
+
++ En kategori (Bevegelse, Hendelser, ++) lages slik: `Bevegelse`
+
++ Bilder skal ligge i '____'-mappen og lages slik: ![navn](filnavn)
+
++ Enkeltstående Scratchblokker Lages slik: `Når grønt flag klikkes`
+
++ Et tårn med Scratchblokker legges inn slik: 
+```blocks 
+<kode for blokken>
+```
+
++ Små bilder, ikoner og variabler ('ny figur fra fil', 'Lag en kopi', 'gjør større' osv..) lages slik: 
+
++ Når noe skal stå i fet skrift skriver vi det slik: __hei__ eller **hei**
+
++ Her er det sikkert flere punkter som er fornuftige.
