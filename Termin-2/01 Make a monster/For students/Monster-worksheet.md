@@ -22,13 +22,13 @@ Hvis du trenger noen ideer, les igjennom steg 5. Animer ditt monster.
 Dette kan ta en hel kodeklubb, så du kan ta deg god tid. Spør om mere papir hvis du trenger det.
 
 #**Steg 2:** Del monstret ditt inn i deler {.activity}
-Når du er fornøyd med desginet ditt, del monstret inn i det som blir de enkelte spritene, som armer, bein, hode etc. Ved å dele inn monstret i flere deler, vil du kunne få bedre kontroll over animasjonen og la monstret gjøre ulike ting samtidig.
+Når du er fornøyd med desginet ditt, del monstret inn i det som blir de enkelte figurene, som armer, bein, hode etc. Ved å dele inn monstret i flere deler, vil du kunne få bedre kontroll over animasjonen og la monstret gjøre ulike ting samtidig.
 Tegn delene på et ark og gi dem navn.
 
 #**Steg 3:** Tegn monsterdelene i Scratch {.activity}
-Etter at monstret ditt er ferdig desginet og delt inn i deler, er det klart for å lage det på datamaskinen. Du kan enten gjøre dette i spirteredigering i Scratch, eller i et annet bildebehandlingsprogram, f eks MS Paint eller Photoshop. Hvis du lager delene utenfor Scrach, må du lagre bildefilene og laste dem inn i Scratch som sprites (det kan være at du må be om hjelp til dette).
+Etter at monstret ditt er ferdig desginet og delt inn i deler, er det klart for å lage det på datamaskinen. Du kan enten gjøre dette i spirteredigering i Scratch, eller i et annet bildebehandlingsprogram, f eks MS Paint eller Photoshop. Hvis du lager delene utenfor Scrach, må du lagre bildefilene og laste dem inn i Scratch som figurer (det kan være at du må be om hjelp til dette).
 
-Når du impoterer spritene inn i Scratch må du huske å sette senterpunktet på hver til å være punktet delen skal kobles til en annen del. For eksempel, for en arm som skal festes til kroppen, sett senterpunktet til å være skulderen. På et hjul bør senterpunktet være midt i navet.
+Når du impoterer figurene inn i Scratch må du huske å sette senterpunktet på hver til å være punktet delen skal kobles til en annen del. For eksempel, for en arm som skal festes til kroppen, sett senterpunktet til å være skulderen. På et hjul bør senterpunktet være midt i navet.
 
 #**Steg 4:** Gi monstret et sted å leve {.activity}
 Til slutt, lag verdenen hvor monstret ditt lever ved å tegne eller impotere en ny bakgrunn på scenen. Du kan lage en skisse av bakgrunnen på papir.

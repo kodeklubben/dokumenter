@@ -10,14 +10,14 @@ materials: "*.sb2"
 ## Sjekkliste { .check}
 
 + For å få monstret til å snakke, kan du bruke
-	 `Say`{.blockpurple} sprite.
+	 `Say`{.blockpurple} figur.
 ```blocks
 when [space v] key pressed
 say [Hello!] for (2) secs
 ```
 +	 For å gjøre det litt mere imponerende, kunne du
 	 få monstret til å **åpne** og **lukke munnen**
-	 mens det prater. For å gjøre dette, rediger spriten
+	 mens det prater. For å gjøre dette, rediger figuren
 	 som inneholder munnen  - opprett et nytt
 	 `costume`{.blockpurple} som har lukket munn.
 	 Ved å bytte mellom de to, kan du animere

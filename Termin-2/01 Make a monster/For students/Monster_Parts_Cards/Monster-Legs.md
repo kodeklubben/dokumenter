@@ -9,7 +9,7 @@ materials: "*.sb2"
 
 ## Sjekkliste { .check}
 
-+ Ved å bruke to **bein sprites** kan gi få monstret vårt
++ Ved å bruke to bein figurer kan gi få monstret vårt
 	 til å gå. For å gjøre dette lager vi en
 	 **variabel** som bytter mellom de to tilstandene, en for
 	 når beinet peker forover og en annen når beinet går

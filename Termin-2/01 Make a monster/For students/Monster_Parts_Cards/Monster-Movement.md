@@ -9,13 +9,13 @@ materials: "*.sb2"
 
 ## Sjekkliste { .check}
 
-+ Etterhver vil monstret ditt bestå av en menge **sprites** og det vil bli nødvendig å sørge for at
-	 alle spritene flyttes sammen. Isteden for å legge til flyttkommandoer på alle
-	 spriter, kan du rett og slett legge til kontroller på kroppsspriten og bruke en `broadcast`{.blockbrown}
-	 for å kontroller andre spriter.
-	 Når vår **Tentakkelsprite**
++ Etterhver vil monstret ditt bestå av en mengde figurer og det vil bli nødvendig å sørge for at
+	 alle figurene flyttes sammen. Isteden for å legge til flyttkommandoer på alle
+	 figurer, kan du rett og slett legge til kontroller på kroppsfiguren og bruke en `broadcast`{.blockbrown}
+	 for å kontroller andre figurer.
+	 Når vår tentakkelfigur
 	 (eller en hvilken som helst annen
-	 sprite!) mottar en
+	 figur!) mottar en
 	 `moved right`{.blockbrown} melding,
 	 kan vi flytte den til høyre
 	også.
@@ -67,7 +67,7 @@ end
 ```
 
 + Her forteller vi at kroppen skal gå i den retningen det
-	 beveger seg i (husk å sette sprite orienteringen
+	 beveger seg i (husk å sette figur orienteringen
 	til **“bare face venstre-høyre”**) og for å stoppe og snu
 	 hvis det kolliderer med skjermkanten. Kan kanskje også
 	 lagt merke til at vi har lagt meldingen
@@ -80,7 +80,7 @@ end
 	 alle andre venstebevegelser ta et sekund også
 	 (bruk en `wait`{.blockyellow} blokk for å sørge at de er i samme steg).**
 
-+ Du kan også animere kroppspriten ved å bruke
++ Du kan også animere kroppfiguren ved å bruke
 	 `costume`{.blockpurple} endringer, som kan aktiveres
 	 hver gang en bevegelesmelding mottas.
 

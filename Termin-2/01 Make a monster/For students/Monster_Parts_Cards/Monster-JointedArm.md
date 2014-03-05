@@ -9,11 +9,11 @@ materials: "*.sb2"
 
 ## Sjekkliste { .check}
 
-+ En arm lages av **two sprites**, og de kan være ganske vanskelig å bygge siden de
++ En arm lages av to figurer, og de kan være ganske vanskelig å bygge siden de
 to delene av armen må vite om hverandre, slik at de ikke skilles
 og blir seende rart ut. Dette kan gjøres med matematiskeberegninger som kalles
 **trigonometri**, noe som regelmessig brukes i produksjon av dataspill, roboter og
-andre kule teknologier. **Vår første arms sprite er overarmen**, som ikke er så vanskelig,
+andre kule teknologier. Armens første figur er overarmen, som ikke er så vanskelig,
 da den ganske enkelt vil rotere ved skulderen og
 flytte seg med kroppen og de andre
 kroppsdelene. En ting vi må legge til er
