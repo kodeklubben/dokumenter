@@ -1,23 +1,24 @@
 ---
-title: Frantic Felix - Playback
-level: Level 6
-language: en-GB
+title: Frantic Felix - Avspilling
+level: Nivå 6
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
+materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-1.  Get ready
+1.  Klar!
     
-    Press Make a variable to make an index variable
+    Trykk Lag en Variabel for å lage en index variabel
     
     ![](variable.png)
 
 
-2.  Try this code
+2.  Prøv denne koden
     
-    Make the sprite follow the path it recorded.
+    Få figuren til å følge stien som ble tatt opp.
 
     ```scratch 
     when I receive [replay v]

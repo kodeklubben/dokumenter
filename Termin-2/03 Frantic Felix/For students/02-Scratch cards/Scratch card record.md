@@ -1,30 +1,31 @@
 ---
-title: Frantic Felix - Record
-level: Level 6
-language: en-GB
+title: Frantic Felix - Opptak
+level: Nivå 6
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
+materials: "*.sb2"
 ...
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-1.  Get ready
+1.  Klar!
 
-    Press Make a list to make a new list.
+    Trykk på Lag en Liste for å lage en ny liste.
 
     ![](variable.png)
 
 
-2.  Try this code
+2.  Prøv denne koden
  
-    Empty the list when you start.
+    Tøm listen før du starter.
 
     ```scratch
     when flag clicked
     delete (all v) of [notes v]
     ```
 
-3.  Every time something happens, add it to the list.
+3.  Hver gang noe skjer, legg det til listen.
 
     ```scratch
     when this sprite clicked
